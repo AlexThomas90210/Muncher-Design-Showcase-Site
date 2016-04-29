@@ -60,12 +60,379 @@
     <div class="container">
         <!-- Use Case Diagram -->
         <h1>Use Case Diagram</h1>
+        <img class="img-responsive" src="public/images/Design-Assets/muncher-use-case-diagram.png" alt="Use Case Diagram">
 
         <!-- Use Cases -->
+            <!-- Create Muncher Use Case -->
         <h1>Use Cases</h1>
+        <h3>Use Case : Create Muncher</h3>
+        <h4>Brief Description</h4>
+        <p>This use case describes how the user gets started with creating a new Muncher after downloading the app</p>
+        <h4>Actors</h4>
+        <p>
+            Muncher
+            <br>
+            User
+        </p>
+        <h4>Preconditions</h4>
+        <p>There is an active network to the Muncher Server</p>
+        <h4>Basic Flow Of Events</h4>
+        <ol>
+            <li>The use case begins when the User downloads the app.</li>
+            <li>User opens the app.</li>
+            <li>User does not want to create an account so taps on “Create Muncher”.</li>
+            <li>User enters their Age, Sex, BMI &amp; weight.</li>
+            <li>User selects which Muncher Avatar they want to use.</li>
+            <li>User enters their prefered diet type.</li>
+            <li>User selects goals such as lose 10 kg in 6 months.</li>
+            <li>User selects any initial customizable items they want for their muncher.</li>
+        </ol>
+        <h4>Alternate Flows</h4>
+        <strong>Skip prefered diet type</strong>
+        <ol>
+            <li>The use case begins when the User downloads the app.</li>
+            <li>User opens the app.</li>
+            <li>User does not want to create an account so taps on “Create Muncher”.</li>
+            <li>User enters their Age, Sex, BMI &amp; weight.</li>
+            <li>User selects which Muncher Avatar they want to use.</li>
+            <li>The user selects “skip this step” for prefered diet type.</li>
+            <li>User selects goals such as lose 10 kg in 6 months.</li>
+            <li>User selects any initial customizable items they want for their muncher.</li>
+        </ol>
+        <strong>Skip goals</strong>
+        <ol>
+            <li>The use case begins when the User downloads the app.</li>
+            <li>User opens the app.</li>
+            <li>User does not want to create an account so taps on “Create Muncher”.</li>
+            <li>User enters their Age, Sex, BMI &amp; weight.</li>
+            <li>User selects which Muncher Avatar they want to use.</li>
+            <li>User enters their prefered diet type.</li>
+            <li>The user selects “skip this step” for goals.</li>
+            <li>User selects any initial customizable items they want for their muncher.</li>
+        </ol>
+        <strong>Skip customize</strong>
+        <ol>
+            <li>The use case begins when the User downloads the app.</li>
+            <li>User opens the app.</li>
+            <li>User does not want to create an account so taps on “Create Muncher”.</li>
+            <li>User enters their Age, Sex, BMI &amp; weight.</li>
+            <li>User selects which Muncher Avatar they want to use.</li>
+            <li>User enters their prefered diet type.</li>
+            <li>User selects goals such as lose 10 kg in 6 months.</li>
+            <li>The user selects “skip this step” for customize.</li>
+        </ol>
+        <strong>User skips everything they can for faster access to Muncher</strong>
+        <ol>
+            <li>The use case begins when the User downloads the app.</li>
+            <li>User opens the app.</li>
+            <li>User does not want to create an account so taps on “Create Muncher”.</li>
+            <li>User enters their Age, Sex, BMI &amp; weight.</li>
+            <li>User selects which Muncher Avatar they want to use.</li>
+            <li>User Skips Diet Preference.</li>
+            <li>User Skips Goals.</li>
+            <li>User Skips Customize.</li>
+        </ol>
+        <h3>Task Case : Create Muncher</h3>
+        <table class="table table-bordered table-striped">
+            <tr>
+                <th>Step</th>
+                <th>User Activity</th>
+                <th>System Responsibility</th>
+            </tr>
+            <tr>
+                <td>Download &amp; Open App</td>
+                <td>
+                    <ol>
+                        <li>Download App.</li>
+                        <li> Open App.</li>
+                    </ol>
+                </td>
+                <td>Check if User has already logged in or created a muncher, In this case the user has not so the system displays the start screen</td>
+            </tr>
+            <tr>
+                <td>Create Muncher</td>
+                <td>The user taps on “Create Muncher”.</td>
+                <td>Display create muncher screen, User details Step</td>
+            </tr>
+            <tr>
+                <td>User details</td>
+                <td><ol><li>The user inputs their age, sex , BMI , weight.</li><li>User taps next</li></ol></td>
+                <td>Display Select Avatar step</td>
+            </tr>
+            <tr>
+                <td>Select Avatar</td>
+                <td><ol><li>User selects which avatar they want to use</li><li>taps next</li></ol></td>
+                <td>Display Diet Preferences Step</td>
+            </tr>
+            <tr>
+                <td>Diet Preferences</td>
+                <td><ol><li>Taps next</li><li>user selects their prefered diet</li></ol></td>
+                <td>Display Goals Step </td>
+            </tr>
+            <tr>
+                <td>Goals</td>
+                <td><ol><li>User inputs their desired goals over a desired time period</li><li>Taps next</li></ol></td>
+                <td>Display Customize Step</td>
+            </tr>
+            <tr>
+                <td>Customize</td>
+                <td>Selects range of items &amp; colors</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Finish</td>
+                <td>Taps finish</td>
+                <td><ol><li>Store all inputed data on device</li><li>Send all inputted data to server</li><li>display home screen</li></ol></td>
+            </tr>
+        </table>
+
+
+        <h3>Use Case : Input Food with barcode</h3>
+        <h4>Brief Description</h4>
+        <p>This use case describes how the User uses the Muncher to input the food they eat.</p>
+        <h4>Actors</h4>
+        <p>
+            Muncher
+            <br>
+            User
+        </p>
+        <h4>Preconditions</h4>
+        <p>There is an active network to the Muncher Server <br>
+             The User has created a Muncher.</p>
+        <h4>Basic Flow Of Events</h4>
+        <ol>
+            <li>The use case begins when Opens the App.</li>
+            <li>User selects "Feed Muncher".</li>
+            <li>User selects “Barcode Scanner”</li>
+            <li>The user scans the barcode with their devices camera</li>
+            <li>The user enters the amount.</li>
+            <li>The user is shown the food,total calories &amp; nutrients</li>
+            <li>The user confirms</li>
+        </ol>
+        <h4>Alternate Flows</h4>
+        <strong>Barcode undefined</strong>
+        <ol>
+            <li>The use case begins when Opens the App.</li>
+            <li>User selects "Feed Muncher".</li>
+            <li>User selects “Barcode Scanner”</li>
+            <li>The user scans the barcode with their devices camera</li>
+            <li>The system does not recognise the barcode</li>
+            <li>System prompts the user about the error</li>
+            <li>The user selects a different input method</li>
+        </ol>
+        <h3>Task Case : Input food with barcode</h3>
+        <table class="table table-bordered table-striped">
+            <tr>
+                <th>Step</th>
+                <th>User Activity</th>
+                <th>System Responsibility</th>
+            </tr>
+            <tr>
+                <td>Select Input Food</td>
+                <td>
+                    <ol>
+                        <li>The use case begins when Opens the App.</li>
+                        <li>In this case the User always selects "Feed Muncher".</li>
+                    </ol>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Select Barcode Scanner</td>
+                <td>In this case the User always selects “Barcode Scanner”</td>
+                <td>The system opens the camera of the device and waits for it to recognise a barcode </td>
+            </tr>
+            <tr>
+                <td>Scan Barcode</td>
+                <td>The user scans the barcode with their devices camera</td>
+                <td>
+                    <ol>
+                        <li>The system calls the Server with the barcode to get the food name,image nutritional content and calorie count.</li>
+                        <li>The system displays the information and prompts the user to input the correct amount of in taken</li>
+                    </ol>
+                </td>
+            </tr>
+            <tr>
+                <td>Enter Amount</td>
+                <td>The user enters the amount</td>
+                <td>The system calculates the nutritional &amp; calorie value from the amount , and prompts that to the user</td>
+            </tr>
+            <tr>
+                <td>Confirm</td>
+                <td>The user Confirms to feed muncher the selected food &amp; amount</td>
+                <td>
+                    <ol>
+                        <li>The system adapts muncher based on the nutritional &amp; caloric input</li>
+                        <li>The system records the calorie intake and nutritional information for use in recommendation</li>
+                        <li>The system displays a health tip about the inputted food if one is available</li>
+                    </ol>
+                </td>
+            </tr>
+        </table>
+
+        <h3>Use Case : Input Exercise</h3>
+        <h4>Brief Description</h4>
+        <p>This use case describes how the User uses the Muncher to input the exercise they have done.</p>
+        <h4>Actors</h4>
+        <p>
+            Muncher
+            <br>
+            User
+        </p>
+        <h4>Preconditions</h4>
+        <p>There is an active network to the Muncher Server <br>
+             The User has created a Muncher.</p>
+        <h4>Basic Flow Of Events</h4>
+        <ol>
+            <li>The use case begins when Opens the App.</li>
+            <li>User selects "Exercise".</li>
+            <li>User selects the intensity of the exercise from soft, medium or hard.</li>
+            <li>User selects the the duration of the exercise.</li>
+            <li>User sees the estimated calories burnt from that exercise.</li>
+            <li>User confirms</li>
+        </ol>
+        <h4>Alternate Flows</h4>
+        <strong>None</strong>
+        <h3>Task Case : Input Exercise</h3>
+        <table class="table table-bordered table-striped">
+            <tr>
+                <th>Step</th>
+                <th>User Activity</th>
+                <th>System Responsibility</th>
+            </tr>
+            <tr>
+                <td>Select Exercise</td>
+                <td>
+                    <ol>
+                        <li>The use case begins when Opens the App.</li>
+                        <li>In this case the User always selects "Exercise".</li>
+                    </ol>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Input intensity level</td>
+                <td>The user selects the intensity of the exercise from soft, medium or hard.</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Input duration</td>
+                <td>The user selects the the duration of the exercise.</td>
+                <td>
+                    <ol>
+                        <li>The system calculates the estimated calories burned based on intensity level, duration , age , sex , BMI .</li>
+                        <li>The system displays estimated burned calories to user.</li>
+                    </ol>
+                </td>
+            </tr>
+            <tr>
+                <td>Confirm</td>
+                <td>The user Confirms to input the exercise.</td>
+                <td>
+                    <ol>
+                        <li>The system adapts muncher based on the estimated calories burned &amp; intensity of the workout.</li>
+                        <li>The system records the inputted exercise</li>
+                    </ol>
+                </td>
+            </tr>
+        </table>
+
+
+        <h3>Use Case: Get Feedback</h3>
+        <h4>Brief Description</h4>
+        <p>This use case describes how the User uses Muncher for feedback on how they can improve their diet.</p>
+        <h4>Actors</h4>
+        <p>
+            Muncher
+            <br>
+            User
+        </p>
+        <h4>Preconditions</h4>
+        <p>There is an active network to the Muncher Server <br>
+             The User has created a Muncher.</p>
+        <h4>Basic Flow Of Events</h4>
+        <ol>
+            <li>The use case begins when the User opens the App.</li>
+            <li>User selects "Feedback".</li>
+            <li>The user is displayed stats about the nutritional value of their diet</li>
+            <li>The user can cycle from food’s they should remove from their diet , to food they should try include more of in their diet for a healthy, balanced diet.</li>
+        </ol>
+        <h4>Alternate Flows</h4>
+        <strong>Not enough information</strong>
+        <ol>
+            <li>The user opens the app.</li>
+            <li>The user selects “Feedback”.</li>
+            <li>The user see’s no stats because they have not inputed enough food into the app</li>
+            <li>The user taps “Recommended food”</li>
+            <li>The system prompts the user that it needs more information to give the user feedback</li>
+            <li>The user is required to use the app more to benefit from this feature</li>
+        </ol>
+        <strong>Wrong diet preference setting chosen</strong>
+        <ol>
+            <li>The user opens the app.</li>
+            <li>The user selects “Feedback”.</li>
+            <li>The user sees stats about their diet</li>
+            <li>The user taps “Recommended food”</li>
+            <li>The app displays meat’s because the user is low in protein</li>
+            <li>The user is a vegetarian</li>
+            <li>The user is required to change their diet preferences in Settings to vegetarian</li>
+        </ol>
+        <h3>Task Case : Get Feedback</h3>
+        <table class="table table-bordered table-striped">
+            <tr>
+                <th>Step</th>
+                <th>User Activity</th>
+                <th>System Responsibility</th>
+            </tr>
+            <tr>
+                <td>Select Feedback</td>
+                <td>
+                    <ol>
+                        <li>The use case begins when Opens the App.</li>
+                        <li>In this case the User always selects "Feedback".</li>
+                    </ol>
+                </td>
+                <td>The system displays stats on the user’s diet , such as the user’s intake of key nutrients vs recommended daily allowance, average daily calorie intake.</td>
+            </tr>
+            <tr>
+                <td>Select “Foods to add to diet”</td>
+                <td>The user taps on “Foods to add to diet”</td>
+                <td>
+                    <ol>
+                        <li> The system calculates which nutrients the user is lacking the most in their diet against the recommended daily allowance.</li>
+                        <li>From that list of nutrients, the system finds foods that contain those nutrient that also fit the user’s diet. Eg. A user who is low in protein who has selected vegetarian in settings would be displayed pumpkin seeds, dried beans, eggs </li>
+                    </ol>
+                </td>
+            </tr>
+            <tr>
+                <td>Select Foods to remove from diet</td>
+                <td>The user taps on foods to remove from diet</td>
+                <td>
+                    <ol>
+                        <li>The system calculates which nutrients the user is consuming too much of against the daily recommended allowance.</li>
+                        <li>From that list , the systems displays foods the user has eaten which are causing this nutritional imbalance in their diet. Certain nutrients having priority over less important nutrients such as Sugar or Salt or Saturated fats.</li>
+                    </ol>
+                </td>
+            </tr>
+            <tr>
+                <td>Confirm</td>
+                <td>The user Confirms to input the exercise.</td>
+                <td>
+                    <ol>
+                        <li>The system adapts muncher based on the estimated calories burned &amp; intensity of the workout.</li>
+                        <li>The system records the inputted exercise</li>
+                    </ol>
+                </td>
+            </tr>
+        </table>
 
         <!-- Task Case Diagram -->
         <h1>Task Case Diagram</h1>
+        <h3>Create Muncher Task Flow Diagram</h3>
+        <img class="img-responsive" src="public/images/Design-Assets/task-flow-create-muncher.png" alt="Task Flow Create Muncher">
+
+        <h3>Input Exercise Task Flow Diagram</h3>
+        <img class="img-responsive" src="public/images/Design-Assets/task-flow-input-exercise.png" alt="Task Flow Input Exercise">
     </div>
 
     <!--MARK: Footer -->
