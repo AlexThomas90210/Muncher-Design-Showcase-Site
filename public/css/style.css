@@ -26,7 +26,7 @@ this makes the font cross browser functional
  }
 
 /* as specified by the designer all the page text is using this color & font except some specific submit buttons*/
-.body {
+.muncher-text {
    color: rgb(249, 80, 6);
    font-family: "gosmicksansbold";
 }
