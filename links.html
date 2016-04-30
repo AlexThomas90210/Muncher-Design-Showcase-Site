@@ -7,14 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Muncher</title>
     <!-- just google monster and got this image for the title image -->
-    <link rel="shortcut icon" href="./public/images/title-image.ico" />
+    <link rel="shortcut icon" href="./images/title-image.ico" />
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <!-- Awesome Fonts -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <!-- main -->
-    <link rel="stylesheet" href="./public/css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body class="body">
@@ -24,9 +24,9 @@
     <div class="banner">
         <!-- putting logo inside container so its left aligned with the content on any width -->
         <div class="container">
-           <a href="index.html"><img class="banner__logo img-responsive" src="./public/images/banner-logo.png" alt="Muncher Logo" /></a>
+           <a href="index.html"><img class="banner__logo img-responsive" src="./images/banner-logo.png" alt="Muncher Logo" /></a>
         </div>
-        <img class="banner__background img-responsive" src="./public/images/banner-background.png" alt="Muncher banner Background" />
+        <img class="banner__background img-responsive" src="./images/banner-background.png" alt="Muncher banner Background" />
     </div>
 
     <!-- MARK: Nav -->
@@ -58,14 +58,34 @@
     </nav>
 
     <div class="container">
-        <!-- Research -->
-        <h1 class="muncher-text">Research</h1>
+        <div class="row">
+            <div class="col-sm-10">
+                <!-- Research -->
+                <section id="research">
+                    <h1 class="muncher-text">Research</h1>
+                </section>
 
-        <!-- References -->
-        <h1 class="muncher-text">References</h1>
+                <!-- References -->
+                <section id="references">
+                    <h1 class="muncher-text">References</h1>
+                </section>
 
-        <!-- Appendix -->
-        <h1 class="muncher-text">Appendix</h1>
+                <!-- Appendix -->
+                <section id="appendix">
+                    <h1 class="muncher-text">Appendix</h1>
+                </section>
+            </div>
+
+            <!-- Side nav -->
+            <div class="col-sm-2 hidden-xs bs-docs-sidebar" role="complimentary">
+                <ul id="sidebar" class="nav nav-stacked">
+                    <li><a href="#research">Research</a></li>
+                    <li><a href="#references">References</a></li>
+                    <li><a href="#appendix">Appendix</a></li>
+                </ul>
+            </div>
+
+        </div>
     </div>
 
     <!--MARK: Footer -->
@@ -137,6 +157,6 @@
     <!-- Bootstrap -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <!-- Main -->
-    <script src="./public/js/main.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>

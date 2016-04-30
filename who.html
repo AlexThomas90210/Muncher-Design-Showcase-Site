@@ -7,14 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Muncher</title>
     <!-- just google monster and got this image for the title image -->
-    <link rel="shortcut icon" href="./public/images/title-image.ico" />
+    <link rel="shortcut icon" href="./images/title-image.ico" />
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <!-- Awesome Fonts -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <!-- main -->
-    <link rel="stylesheet" href="./public/css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body class="body">
@@ -24,9 +24,9 @@
     <div class="banner">
         <!-- putting logo inside container so its left aligned with the content on any width -->
         <div class="container">
-           <a href="index.html"><img class="banner__logo img-responsive" src="./public/images/banner-logo.png" alt="Muncher Logo" /></a>
+           <a href="index.html"><img class="banner__logo img-responsive" src="./images/banner-logo.png" alt="Muncher Logo" /></a>
         </div>
-        <img class="banner__background img-responsive" src="./public/images/banner-background.png" alt="Muncher banner Background" />
+        <img class="banner__background img-responsive" src="./images/banner-background.png" alt="Muncher banner Background" />
     </div>
 
     <!-- MARK: Nav -->
@@ -58,11 +58,51 @@
     </nav>
 
     <div class="container">
-        <!-- Personas -->
-        <h1 class="muncher-text">Personas</h1>
+        <div class="row">
+            <div class="col-sm-10">
 
-        <!-- Scenarios -->
-        <h1 class="muncher-text">Scenarios</h1>
+                <!-- Personas -->
+                <section id="Personnas">
+                    <h1 class="muncher-text">Personas</h1>
+                    <img id="Mary" class="img-responsive" src="./images/Design-Assets/persona-mary.png" alt="">
+                    <img id="Sinead" class="img-responsive" src="./images/Design-Assets/persona-sinead.png" alt="">
+                    <img id="Barry" class="img-responsive" src="./images/Design-Assets/persona-barry.png" alt="">
+                    <img id="David" class="img-responsive" src="./images/Design-Assets/persona-david.png" alt="">
+                    <img id="Jason" class="img-responsive" src="./images/Design-Assets/persona-jason.png" alt="">
+                    <img id="Liam" class="img-responsive" src="./images/Design-Assets/persona-liam.png" alt="">
+                    <img id="Marie" class="img-responsive" src="./images/Design-Assets/persona-marie.png" alt="">
+                </section>
+
+                <!-- Scenarios -->
+                <section id="Scenarios">
+                    <h1  class="muncher-text">Scenarios</h1>
+                    <h3 class="muncher-text">Scenario 1</h3>
+                    <p>Jason wants to improve his diet and fitness levels. Even though he exercises 3-4 times a week he still feels drained and he thinks what he is eating must have something to do with it. He has tried “myfitnesspal” as well as several other apps but he was unhappy with them and got bored after 2 weeks of use so he wants something that will keep him engaged. He also eats fast food several times a week and he would like to try some healthy alternatives instead.</p>
+                    <h3 class="muncher-text">Scenario 2</h3>
+                    <p>Sinead is an extremely busy mother of four kids who wishes to lose weight and to improve her and her family’s diet at the same time. She is not very tech savvy and finds it difficult to operate any of the apps she has tried so far so an easy to use interface would suit her perfectly. She wants to create an avatar that she can relate to as she is easily bored,</p>
+                </section>
+            </div>
+
+            <!-- Side nav -->
+            <div class="col-sm-2 hidden-xs bs-docs-sidebar" role="complimentary">
+                <ul id="sidebar" class="nav nav-stacked">
+                    <li>
+                        <a href="#Personnas">Personnas</a>
+                        <ul class="nav nav-stacked">
+                            <li><a href="#Mary">Mary</a></li>
+                            <li><a href="#Sinead">Sinead</a></li>
+                            <li><a href="#Barry">Barry</a></li>
+                            <li><a href="#David">David</a></li>
+                            <li><a href="#Jason">Jason</a></li>
+                            <li><a href="#Liam">Liam</a></li>
+                            <li><a href="#Marie">Marie</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#Scenarios">Scenarios</a></li>
+                </ul>
+            </div>
+
+        </div>
     </div>
 
 
@@ -135,6 +175,6 @@
     <!-- Bootstrap -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <!-- Main -->
-    <script src="./public/js/main.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>
