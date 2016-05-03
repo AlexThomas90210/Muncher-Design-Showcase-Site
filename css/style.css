@@ -59,7 +59,7 @@ h1 {
     position:absolute;
     right:50px;
     height:30%;
-    top:30%;
+    bottom:30%;
 }
 
 .logoutForm__submit {
