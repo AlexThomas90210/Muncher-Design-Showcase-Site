@@ -62,8 +62,9 @@ if (isset($_POST['UserName']) && isset($_POST['Password']) ) {
                         </div>
                     </div>
                     <!-- where the ajax response will be put -->
-                    <p style="color:red;"><?php echo $loginError ?></p>
+                    <p style="color:red;"><strong><?php echo $loginError ?></strong></p>
                     <button class="btn btn--muncher" type="submit">Login !</button>
+
                 </form>
             </div>
         </div>
