@@ -1,6 +1,6 @@
 <?php
 require_once('./constants.php');
-if ( !isset($_SESSION['LoggedIn']) || $_SESSION['LoggedIn']) === FALSE ){
+if ( !isset($_SESSION['LoggedIn']) || $_SESSION['LoggedIn']) == FALSE ){
     header('Location: '.URL.'login.php', TRUE, 302);
 }
 ?>
