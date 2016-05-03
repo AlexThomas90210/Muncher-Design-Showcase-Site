@@ -1,4 +1,5 @@
 <?php
+session_start();
 require_once('./constants.php');
 if ( !isset($_SESSION['LoggedIn']) ){
     //header('Location: '.URL.'login.php', TRUE, 302);

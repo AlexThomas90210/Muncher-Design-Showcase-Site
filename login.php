@@ -1,4 +1,5 @@
 <?php
+session_start();
 require_once('./constants.php');
 $loginError = "";
 if (isset($_POST['UserName']) && isset($_POST['Password']) ) {
