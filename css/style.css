@@ -66,8 +66,9 @@ h1 {
     height:50px;
     width:50px;
     border-radius: 25px;
+    color: rgb(92, 249, 48);
     background-color: rgb(249, 80, 6);
-    border: 2px solid rgb(219, 60, 0);
+    border: 3px solid rgb(219, 60, 0);
 }
 /* MARK: Nav Bar */
 .navbar {

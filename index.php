@@ -41,7 +41,7 @@ if ( $_SESSION['LoggedIn'] != true ) {
 
         <!-- logout button -->
         <form class="logoutForm" action="./logout.php" method="post">
-            <button class="muncher-text logoutForm__submit" type="submit" name="logoutSubmit">Log Out</button>
+            <button class="muncher-text logoutForm__submit text-small" type="submit" name="logoutSubmit">Log Out</button>
         </form>
 
         <img class="banner__background img-responsive" src="./images/banner-background.png" alt="Muncher banner Background" />
