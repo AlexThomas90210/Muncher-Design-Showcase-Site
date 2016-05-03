@@ -19,7 +19,6 @@
     <!-- image gallery -->
     <link rel="stylesheet" href="//blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
     <link rel="stylesheet" href=".css/bootstrap-image-gallery.min.css">
-
 </head>
 
 <body class="body">
@@ -339,17 +338,95 @@
                     </table>
                     </section>
 
+                    <!-- CUSTTOMIZE -->
+                    <h3 id="customize-muncher" class="muncher-text">Use Case: Customise Muncher</h3>
+                    <h4>Brief Description</h4>
+                    <p>This use case describes how the User can customize Muncher with items such as hats, shorts, sun glasses or other fun items</p>
+                    <h4>Actors</h4>
+                    <p>
+                        Muncher
+                        <br>
+                        User
+                    </p>
+                    <h4>Preconditions</h4>
+                    <p>There is an active network to the Muncher Server <br>
+                         The User has created a Muncher.</p>
+                    <h4>Basic Flow Of Events</h4>
+                    <ol>
+                        <li>Sinead opens up the app on her phone.</li>
+                        <li>She clicks on Settings</li>
+                        <li>She clicks on the customise muncher option.</li>
+                        <li>She selects an item to place on muncher.</li>
+                        <li>She picks what colour she would like it in.</li>
+                        <li>Mucher shows her what it looks like.</li>
+                        <li>She saves the settings.</li>
+                    </ol>
+                    <h4>Alternate Flows</h4>
+                    <strong>Doesnt like the item on muncher</strong>
+                    <ol>
+                        <li>Sinead opens up the app on her phone.</li>
+                        <li>She clicks on Settings</li>
+                        <li>She clicks on the customise muncher option.</li>
+                        <li>She selects an item to place on muncher.</li>
+                        <li>She picks what colour she would like it in.</li>
+                        <li>Mucher shows her what it looks like.</li>
+                        <li>She rejects the option</li>
+                        <li>She select a different item</li>
+                    </ol>
+
+                    <!-- Task Case: Get Feedback -->
+                    <h3 class="muncher-text">Task Case : Get Feedback</h3>
+                    <table class="table table-bordered table-striped">
+                        <tr>
+                            <th>Step</th>
+                            <th>User Activity</th>
+                            <th>System Responsibility</th>
+                        </tr>
+                        <tr>
+                            <td>Open App</td>
+                            <td>User opens app on phone</td>
+                            <td>Open app.</td>
+                        </tr>
+                        <tr>
+                            <td>Select Customise</td>
+                            <td><ol><li>User selects settings</li><li>User selects customize</li></ol></td>
+                            <td>Open customise screen, Display options</td>
+                        </tr>
+                        <tr>
+                            <td>Select Item to Add</td>
+                            <td>User Selects an item</td>
+                            <td>Add item to muncher</td>
+                        </tr>
+                        <tr>
+                            <td>Select Item Colour</td>
+                            <td>User Selects a colour</td>
+                            <td>Change colour of item</td>
+                        </tr>
+                        <tr>
+                            <td>Save Choices</td>
+                            <td>Save when happy with choice</td>
+                            <td>Save choices, use same muncher with linked account.</td>
+                        </tr>
+                    </table>
+                    </section>
+
+
                     <!-- Task Case Diagram -->
                     <section id="task-case-diagrams">
                         <h1 class="muncher-text">Task Case Diagram</h1>
                         <h3 id="create-muncher-flow-diagrams" class="muncher-text">Create Muncher Task Flow Diagram</h3>
-                        <a href="images/Design-Assets/task-flow-create-muncher.png" title="Task Flow Create Muncher" data-gallery>
-                            <img class="img-responsive" src="images/Design-Assets/task-flow-create-muncher.png" alt="Task Flow Create Muncher">
+                        <a href="images/Design-Assets/task-flow-login-create-muncher.png" title="Task Flow Create Muncher" data-gallery>
+                            <img class="img-responsive" src="images/Design-Assets/task-flow-login-create-muncher.png" alt="Task Flow Create Muncher">
                         </a>
 
                         <h3 id="input-exercise-flow-diagram" class="muncher-text">Input Exercise Task Flow Diagram</h3>
                         <a href="images/Design-Assets/task-flow-input-exercise.png" title="Task Flow Create Muncher" data-gallery>
                             <img class="img-responsive" src="images/Design-Assets/task-flow-input-exercise.png" alt="Task Flow Create Muncher">
+                        </a>
+
+                        <h3 id="get-feedback-flow-diagram" class="muncher-text">Get Feedback Task Flow Diagram</h3>
+                        <a href="images/Design-Assets/task-flow-get-feedback.png" title="Task Flow Create Muncher" data-gallery>
+                            <img class="img-responsive" src="images/Design-Assets/task-flow-get-feedback.png" alt="Task Flow Get Feedback">
                         </a>
                     </section>
                 </div>
@@ -364,12 +441,14 @@
                                 <li><a href="#input-food-with-barcode">Input Food With Barcode</a></li>
                                 <li><a href="#input-exercise">Input Exercise</a></li>
                                 <li><a href="#get-feedback">Get Feedback</a></li>
+                                <li><a href="#customize-muncher">Customize Muncher</a></li>
                             </ul>
                         </li>
                         <li><a href="#task-case-diagrams">Task Flow Diagrams</a>
                             <ul class="nav nav-stacked">
                                 <li><a href="#create-muncher-flow-diagrams">Create Muncher</a></li>
                                 <li><a href="#input-exercise-flow-diagram">Input Exercise</a></li>
+                                <li><a href="#get-feedback-flow-diagram">Get Feedback </a></li>
                             </ul>
                         </li>
                     </ul>
