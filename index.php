@@ -9,7 +9,6 @@ if ( $_SESSION['LoggedIn'] != true ) {
     header('Location: '.URL.'login.php', TRUE, 302);
     exit();
 }
-echo $_SESSION['LoggedIn'];
 ?>
 <!DOCTYPE html>
 <html lang="en">
