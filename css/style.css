@@ -63,7 +63,9 @@ h1 {
 }
 
 .logoutForm__submit {
-    border-radius: 50%;
+    height:50px;
+    width:50px;
+    border-radius: 25px;
 }
 /* MARK: Nav Bar */
 .navbar {
