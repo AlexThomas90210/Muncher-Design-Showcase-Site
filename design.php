@@ -58,11 +58,11 @@ if ( $_SESSION['LoggedIn'] == false ) {
             <!-- Nav -->
             <div class="collapse navbar-collapse muncher-text" id="navbar">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="who.html">Who</a></li>
-                    <li><a href="how.html">How</a></li>
-                    <li class="active"><a href="design.html">Design</a></li>
-                    <li><a href="links.html">Links</a></li>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="who.php">Who</a></li>
+                    <li><a href="how.php">How</a></li>
+                    <li class="active"><a href="design.php">Design</a></li>
+                    <li><a href="links.php">Links</a></li>
                     <li><a href="#contact" data-toggle="modal">Prototype</a></li>
                 </ul>
             </div>
