@@ -4,7 +4,7 @@ if ( !isset($_SESSION['LoggedIn']) ){
     header('Location: '.URL.'login.php', TRUE, 302);
     exit();
 }
-if ( $_SESSION['LoggedIn'] == false ) {
+if ( $_SESSION['LoggedIn'] != true ) {
     header('Location: '.URL.'login.php', TRUE, 302);
     exit();
 }
