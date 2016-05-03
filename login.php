@@ -44,7 +44,7 @@ if (isset($_POST['UserName']) && isset($_POST['Password']) ) {
 
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-sm-4 col-sm-offset-4">
                 <!-- Login Form -->
                 <form id="contactForm" class="form-horizontal" method="post" action="./login.php" >
 
@@ -61,67 +61,10 @@ if (isset($_POST['UserName']) && isset($_POST['Password']) ) {
                             <input type="password" class="form-control" name="Password"  required>
                         </div>
                     </div>
-
-                    </div>
-                        <!-- where the ajax response will be put -->
-                        <p id="contactResponse"><?php echo $loginError ?></p>
-                        <button class="btn btn--muncher" type="submit">Login !</button>
-                    </div>
-
+                    <!-- where the ajax response will be put -->
+                    <p style="color:red;"><?php echo $loginError ?></p>
+                    <button class="btn btn--muncher" type="submit">Login !</button>
                 </form>
-
-            </div>
-        </div>
-    </div>
-
-
-
-
-    <!--MARK: Modal Contact form-->
-    <div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <!-- Contact Form -->
-                <form id="contactForm" class="form-horizontal" method="post" action="./ajax/contactSimple.php" onsubmit="return false;">
-
-                    <!-- Modal Head -->
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                        <h4 class="modal-title text-center">Contact</h4>
-                    </div>
-
-                    <!-- Modal Body -->
-                    <div class="modal-body">
-                        <div class="form-group">
-                            <label for="contactName" class="col-sm-2 control-label">Name</label>
-                            <div class="col-sm-10">
-                                <input type="text" class="form-control" name="contactName" required placeholder="Name">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="contactEmail" class="col-sm-2 control-label">Email</label>
-                            <div class="col-sm-10">
-                                <input type="email" class="form-control" name="contactEmail" placeholder="you@example.com" required>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="contactMessage" class="col-sm-2 control-label">Message</label>
-                            <div class="col-sm-10">
-                                <textarea class="form-control" name="contactMessage" rows="8" placeholder="Message" required></textarea>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Modal Footer -->
-                    <div class="modal-footer">
-                        <!-- where the ajax response will be put -->
-                        <p id="contactResponse"></p>
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        <button class="btn btn--muncher" type="submit">Send</button>
-                    </div>
-
-                </form>
-                <!-- End of Contact form -->
             </div>
         </div>
     </div>
