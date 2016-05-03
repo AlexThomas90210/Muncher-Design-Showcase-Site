@@ -69,6 +69,7 @@ h1 {
     color: rgb(92, 249, 48);
     background-color: rgb(249, 80, 6);
     border: 3px solid rgb(219, 60, 0);
+    font-size:10px;
 }
 /* MARK: Nav Bar */
 .navbar {
