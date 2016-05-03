@@ -55,6 +55,16 @@ h1 {
     top:20%;
 }
 
+.logoutForm {
+    position:absolute;
+    right:50px;
+    height:30%;
+    top:30%;
+}
+
+.logoutForm__submit {
+    border-radius: 50%;
+}
 /* MARK: Nav Bar */
 .navbar {
     /* making nav look like what was specified */
