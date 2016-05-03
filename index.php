@@ -2,14 +2,12 @@
 session_start();
 require_once('./constants.php');
 if ( !isset($_SESSION['LoggedIn']) ){
-    //header('Location: '.URL.'login.php', TRUE, 302);
-    echo "1";
-    //exit();
+    header('Location: '.URL.'login.php', TRUE, 302);
+    exit();
 }
 if ( $_SESSION['LoggedIn'] != true ) {
-    //header('Location: '.URL.'login.php', TRUE, 302);
-    echo "2";
-    //exit();
+    header('Location: '.URL.'login.php', TRUE, 302);
+    exit();
 }
 echo $_SESSION['LoggedIn'];
 ?>
