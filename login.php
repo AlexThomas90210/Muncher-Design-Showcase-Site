@@ -3,7 +3,7 @@ session_start();
 require_once('./constants.php');
 $loginError = "";
 if (isset($_POST['UserName']) && isset($_POST['Password']) ) {
-    if ($_POST['UserName'] === "UserForMucher" && $_POST['Password'] === "PassForMuncher") {
+    if ($_POST['UserName'] === "Muncher" && $_POST['Password'] === "Pass") {
         $_SESSION['LoggedIn'] = true;
         header('Location: '.URL.'index.php', TRUE, 302);
         exit();
