@@ -93,6 +93,30 @@ if ( $_SESSION['LoggedIn'] == false ) {
                 <!-- Wire Frames -->
                 <section id="wireframes">
                     <h1 class="muncher-text">Wire Frames</h1>
+                    <h3 id="wireframe-login-create" class="muncher-text">Login &amp; Create Munher</h3>
+                        <a href="images/Design-Assets/wireframe-login-create.png" title="Wireframe Login, Create Muncher" data-gallery>
+                            <img class="img-responsive" src="images/Design-Assets/wireframe-login-create.png" alt="Login / Create">
+                        </a>
+                    <h3 id="wireframe-home" class="muncher-text">Home</h3>
+                        <a href="images/Design-Assets/wireframe-home.png" title="Wireframe Home" data-gallery>
+                            <img class="img-responsive" src="images/Design-Assets/wireframe-home.png" alt="Home">
+                        </a>
+                    <h3 id="wireframe-input-food" class="muncher-text">Feed</h3>
+                        <a href="images/Design-Assets/wireframe-input-food.png" title="Wireframe Feed" data-gallery>
+                            <img class="img-responsive" src="images/Design-Assets/wireframe-input-food.png" alt="Input Food">
+                        </a>
+                    <h3 id="wireframe-feedback" class="muncher-text">Feedback</h3>
+                        <a href="images/Design-Assets/wireframe-feedback.png" title="Wireframe Feedback" data-gallery>
+                            <img class="img-responsive" src="images/Design-Assets/wireframe-feedback.png" alt="Feedback">
+                        </a>
+                    <h3 id="wireframe-exercise" class="muncher-text">Exercise</h3>
+                        <a href="images/Design-Assets/wireframe-exercise.png" title="Wireframe Exercise" data-gallery>
+                            <img class="img-responsive" src="images/Design-Assets/wireframe-exercise.png" alt="Exercise">
+                        </a>
+                    <h3 id="wireframe-settings" class="muncher-text">Settings</h3>
+                        <a href="images/Design-Assets/wireframe-settings.png" title="Wireframe Settings" data-gallery>
+                            <img class="img-responsive" src="images/Design-Assets/wireframe-settings.png" alt="Settings">
+                        </a>
                 </section>
 
                 <!-- Story Boards -->
@@ -110,7 +134,16 @@ if ( $_SESSION['LoggedIn'] == false ) {
                 <ul id="sidebar" class="nav nav-stacked">
                     <li><a href="#structure-map">Structure Map</a></li>
                     <li><a href="#state-transition-diagram">State Transition Diagram</a></li>
-                    <li><a href="#wireframes">Wireframes</a></li>
+                    <li><a href="#wireframes">Wireframes</a>
+                            <ul class="nav nav-stacked">
+                                <li><a href="#wireframe-login-create">Login , Create Muncher</a></li>
+                                <li><a href="#wireframe-home">Home</a></li>
+                                <li><a href="#wireframe-input-food">Input Food</a></li>
+                                <li><a href="#wireframe-feedback">Feedback</a></li>
+                                <li><a href="#wireframe-exercise">Input Exercise</a></li>
+                                <li><a href="#wireframe-settings">Settings</a></li>
+                            </ul>
+                    </li>
                     <li><a href="#storyboards">Storyboards</a></li>
                 </ul>
             </div>

@@ -183,6 +183,10 @@ if ( $_SESSION['LoggedIn'] == false ) {
                         <li>The user is shown the food,total calories &amp; nutrients</li>
                         <li>The user confirms</li>
                     </ol>
+                    <h4>Use Case Wireframe </4>
+                    <a href="images/Design-Assets/use-case-input-barcode.png" title="Use Case Exercise" data-gallery>
+                        <img class="img-responsive" src="images/Design-Assets/use-case-input-barcode.png" alt="Use Case barcode">
+                    </a>
                     <h4>Alternate Flows</h4>
                     <strong>Barcode undefined</strong>
                     <ol>
@@ -194,6 +198,10 @@ if ( $_SESSION['LoggedIn'] == false ) {
                         <li>System prompts the user about the error</li>
                         <li>The user selects a different input method</li>
                     </ol>
+                    <h4>Use Case Wireframe </4>
+                    <a href="images/Design-Assets/use-case-input-food-search.png" title="Use Case Search" data-gallery>
+                        <img class="img-responsive" src="images/Design-Assets/use-case-input-food-search.png" alt="Use Case Search">
+                    </a>
 
                     <!-- Task Case : Input Food With Barcode -->
                     <h3 class="muncher-text">Task Case : Input food with barcode</h3>
@@ -252,6 +260,10 @@ if ( $_SESSION['LoggedIn'] == false ) {
                         <li>User sees the estimated calories burnt from that exercise.</li>
                         <li>User confirms</li>
                     </ol>
+                    <h4>Use Case Wireframe </4>
+                    <a href="images/Design-Assets/use-case-exercise.png" title="Use Case Exercise" data-gallery>
+                        <img class="img-responsive" src="images/Design-Assets/use-case-exercise.png" alt="Use Case Exercise">
+                    </a>
                     <h4>Alternate Flows</h4>
                     <strong>None</strong>
 
