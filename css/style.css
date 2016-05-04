@@ -70,7 +70,24 @@ h1 {
     color: rgb(92, 249, 48);
     background-color: rgb(249, 80, 6);
     border: 3px solid rgb(219, 60, 0);
-    font-size:10px;
+    overflow:hidden;
+    box-shadow: 0 0 3px gray;
+}
+.logoutForm__submit-text {
+    display:block;
+	float:left;
+	width:100%;
+	padding-top:50%;
+    padding-bottom:50%;
+	line-height:1em;
+	margin-top:-0.5em;
+
+	text-align:center;
+	color:#e2eaf3;
+    font-family:Verdana;
+    font-size:0.8em;
+    font-weight:bold;
+    text-decoration:none;
 }
 
 
