@@ -56,9 +56,10 @@ h1 {
 }
 
 .logoutForm {
-    position:absolute;
+    /*position:absolute;
     right:50px;
-    /*bottom:30%;*/
+    bottom:30%;*/
+    width:25%;
 }
 
 .logoutForm__submit {
