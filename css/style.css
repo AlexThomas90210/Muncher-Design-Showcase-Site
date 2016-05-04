@@ -320,7 +320,7 @@ input:-webkit-autofill:disabled{
 	height:0;
 	padding-bottom: 100%;
     border-radius: 50%;
-	border:10px solid #cfdcec;
+	border:0px solid #cfdcec;
     overflow:hidden;
 
     background: #4679BD;
