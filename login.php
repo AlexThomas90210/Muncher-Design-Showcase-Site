@@ -49,21 +49,21 @@ if (isset($_POST['UserName']) && isset($_POST['Password']) ) {
                 <form class="form-horizontal loginForm " method="post" action="./login.php" >
 
                     <div class="form-group">
-                        <label for="Name" class="col-sm-2 control-label">Name</label>
-                        <div class="col-sm-10">
+                        <label for="Name" class="col-sm-4 control-label">Name</label>
+                        <div class="col-sm-8">
                             <input type="text" class="form-control" name="UserName" required placeholder="User Name">
                         </div>
                     </div>
 
                     <div class="form-group">
-                        <label for="Password" class="col-sm-2 control-label">Password</label>
-                        <div class="col-sm-10">
+                        <label for="Password" class="col-sm-4 control-label">Password</label>
+                        <div class="col-sm-8">
                             <input type="password" class="form-control" name="Password"  required>
                         </div>
                     </div>
                     <!-- where the ajax response will be put -->
                     <div class="form-group">
-                        <div class="col-sm-offset-2 col-sm-10">
+                        <div class="col-sm-offset-4 col-sm-8">
                             <p style="color:red;"><strong><?php echo $loginError ?></strong></p>
                             <button class="btn btn--muncher" type="submit">Login !</button>
                         </div>
