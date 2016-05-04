@@ -58,7 +58,7 @@ h1 {
 .logoutForm {
     position:absolute;
     right:50px;
-    bottom:30%;
+    /*bottom:30%;*/
 }
 
 .logoutForm__submit {
