@@ -46,10 +46,10 @@ if (isset($_POST['UserName']) && isset($_POST['Password']) ) {
         <div class="row">
             <div class="col-sm-6 col-sm-offset-3">
                 <!-- Login Form -->
-                <form id="contactForm" class="form-horizontal" method="post" action="./login.php" >
+                <form class="form-horizontal loginForm " method="post" action="./login.php" >
 
                     <div class="form-group">
-                        <label for="UserName" class="col-sm-2 control-label">User Name</label>
+                        <label for="Name" class="col-sm-2 control-label">Name</label>
                         <div class="col-sm-10">
                             <input type="text" class="form-control" name="UserName" required placeholder="User Name">
                         </div>
