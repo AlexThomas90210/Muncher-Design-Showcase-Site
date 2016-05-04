@@ -448,7 +448,7 @@ if ( $_SESSION['LoggedIn'] == false ) {
                             <img class="img-responsive" src="images/Design-Assets/task-flow-get-feedback.png" alt="Task Flow Get Feedback">
                         </a>
 
-                        <h3 id="get-feedback-flow-diagram" class="muncher-text">Get Feedback Task Flow Diagram</h3>
+                        <h3 id="input-food-flow-diagram" class="muncher-text">Get Feedback Task Flow Diagram</h3>
                         <a href="images/Design-Assets/task-flow-input-food.png" title="Task Flow Create Muncher" data-gallery>
                             <img class="img-responsive" src="images/Design-Assets/task-flow-input-food.png" alt="Task Flow Input Food">
                         </a>
@@ -474,7 +474,7 @@ if ( $_SESSION['LoggedIn'] == false ) {
                                 <li><a href="#create-muncher-flow-diagrams">Create Muncher</a></li>
                                 <li><a href="#input-exercise-flow-diagram">Input Exercise</a></li>
                                 <li><a href="#get-feedback-flow-diagram">Get Feedback </a></li>
-                                <li><a href="#task-flow-input-food">Input Food</a></li>
+                                <li><a href="#input-food-flow-diagram">Input Food</a></li>
                             </ul>
                         </li>
                     </ul>

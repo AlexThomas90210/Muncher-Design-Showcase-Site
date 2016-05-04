@@ -77,27 +77,18 @@ if ( $_SESSION['LoggedIn'] != true ) {
 
     <ol style="color:red;">
         TODO
-        <li> Redo create muncher task flow incooporate login logic in there</li>
-        <li> Easier to read text size structure map</li>
-        <li> Add screen for settings in state transition diagram depending on how we choose to implement settings</li>
-        <li> Add task flow diagrams for all task cases</li>
         <li> More scenarios</li>
-        <li> Put up liams use cases and task flows</li>
-        <li> Consider changing input food with barcode use case to input food to fully explain whats going on</li>
         <li> Create wireframes and put into site</li>
         <li> Create storyboards and put into site</li>
         <li> Make prototype</li>
         <li> Embed prototype instead of contact form</li>
-        <li> Add set goals, customize to use case diagram</li>
-        <li> Color coordinate all diagrams</li>
-        <li> Product definition<ul><li>maybe have images of a concept muncher adapting to different inputs almost like a storyboard but not a UI just the muncher itself</li></ul></li>
         <li> References</li>
         <li> Links</li>
         <li> Research</li>
-        <li> Password/login for site</li>
-        <li> Figure out how to use web elevates hosting thingy</li>
         <li> Video</li>
-        <li> Image gallery</li>
+        <li> create example munchers and one that is adapting</li>
+        <li> Add screen for settings in state transition diagram depending on how we choose to implement settings</li>
+        <li> Color coordinate all diagrams</li>
     </ol>
     <div class="container">
         <!-- Product Name -->
