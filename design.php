@@ -38,6 +38,12 @@ if ( $_SESSION['LoggedIn'] == false ) {
         <div class="container">
            <a href="index.html"><img class="banner__logo img-responsive" src="./images/banner-logo.png" alt="Muncher Logo" /></a>
         </div>
+
+        <!-- logout button -->
+        <form class="logoutForm" action="./logout.php" method="post">
+            <button class="muncher-text logoutForm__submit text-small" type="submit" name="logoutSubmit">Logout</button>
+        </form>
+
         <img class="banner__background img-responsive" src="./images/banner-background.png" alt="Muncher banner Background" />
     </div>
 
@@ -92,6 +98,10 @@ if ( $_SESSION['LoggedIn'] == false ) {
                 <!-- Story Boards -->
                 <section id="storyboards">
                     <h1 class="muncher-text">Story Boards</h1>
+                    <h3 id="get-feedback-flow-diagram" class="muncher-text">Get Feedback Task Flow Diagram</h3>
+                    <a href="images/Design-Assets/Storyboard-search-food.png" title="Task Flow Create Muncher" data-gallery>
+                        <img class="img-responsive" src="images/Design-Assets/Storyboard-search-food.png" alt="Storyboard Search Food">
+                    </a>
                 </section>
             </div>
 
