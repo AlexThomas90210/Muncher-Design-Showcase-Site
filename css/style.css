@@ -297,6 +297,7 @@ input:-webkit-autofill:disabled{
 }
 
 .logoutForm {
+    box-sizing:content-box;
     position:absolute;
     right:50px;
     bottom:30%;
@@ -316,11 +317,11 @@ input:-webkit-autofill:disabled{
     */
     padding: 0;
     margin: 0;
-    	width: 100%;
+    width: 100%;
 	height:0;
 	padding-bottom: 100%;
     border-radius: 50%;
-	border:0px solid #cfdcec;
+	border:10px solid #cfdcec;
     overflow:hidden;
 
     background: #4679BD;
