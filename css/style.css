@@ -315,6 +315,7 @@ input:-webkit-autofill:disabled{
     overflow:hidden;
     box-shadow: 0 0 3px gray;
     */
+    box-sizing:content-box;
     padding: 0;
     margin: 0;
     width: 100%;
@@ -344,7 +345,8 @@ input:-webkit-autofill:disabled{
     font-weight:bold;
     text-decoration:none;
     */
-        display:block;
+    box-sizing:content-box;
+    display:block;
 	float:left;
 	width:100%;
 	padding-top:50%;
@@ -362,9 +364,11 @@ input:-webkit-autofill:disabled{
 
 
 .logoutForm__submit:hover {
+    box-sizing:content-box;
     background-color: rgb(239, 60, 6);
 }
 
 .loginForm {
+
     margin-top: 80px;
 }
