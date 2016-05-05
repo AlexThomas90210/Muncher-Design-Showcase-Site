@@ -304,17 +304,7 @@ input:-webkit-autofill:disabled{
 }
 
 .logoutForm__submit {
-    /*
-    height:0;
-    width:100%;
-    padding-bottom: 100%;
-    border-radius: 50%;
-    color: rgb(92, 249, 48);
-    background-color: rgb(249, 80, 6);
-    border: 3px solid rgb(219, 60, 0);
-    overflow:hidden;
-    box-shadow: 0 0 3px gray;
-    */
+
     box-sizing:content-box;
     padding: 0;
     margin: 0;
@@ -322,42 +312,28 @@ input:-webkit-autofill:disabled{
 	height:0;
 	padding-bottom: 100%;
     border-radius: 50%;
-	border:10px solid #cfdcec;
+    color: rgb(92, 249, 48);
+	border:3px solid rgb(219, 60, 0);
     overflow:hidden;
 
-    background: #4679BD;
+    background: rgb(249, 80, 6);
     box-shadow: 0 0 3px gray;
 }
 .logoutForm__submit-text {
-    /*
-    display:block;
-	float:left;
-	width:100%;
-	padding-top:50%;
-    padding-bottom:50%;
-	line-height:1em;
-	margin-top:-0.5em;
 
-	text-align:center;
-	color:#e2eaf3;
-    font-family:Verdana;
-    font-size:0.8em;
-    font-weight:bold;
-    text-decoration:none;
-    */
     box-sizing:content-box;
     display:block;
 	float:left;
 	width:100%;
 	padding-top:50%;
     padding-bottom:50%;
-	line-height:1em;
-	margin-top:-0.5em;
+	line-height:0.8em;
+	margin-top:-0.4em;
 
 	text-align:center;
 	color:#e2eaf3;
     font-family:Verdana;
-    font-size:1.2em;
+    font-size:1em;
     font-weight:bold;
     text-decoration:none;
 }
