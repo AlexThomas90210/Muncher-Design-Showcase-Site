@@ -2,13 +2,13 @@
 session_start();
 require_once('./constants.php');
 $loginError = "";
-if (isset($_POST['UserName']) && isset($_POST['Password']) ) {
-    if ($_POST['UserName'] === "Muncher" && $_POST['Password'] === "Pass") {
+if (isset($_POST[NAME_ATTR]) && isset($_POST[PASSWORD_ATTR]) ) {
+    if ($_POST[NAME_ATTR] === LOGIN_NAME && $_POST[PASSWORD_ATTR] === LOGIN_PASSWORD) {
         $_SESSION['LoggedIn'] = true;
-        header('Location: '.URL.'index.php', TRUE, 302);
+        header('Location: '.URL.FIRST_PAGE, TRUE, 302);
         exit();
     }
-    $loginError = "Invalid user name or password, STOP TRYING TO ROB OUR IDEA";
+    $loginError = LOGIN_ERROR;
 }
 ?>
 <!DOCTYPE html>
