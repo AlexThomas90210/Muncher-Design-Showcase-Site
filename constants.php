@@ -1,5 +1,5 @@
 <?php
-//the name of your site  eg. www.example.com/     important you add that "/" ad the end
+//the name of your site  eg. http://www.example.com/     important you add that "/" ad the end
 define('URL', 'http://ec2-52-16-124-54.eu-west-1.compute.amazonaws.com/Muncher-Design-Showcase-Site/');
 //the name of your login page    eg login.php
 define('LOGIN_PAGE', 'login.php');

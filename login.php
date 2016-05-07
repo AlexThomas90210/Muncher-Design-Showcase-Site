@@ -46,7 +46,7 @@ if (isset($_POST[NAME_ATTR]) && isset($_POST[PASSWORD_ATTR]) ) {
         <div class="row">
             <div class="col-sm-6 col-sm-offset-3">
                 <!-- Login Form -->
-                <form class="form-horizontal loginForm " method="post" action="./login.php" >
+                <form class="form-horizontal loginForm " method="post" action="#" >
 
                     <div class="form-group">
                         <label for="Name" class="col-sm-4 control-label">Name</label>
