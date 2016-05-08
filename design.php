@@ -118,9 +118,12 @@ if ( !isset($_SESSION['LoggedIn']) ){
                 <!-- Story Boards -->
                 <section id="storyboards">
                     <h1 class="muncher-text">Story Boards</h1>
-                    <h3 id="get-feedback-flow-diagram" class="muncher-text">Get Feedback Task Flow Diagram</h3>
-                    <a href="images/Design-Assets/Storyboard-search-food.png" title="Task Flow Create Muncher" data-gallery>
-                        <img class="img-responsive" src="images/Design-Assets/Storyboard-search-food.png" alt="Storyboard Search Food">
+                    <h3 id="get-feedback-flow-diagram" class="muncher-text">Input Food</h3>
+                    <a href="images/Design-Assets/storyboard-input-food.png" title="Storyboard Input Food" data-gallery>
+                        <img class="img-responsive" src="images/Design-Assets/storyboard-input-food.png" alt="Storyboard input Food">
+                    </a>
+                    <a href="images/Design-Assets/Storyboard-exercise.png" title="Storyboard Exercise" data-gallery>
+                        <img class="img-responsive" src="images/Design-Assets/storyboard-exercise.png" alt="Storyboard exercise">
                     </a>
                 </section>
             </div>

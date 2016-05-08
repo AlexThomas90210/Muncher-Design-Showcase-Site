@@ -58,7 +58,7 @@ if (isset($_POST[NAME_ATTR]) && isset($_POST[PASSWORD_ATTR]) ) {
                     <div class="form-group">
                         <label for="Password" class="col-sm-4 control-label">Password</label>
                         <div class="col-sm-8">
-                            <input type="password" class="form-control" name="Password"  required>
+                            <input type="password" class="form-control" name="Password"  required placeholder="Password">
                         </div>
                     </div>
                     <!-- where the ajax response will be put -->

@@ -89,17 +89,56 @@ if ( !isset($_SESSION['LoggedIn']) ){
     <div class="container">
         <!-- Product Name -->
         <h1 class="muncher-text">Product Name</h1>
-        <h4>Muncher</h4>
+        <h4>Muncher a Fun, Simple,  Easy to use app for healthy living</h4>
 
         <!-- Intro & Overview -->
         <h1 class="muncher-text">Intro Overview</h1>
-            <p>The overriding concept behind Muncher is to develop an app into which the user can input everything they eat in order to gain visual feedback on how healthy (or not) their diet is. This app is being proposed in order to fulfil a market need for a simple, portable method to monitor and gain feedback on daily dietary requirements. The app will provide this feedback on how the food consumed impacts the user’s health by producing an Avatar to represent them and their food choices.</p>
-            <p>The user is intended to enter their daily food intake and depending on the nutrients given to the Avatar it evolves appropriately. Providing the Avatar suitable nourishment will create an amiable and attractive monster, while feeding it an unbalanced diet will cause the avatar to reflect that. In addition the app will also give user feedback on how to improve their Avatar, providing an entertaining way for users to learn about proper nutrition and to track their diet.</p>
-            <p>Our research has shown that users will be more likely to stay engaged with our app if they have a (perceived) personal stake in the project. Hopefully the use of an Avatar will act as a proxy as we have discovered from our research that people tend to lose interest in using such apps within a short time. We would hope that our retention rate would be higher if our users feel personally invested in the product.</p>
-            <p>It is intended to offer this app on ios, Android and Microsoft mobile devices.</p>
+            <p>We have produced this website in order to showcase our industry project, Muncher, a fun diet tracker and weight loss app which provides a Calorie Counter and nutritional information. Included within this site are our Product Video alongside our research outcomes in the forms of Personas and Scenarios.</p>
+            <p>From these sources a full set of Use Cases, Task Cases and additional UX design documentation including Use Case Diagrams, Structure maps, Storyboards, Wireframes, State Transition diagrams and Behaviour diagrams have been constructed</p>
+            <p>In addition we also present an online archive containing research materials, references and our appendix documentation.</p>
+
 
         <!-- Product Definition -->
         <h1 class="muncher-text">Product Definition</h1>
+            <p>
+                The concept behind Muncher is to develop an app into which the user can input everything they eat in order to gain visual feedback on how healthy (or not) their diet is. This app is being proposed in order to fulfil a market need for a simple, portable method to monitor and gain feedback on daily dietary requirements. The app will provide this feedback on how the food consumed impacts the user’s health by producing an Avatar to represent them and their food choices.
+            </p>
+            <p>
+                Our unique Selling point which differenciates us from the market is the Avatar or "Muncher" that the user creates and it adapts based on the users diet &amp; Exercise levels , the concept art below gives a representation of how the Avatar will adapt to the input of the User.
+            </p>
+            <p>
+                The user is intended to enter their daily food intake and, depending on the nutrients given to the Avatar, it evolves appropriately. Providing the Avatar suitable nourishment will create an amiable and attractive monster, while feeding it an unbalanced diet will cause the avatar to reflect that. In addition the app will also give user feedback on how to improve their Avatar, providing an entertaining way for users to learn about proper nutrition and to track their diet.
+            </p>
+            <p>
+                Our research has shown that users will be more likely to stay engaged with our app if they have a (perceived) personal stake in the project. Hopefully the use of an Avatar will act as a proxy as we have discovered from our research that people tend to lose interest in using such apps within a short time. We would hope that our retention rate would be higher if our users feel personally invested in the product.
+            </p>
+            <p>
+                It is intended to offer this app on ios, Android and Microsoft mobile devices.
+            </p>
+            <p>
+                <strong>Concept Art A</strong> shows the starting Avatar when the user creates a new Avatar, It has moderate features and definitions
+                <strong>Concept Art B</strong> shows how the Avatar will adapt when the user is not exercising enough , eating too much and eating junk food.
+                    <ul>
+                        <li>The avatar features become less pronounced as shown with this Muncher's horn , spikes on back due to lack of nutrients</li>
+                        <li>The avatar gains weight based on the calirie intake of the user being above what is expected for the users age, sex and BMI</li>
+                        <li>The avatar looks tired due to high intake of sugar and lack of healthy nutrients</li>
+                        <li>The avatar skin looks dull and begins to get spots due to the unhealthy food the user is eating</li>
+                    </ul>
+                <strong>Concept Art C</strong> shows how the Avatar will adapt if the user is eating an apropriate callorie intake , healthy foods and exercising.
+                    <ul>
+                        <li>The Avatar gets brighter in color to indicate healthy nutrients</li>
+                        <li>The avatar gets musclier from the inputed exercise</li>
+                        <li>The Avatar features , in this case horns, scales, wings and nails become more pronouced due to the healthy &amp; nutrient rich diet of the user</li>
+                    </ul>
+                <strong>Concept Art D</strong> shows how the Avatar will adapt if the user is not exercising and not eating enough food
+                    <ul>
+                        <li>The avatar looks tired due to lack of energy from calorie intake</li>
+                        <li>The avatar has low muscle mass due to the lack of exercise the user is inputing</li>
+                        <li>The avatar loses its features such as scales, nail length , horns due to the low nutrient and calorie intake of the user</li>
+                        <li>The avatar becomes thin due to the user low input of food</li>
+                    </ul>
+            </p>
+            <img src="images/Design-Assets/concept-art.jpg" alt="Concept Art" />
 
         <!-- Product Video -->
         <h1 class="muncher-text">Product Video</h1>
