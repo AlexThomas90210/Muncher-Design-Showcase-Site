@@ -116,7 +116,7 @@ if ( !isset($_SESSION['LoggedIn']) ){
                 It is intended to offer this app on ios, Android and Microsoft mobile devices.
             </p>
             <p>
-                <strong>Concept Art A</strong> shows the starting Avatar when the user creates a new Avatar, It has moderate features and definitions
+                <strong>Concept Art A</strong> shows the starting Avatar when the user creates a new Avatar, It has moderate features and definitions<br>
                 <strong>Concept Art B</strong> shows how the Avatar will adapt when the user is not exercising enough , eating too much and eating junk food.
                     <ul>
                         <li>The avatar features become less pronounced as shown with this Muncher's horn , spikes on back due to lack of nutrients</li>
