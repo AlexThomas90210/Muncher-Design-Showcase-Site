@@ -104,9 +104,6 @@ if ( !isset($_SESSION['LoggedIn']) ){
                 The concept behind Muncher is to develop an app into which the user can input everything they eat in order to gain visual feedback on how healthy (or not) their diet is. This app is being proposed in order to fulfil a market need for a simple, portable method to monitor and gain feedback on daily dietary requirements. The app will provide this feedback on how the food consumed impacts the user’s health by producing an Avatar to represent them and their food choices.
             </p>
             <p>
-                Our unique Selling point which differenciates us from the market is the Avatar or "Muncher" that the user creates and it adapts based on the users diet &amp; Exercise levels , the concept art below gives a representation of how the Avatar will adapt to the input of the User.
-            </p>
-            <p>
                 The user is intended to enter their daily food intake and, depending on the nutrients given to the Avatar, it evolves appropriately. Providing the Avatar suitable nourishment will create an amiable and attractive monster, while feeding it an unbalanced diet will cause the avatar to reflect that. In addition the app will also give user feedback on how to improve their Avatar, providing an entertaining way for users to learn about proper nutrition and to track their diet.
             </p>
             <p>
@@ -114,6 +111,9 @@ if ( !isset($_SESSION['LoggedIn']) ){
             </p>
             <p>
                 It is intended to offer this app on ios, Android and Microsoft mobile devices.
+            </p>
+            <p>
+                Our unique Selling point which differenciates us from the market is the Avatar or "Muncher" that the user creates and it adapts based on the users diet &amp; Exercise levels , the concept art below gives a representation of how the Avatar will adapt to the input of the User.
             </p>
             <p>
                 <strong>Concept Art A</strong> shows the starting Avatar when the user creates a new Avatar, It has moderate features and definitions<br>
