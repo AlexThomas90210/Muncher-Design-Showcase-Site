@@ -138,7 +138,7 @@ if ( !isset($_SESSION['LoggedIn']) ){
                         <li>The avatar becomes thin due to the user low input of food</li>
                     </ul>
             </p>
-            <img src="images/Design-Assets/concept-art.jpg" alt="Concept Art" />
+            <img class="img-responsive" src="images/Design-Assets/concept-art.jpg" alt="Concept Art" />
 
         <!-- Product Video -->
         <h1 class="muncher-text">Product Video</h1>
