@@ -71,22 +71,12 @@ if ( !isset($_SESSION['LoggedIn']) ){
         </div>
     </nav>
 
-    <ol style="color:red;">
-        TODO
-        <li> More scenarios</li>
-        <li> Create wireframes and put into site</li>
-        <li> Create storyboards and put into site</li>
-        <li> Make prototype</li>
-        <li> Embed prototype instead of contact form</li>
-        <li> References</li>
-        <li> Links</li>
-        <li> Research</li>
-        <li> Video</li>
-        <li> create example munchers and one that is adapting</li>
-        <li> Add screen for settings in state transition diagram depending on how we choose to implement settings</li>
-        <li> Color coordinate all diagrams</li>
-    </ol>
+
     <div class="container">
+        <!-- Product Video -->
+        <h1 class="muncher-text">Product Video</h1>
+        <img class="img-responsive" src="./images/video-image.png" alt="Video">
+
         <!-- Product Name -->
         <h1 class="muncher-text">Product Name</h1>
         <h4>Muncher a Fun, Simple,  Easy to use app for healthy living</h4>
@@ -140,9 +130,7 @@ if ( !isset($_SESSION['LoggedIn']) ){
             </p>
             <img class="img-responsive" src="images/Design-Assets/concept-art.jpg" alt="Concept Art" />
 
-        <!-- Product Video -->
-        <h1 class="muncher-text">Product Video</h1>
-        <img class="img-responsive" src="./images/video-image.png" alt="Video">
+
     </div>
 
     <!--MARK: Footer -->
