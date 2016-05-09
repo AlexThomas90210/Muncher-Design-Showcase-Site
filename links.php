@@ -88,7 +88,7 @@ if ( !isset($_SESSION['LoggedIn']) ){
                         </p>
 
                         <div id="accordion">
-                            <h3>Question 1</h3>
+                            <h5>Question 1</h5>
                             <div>
                                 <table class="table table-bordered table-striped">
                                     <tr>
@@ -255,7 +255,8 @@ if ( !isset($_SESSION['LoggedIn']) ){
     <script>
     $(function() {
         $( "#accordion" ).accordion({
-            collapsible: true
+            collapsible: true,
+            active : 'none'
         });
     });
   </script>
