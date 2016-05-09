@@ -87,7 +87,7 @@ if ( !isset($_SESSION['LoggedIn']) ){
                             We made a new post which you can see Here giving a brief description of the app in its title and a link to 2 surveys. Quickly our post on reddit got a massive amount of upvotes in its subreddit with hundreds of people taking our surveys and giving us detailed feedback with a huge amount of positivity.Within 12 hours our post had 200 upvotes and was at the top of the subreddit, the second place post was at 19 upvotes at the time showing what a staggering effect our post had.
                         </p>
 
-                        <div id="accordian">
+                        <div id="accordion">
                             <h3>Question 1</h3>
                             <div>
                                 <table class="table table-bordered table-striped">
