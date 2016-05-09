@@ -77,6 +77,83 @@ if ( !isset($_SESSION['LoggedIn']) ){
                 <!-- Research -->
                 <section id="research">
                     <h1 class="muncher-text">Research</h1>
+                        <p>
+                            For the data gathering process , we had an idea to use www.reddit.com . Reddit is a very popular website where users can post information about anything with each other in ‘subreddits’ that are separated by topic. If users like the post they upvote it, if they don’t they downvote it, then posts are ordered by how many upvotes they have , popular content stays at the top of a subreddit for a period of < 24 hours.
+                        </p>
+                        <p>
+                            The subreddit that we choose was www.reddit.com/r/SampleSize ,it has 32,000 subscribers and is a dedicated subreddit for people to get feedback on surveys or studies , where if Users are interested in the topic , they will take the survey. We saw this as an excellent opportunity to survey a large number of people within our target audience.
+                        </p>
+                        <p>
+                            We made a new post which you can see Here giving a brief description of the app in its title and a link to 2 surveys. Quickly our post on reddit got a massive amount of upvotes in its subreddit with hundreds of people taking our surveys and giving us detailed feedback with a huge amount of positivity.Within 12 hours our post had 200 upvotes and was at the top of the subreddit, the second place post was at 19 upvotes at the time showing what a staggering effect our post had.
+                        </p>
+
+                        <div id="accordian">
+                            <h3>Question 1</h3>
+                            <div>
+                                <table class="table table-bordered table-striped">
+                                    <tr>
+                                        <th>REF</th>
+                                        <th>Answer</th>
+                                    </tr>
+                                    <tr>
+                                        <td>S1.1-01</td>
+                                        <td>yes</td>
+                                    </tr>
+                                    <tr>
+                                        <td>S1.1-02</td>
+                                        <td>I enjoy the idea of this app, but this is coming from someone who is currently skinny, trying to get healthier. I think that if this app were to come out when I were overweight and severely struggling with my body image, I would not download it for fear of it damaging my already low self-esteem.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>S1.1-03</td>
+                                        <td>Several problems. first of all, not all food is scanable, and especially not the foods you SHOULD be eating (non-processed). Secondly, not all foods are equal for all people. People can react very differently to foods. for instance, someone with chronic low blood pressure, really doesn't need to be very concerned about excessive sodium. Even people with the same problems are different. People who take insulin for diabetes eat differently than people who do not take insulin. And even among those who don't, some of them can handle certain types of sugars ok, but some can't. And that is not even addressing problems like having something that should be healthy, but eating so much of it that it becomes unhealthy. There are so many more variables to "healthy eating" than just what the food is. That is not to say it should not exist, but it is a gross oversimplification for many people</td>
+                                    </tr>
+                                    <tr>
+                                        <td>S1.1-04</td>
+                                        <td>I don't like the implication of weight and health corresponding, because people can eat unhealthy food and not be healthy and still be skinny, and people can be chubby and eating well. Probably making the avatar happier/ brighter/more active/basically focus on well being and health without doing anything to the weight of the avatar by default. (A selectable option might be to involve weight in the app, but it shouldn't be the default.)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>S1.1-05</td>
+                                        <td>Many people are "unaware" they are being unhealthy (or are too stubborn about it). Having something for them to look at and reflect on might be what people need to start eating better and to keep motivated.</td>
+                                    </tr>
+                                </table>
+                            </div>
+
+                            <h3>Question 2</h3>
+                                <table class="table table-bordered table-striped">
+                                    <tr>
+                                        <th>REF</th>
+                                        <th>Answer</th>
+                                    </tr>
+                                    <tr>
+                                        <td>S1.2-01</td>
+                                        <td>yes</td>
+                                    </tr>
+                                    <tr>
+                                        <td>S1.2-02</td>
+                                        <td>I enjoy the idea of this app, but this is coming from someone who is currently skinny, trying to get healthier. I think that if this app were to come out when I were overweight and severely struggling with my body image, I would not download it for fear of it damaging my already low self-esteem.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>S1.2-03</td>
+                                        <td>Several problems. first of all, not all food is scanable, and especially not the foods you SHOULD be eating (non-processed). Secondly, not all foods are equal for all people. People can react very differently to foods. for instance, someone with chronic low blood pressure, really doesn't need to be very concerned about excessive sodium. Even people with the same problems are different. People who take insulin for diabetes eat differently than people who do not take insulin. And even among those who don't, some of them can handle certain types of sugars ok, but some can't. And that is not even addressing problems like having something that should be healthy, but eating so much of it that it becomes unhealthy. There are so many more variables to "healthy eating" than just what the food is. That is not to say it should not exist, but it is a gross oversimplification for many people</td>
+                                    </tr>
+                                    <tr>
+                                        <td>S1.2-04</td>
+                                        <td>I don't like the implication of weight and health corresponding, because people can eat unhealthy food and not be healthy and still be skinny, and people can be chubby and eating well. Probably making the avatar happier/ brighter/more active/basically focus on well being and health without doing anything to the weight of the avatar by default. (A selectable option might be to involve weight in the app, but it shouldn't be the default.)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>S1.2-05</td>
+                                        <td>Many people are "unaware" they are being unhealthy (or are too stubborn about it). Having something for them to look at and reflect on might be what people need to start eating better and to keep motivated.</td>
+                                    </tr>
+                                </table>
+                            <h3>Question 3</h3>
+                            <h3>Question 4</h3>
+                            <h3>Question 5</h3>
+                            <h3>Question 6</h3>
+                            <h3>Question 7</h3>
+                            <h3>Question 8</h3>
+                            <h3>Question 9</h3>
+                            <h3>Question 10</h3>
+                        </div>
                 </section>
 
                 <!-- References -->
@@ -172,5 +249,15 @@ if ( !isset($_SESSION['LoggedIn']) ){
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <!-- Main -->
     <script src="./js/main.js"></script>
+    <!-- Jquery UI -->
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
+    <script>
+    $(function() {
+        $( "#accordion" ).accordion({
+            collapsible: true
+        });
+    });
+  </script>
 </body>
 </html>
