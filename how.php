@@ -106,8 +106,9 @@ if ( !isset($_SESSION['LoggedIn']) ){
                         <li>The use case begins when the User downloads the app.</li>
                         <li>User opens the app.</li>
                         <li>User does not want to create an account so taps on “Create Muncher”.</li>
-                        <li>User enters their Age, Sex, BMI &amp; weight.</li>
                         <li>User selects which Muncher Avatar they want to use.</li>
+                        <li>User enters their Age, Sex, Height and Weight.</li>
+                        <li>User taps Create Muncher</li>
                     </ol>
                     <h4>Alternate Flows</h4>
                     <strong>User logs in with facebook</strong>
@@ -115,10 +116,11 @@ if ( !isset($_SESSION['LoggedIn']) ){
                         <li>The use case begins when the User downloads the app.</li>
                         <li>User opens the app.</li>
                         <li>User taps on login with facebook</li>
-                        <li>User is redirected to facebook to confirm</li>
+                        <li>User is redirected to facebook application to confirm</li>
                         <li>User is redirected back to muncher</li>
-                        <li>User enters their Age, Sex, BMI &amp; weight.</li>
                         <li>User selects which Muncher Avatar they want to use.</li>
+                        <li>User enters their Age, Sex, Height and Weight.</li>
+                        <li>User taps Create Muncher</li>
                     </ol>
 
                     <!-- Task Case : Create Muncher-->
@@ -137,29 +139,29 @@ if ( !isset($_SESSION['LoggedIn']) ){
                         <tr>
                             <td>Create Muncher</td>
                             <td>The user taps on “Create Muncher”.</td>
-                            <td>Display create muncher screen, User details Step</td>
+                            <td>Display create muncher screen,</td>
+                        </tr>
+                        <tr>
+                            <td>Select Avatar</td>
+                            <td>User selects which avatar they want to use</td>
+                            <td>Display avatars as user looks threw the Avatar selection</td>
                         </tr>
                         <tr>
                             <td>User details</td>
                             <td><ol><li>The user inputs their age, sex , BMI , weight.</li><li>User taps next</li></ol></td>
-                            <td>Display Select Avatar step</td>
-                        </tr>
-                        <tr>
-                            <td>Select Avatar</td>
-                            <td><ol><li>User selects which avatar they want to use</li><li>taps next</li></ol></td>
                             <td></td>
                         </tr>
                         <tr>
                             <td>Finish</td>
-                            <td>Taps finish</td>
-                            <td><ol><li>Store all inputed data on device</li><li>Send all inputted data to server</li><li>display home screen</li></ol></td>
+                            <td>Taps "Create Muncher"</td>
+                            <td><ol><li>Store all inputed data on device</li><li>Send all inputted data to server</li><li>display home screen with the new selected Avatar</li></ol></td>
                         </tr>
                     </table>
 
                     <!-- Input Food with barcode -->
-                    <h3 id="input-food-with-barcode" class="muncher-text">Use Case : Input Food with barcode</h3>
+                    <h3 id="input-food-with-barcode" class="muncher-text">Use Case : Input Food </h3>
                     <h4>Brief Description</h4>
-                    <p>This use case describes how the User uses the Muncher to input the food they eat.</p>
+                    <p>This use case describes how the User uses the Muncher to input the food they eat inlcuding the variety of options the user has to input food</p>
                     <h4>Actors</h4>
                     <p>
                         Muncher
@@ -173,34 +175,78 @@ if ( !isset($_SESSION['LoggedIn']) ){
                     <ol>
                         <li>The use case begins when Opens the App.</li>
                         <li>User selects "Feed Muncher".</li>
-                        <li>User selects “Barcode Scanner”</li>
-                        <li>The user scans the barcode with their devices camera</li>
-                        <li>The user enters the amount.</li>
-                        <li>The user is shown the food,total calories &amp; nutrients</li>
-                        <li>The user confirms</li>
+                        <li>User inputs food they want to eat into search bar</li>
+                        <li>User selects a food from the dropdown list of search results</li>
+                        <li>User selects and confirms the quantitiy of the selected food</li>
+                        <li>System adds that to the plate</li>
+                        <li>User can add more foods to the plate</li>
+                        <li>User confirms to input the plate</li>
                     </ol>
-                    <h4>Use Case Wireframe </4>
+                    <h4>Input with Search wireframes</4>
+                    <a href="images/Design-Assets/use-case-input-food-search.png" title="Use Case Search" data-gallery>
+                        <img class="img-responsive" src="images/Design-Assets/use-case-input-food-search.png" alt="Use Case Search">
+                    </a>
+
+                    <h4>Alternate Succesfull Flows</h4>
+                    <strong> Input Food With Barcode Scanner</strong>
+                    <ol>
+                        <li>The use case begins when Opens the App.</li>
+                        <li>User selects "Feed Muncher".</li>
+                        <li>User selects the Barcode Scanner Icon</li>
+                        <li>The user scans the barcode with their devices camera</li>
+                        <li>User selects and confirms the quantitiy of the scanned food</li>
+                        <li>System adds that to the plate</li>
+                        <li>User can add more foods to the plate</li>
+                        <li>User confirms to input the plate</li>
+                    </ol>
+                    <h4>Input with Barcode wireframes </h4>
                     <a href="images/Design-Assets/use-case-input-barcode.png" title="Use Case Exercise" data-gallery>
                         <img class="img-responsive" src="images/Design-Assets/use-case-input-barcode.png" alt="Use Case barcode">
                     </a>
-                    <h4>Alternate Flows</h4>
+
+                    <strong> Input Food With Voice</strong>
+                    <ol>
+                        <li>The use case begins when Opens the App.</li>
+                        <li>User selects "Feed Muncher".</li>
+                        <li>User taps on microphone Icon and begins speaking</li>
+                        <li>System fills in the search box from the speach recognition<li>
+                        <li>User selects a food from the dropdown list of search results</li>
+                        <li>User selects and confirms the quantitiy of the selected food</li>
+                        <li>System adds that to the plate</li>
+                        <li>User can add more foods to the plate</li>
+                        <li>User confirms to input the plate</li>
+                    </ol>
+
+                    <h4>Alternate unSuccesfull Flows</h4>
                     <strong>Barcode undefined</strong>
                     <ol>
                         <li>The use case begins when Opens the App.</li>
                         <li>User selects "Feed Muncher".</li>
-                        <li>User selects “Barcode Scanner”</li>
+                        <li>User selects the Barcode Scanner Icon</li>
                         <li>The user scans the barcode with their devices camera</li>
                         <li>The system does not recognise the barcode</li>
                         <li>System prompts the user about the error</li>
                         <li>The user selects a different input method</li>
                     </ol>
-                    <h4>Use Case Wireframe </4>
-                    <a href="images/Design-Assets/use-case-input-food-search.png" title="Use Case Search" data-gallery>
-                        <img class="img-responsive" src="images/Design-Assets/use-case-input-food-search.png" alt="Use Case Search">
-                    </a>
+
+                    <strong>Speech Recognition Failure<strong>
+                    <ol>
+                        <li>The use case begins when Opens the App.</li>
+                        <li>User selects "Feed Muncher".</li>
+                        <li>User taps on microphone Icon and begins speaking</li>
+                        <li>System missfills in the search box from the speach recognition error<li>
+                        <li>User sees the search is wrong</li>
+                        <li>User fixes the error by clicking on the search box and manually inputing the correct text</li>
+                        <li>User  selects a food from the dropdown list of search results</li>
+                        <li>User selects and confirms the quantitiy of the selected food</li>
+                        <li>System adds that to the plate</li>
+                        <li>User can add more foods to the plate</li>
+                        <li>User confirms to input the plate</li>
+                    </ol>
+
 
                     <!-- Task Case : Input Food With Barcode -->
-                    <h3 class="muncher-text">Task Case : Input food with barcode</h3>
+                    <h3 class="muncher-text">Task Case : Input food</h3>
                     <table class="table table-bordered table-striped">
                         <tr>
                             <th>Step</th>
@@ -210,27 +256,32 @@ if ( !isset($_SESSION['LoggedIn']) ){
                         <tr>
                             <td>Select Input Food</td>
                             <td><ol><li>The use case begins when Opens the App.</li><li>In this case the User always selects "Feed Muncher".</li></ol></td>
+                            <td>Display Feed Muncher Screen</td>
+                        </tr>
+                        <tr>
+                            <td>Input Food into Search Bar</td>
+                            <td>Input the food name into the search bar</td>
+                            <td><ol><li>Call server with the inputed text for list of foods that match that text</li><li>Display Dropdown of foods returned from server under the search bar</li></ol></td>
+                        </tr>
+                        <tr>
+                            <td>Select food</td>
+                            <td>Select a food from the dropdown list of foods</td>
+                            <td>Display the view to allow the user to input the quantity of the food</td>
+                        </tr>
+                        <tr>
+                            <td>Enter Quantity</td>
+                            <td>The user enters the amount they want to feed muncher of that food eg. 2 slices or 200 grams</td>
                             <td></td>
                         </tr>
                         <tr>
-                            <td>Select Barcode Scanner</td>
-                            <td>In this case the User always selects “Barcode Scanner”</td>
-                            <td>The system opens the camera of the device and waits for it to recognise a barcode </td>
+                            <td>Add to plate</td>
+                            <td>User taps confirm to add that food and amount to the plate</td>
+                            <td><ol><li>The system calculates the nutritional &amp; calorie value from the amount to display on the plate</li><li>The system removed the input amunt view from the screen</li><li>The system adds that food and amount to the plate</li></ol></td>
                         </tr>
                         <tr>
-                            <td>Scan Barcode</td>
-                            <td>The user scans the barcode with their devices camera</td>
-                            <td><ol><li>The system calls the Server with the barcode to get the food name,image nutritional content and calorie count.</li><li>The system displays the information and prompts the user to input the correct amount of in taken</li></ol></td>
-                        </tr>
-                        <tr>
-                            <td>Enter Amount</td>
-                            <td>The user enters the amount</td>
-                            <td>The system calculates the nutritional &amp; calorie value from the amount , and prompts that to the user</td>
-                        </tr>
-                        <tr>
-                            <td>Confirm</td>
-                            <td>The user Confirms to feed muncher the selected food &amp; amount</td>
-                            <td><ol><li>The system adapts muncher based on the nutritional &amp; caloric input</li><li>The system records the calorie intake and nutritional information for use in recommendation</li><li>The system displays a health tip about the inputted food if one is available</li></ol></td>
+                            <td>Confirm Plate</td>
+                            <td>The user Confirms to feed muncher the selected foods &amp; amount</td>
+                            <td><ol><li>The system adapts muncher based on the nutritional &amp; caloric input</li><li>The system records the calorie intake and nutritional information for use in recommendation</li><li>The system displays home screen with a health tip about the inputted food if one is available</li></ol></td>
                         </tr>
                     </table>
 
@@ -252,7 +303,7 @@ if ( !isset($_SESSION['LoggedIn']) ){
                         <li>The use case begins when Opens the App.</li>
                         <li>User selects "Exercise".</li>
                         <li>User selects the intensity of the exercise from soft, medium or hard.</li>
-                        <li>User selects the the duration of the exercise.</li>
+                        <li>User selects the the duration of the exercise in minutes.</li>
                         <li>User sees the estimated calories burnt from that exercise.</li>
                         <li>User confirms</li>
                     </ol>
@@ -262,7 +313,9 @@ if ( !isset($_SESSION['LoggedIn']) ){
                     </a>
                     <h4>Alternate Flows</h4>
                     <strong>None</strong>
-
+                    <p>
+                        to keep this process as simple as possible there is no way for the user to fail doing this step
+                    </p>
                     <!--Task Case : Input Exercise -->
                     <h3 class="muncher-text">Task Case : Input Exercise</h3>
                     <table class="table table-bordered table-striped">
@@ -311,7 +364,7 @@ if ( !isset($_SESSION['LoggedIn']) ){
                         <li>The use case begins when the User opens the App.</li>
                         <li>User selects "Feedback".</li>
                         <li>The user is displayed stats about the nutritional value of their diet</li>
-                        <li>The user can cycle from food’s they should remove from their diet , to food they should try include more of in their diet for a healthy, balanced diet.</li>
+                        <li>The user can cycle  threw the different tabs from food’s they should remove from their diet , to food they should try include more of in their diet for a healthy, balanced diet.</li>
                     </ol>
                     <h4>Alternate Flows</h4>
                     <strong>Not enough information</strong>
@@ -401,7 +454,7 @@ if ( !isset($_SESSION['LoggedIn']) ){
                         <li>She select a different item</li>
                     </ol>
 
-                    <!-- Task Case: Get Feedback -->
+                    <!-- Task Case: Customize Muncher -->
                     <h3 class="muncher-text">Task Case : Customize Muncher</h3>
                     <table class="table table-bordered table-striped">
                         <tr>
@@ -456,7 +509,7 @@ if ( !isset($_SESSION['LoggedIn']) ){
                             <img class="img-responsive" src="images/Design-Assets/task-flow-get-feedback.png" alt="Task Flow Get Feedback">
                         </a>
 
-                        <h3 id="input-food-flow-diagram" class="muncher-text">Get Feedback Task Flow Diagram</h3>
+                        <h3 id="input-food-flow-diagram" class="muncher-text">Input Food Task Flow Diagram</h3>
                         <a href="images/Design-Assets/task-flow-input-food.png" title="Task Flow Create Muncher" data-gallery>
                             <img class="img-responsive" src="images/Design-Assets/task-flow-input-food.png" alt="Task Flow Input Food">
                         </a>

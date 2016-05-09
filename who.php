@@ -94,11 +94,11 @@ if ( !isset($_SESSION['LoggedIn']) ){
                     <p>Mary has been using myfitnesspal for several weeks but she finds it hard to keep up with the difficult UI and checks online to see if there are any other apps that could keep her engaged. She sees that muncher offers you the ability to create your own muncher as well as personalising them. She downloads the app and follows the guided walkthrough in order to create a muncher for herself.</p>
                     <h3 id="scenario2" class="muncher-text">Scenario 2</h3>
                     <p>Mary has been using the app for several weeks and she is very happy with it. She is getting as little bored of the avatar she has created and she wants to mix things up a bit. She Sees that you are able to personalise your avatar in the settings menu. She selects this option and changes the avatar to the look that she desired.</p>
-                    <h3 id="scenario3" class="muncher-text">Scenario 2</h3>
+                    <h3 id="scenario3" class="muncher-text">Scenario 3</h3>
                     <p>Liam is on a healthy eating mission so he downloads the app and decides to go shopping for some healthy food to eat. He buys his food and brings it home. He scans the packet of rice cakes he bought and enters that he ate one of them. Muncher also presents him with data about them including the calories in it.  He decides to eat a banana so goes to scan it but there is no barcode so he uses the drop down menu instead. He feeds muncher and muncher gives him some top tips to keep him motivated and informed.</p>
-                    <h3 id="scenario4" class="muncher-text">Scenario 2</h3>
+                    <h3 id="scenario4" class="muncher-text">Scenario 4</h3>
                     <p>Jason has been hitting the student lifestyle pretty hard lately and he keeps meaning to get in shape and get back playing rugby. He isn’t very motivated, but he wants to start some basic light exercise so he can get back into the swing of things. He inputs into muncher that he wants to exercise 3 times a week at a reasonably low level. He wants to be reminded to get up off the couch so he enables push notifications so muncher can offer him some encouragement. After a couple of weeks he ups the intensity of the exercise as he finds himself getting fitter. </p>
-                    <h3 id="scenario5" class="muncher-text">Scenario 2</h3>
+                    <h3 id="scenario5" class="muncher-text">Scenario 5</h3>
                     <p>Marie is a french au pair who has been using the app for a few weeks. She wants to see how well she has been doing to keep her focused on her goals. She checks out the feedback section where she sees not only visual representations of the food she has consumed but also a detailed breakdown of what each food contained as well as some tips on muncher how best she should continue. She sees that she has been eating a lot of carbs and in order to reach her goal muncher says she should cut them down for a while.</p>
                 </section>
             </div>
@@ -119,6 +119,7 @@ if ( !isset($_SESSION['LoggedIn']) ){
                         </ul>
                     </li>
                     <li><a href="#Scenarios">Scenarios</a>
+                        <!--
                         <ul class="nav nav-stacked">
                             <li><a href="#scenario1">Scenario 1</a></li>
                             <li><a href="#scenario2">Scenario 2</a></li>
@@ -127,6 +128,7 @@ if ( !isset($_SESSION['LoggedIn']) ){
                             <li><a href="#scenario4">Scenario 5</a></li>
 
                         </ul>
+                        -->
                     </li>
                 </ul>
             </div>

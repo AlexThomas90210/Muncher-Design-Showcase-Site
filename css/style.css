@@ -31,6 +31,10 @@ h1 {
     border-bottom: 1px solid #eee;
 }
 
+/*make the margin of a ol inside a td smaller */
+td ol {
+    padding-left: 25px
+}
 /* as specified by the designer all the page text is using this color & font except some specific submit buttons*/
 .muncher-text {
    color: rgb(249, 80, 6);
