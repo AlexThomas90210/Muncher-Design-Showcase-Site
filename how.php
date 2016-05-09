@@ -229,7 +229,7 @@ if ( !isset($_SESSION['LoggedIn']) ){
                         <li>The user selects a different input method</li>
                     </ol>
 
-                    <strong>Speech Recognition Failure<strong>
+                    <strong>Speech Recognition Failure</strong>
                     <ol>
                         <li>The use case begins when Opens the App.</li>
                         <li>User selects "Feed Muncher".</li>
