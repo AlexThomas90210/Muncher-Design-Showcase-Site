@@ -118,10 +118,17 @@ if ( !isset($_SESSION['LoggedIn']) ){
                 <!-- Story Boards -->
                 <section id="storyboards">
                     <h1 class="muncher-text">Story Boards</h1>
-                    <h3 id="get-feedback-flow-diagram" class="muncher-text">Input Food</h3>
+                    <h3 id="storyboard-input-food" class="muncher-text">Food input</h3>
                     <a href="images/Design-Assets/storyboard-input-food.png" title="Storyboard Input Food" data-gallery>
                         <img class="img-responsive" src="images/Design-Assets/storyboard-input-food.png" alt="Storyboard input Food">
                     </a>
+
+                    <h3 id="storyboard-feedback" class="muncher-text">Feedback</h3>
+                    <a href="images/Design-Assets/Storyboard-feedback.png" title="Storyboard Feedback" data-gallery>
+                        <img class="img-responsive" src="images/Design-Assets/storyboard-feedback.png" alt="Storyboard Feedback">
+                    </a>
+
+                    <h3 id="storyboard-exercise" class="muncher-text">Exercise input</h3>
                     <a href="images/Design-Assets/Storyboard-exercise.png" title="Storyboard Exercise" data-gallery>
                         <img class="img-responsive" src="images/Design-Assets/storyboard-exercise.png" alt="Storyboard exercise">
                     </a>
@@ -143,7 +150,13 @@ if ( !isset($_SESSION['LoggedIn']) ){
                                 <li><a href="#wireframe-settings">Settings</a></li>
                             </ul>
                     </li>
-                    <li><a href="#storyboards">Storyboards</a></li>
+                    <li><a href="#storyboards">Storyboards</a>
+                            <ul class="nav nav-stacked">
+                                <li><a href="#storyboard-input-food">Input Food</a></li>
+                                <li><a href="#storyboard-feedback">Feedback</a></li>
+                                <li><a href="#storyboard-exercise">Exercise</a></li>
+                            </ul>
+                    </li>
                 </ul>
             </div>
 

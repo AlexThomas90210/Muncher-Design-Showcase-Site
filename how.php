@@ -217,7 +217,7 @@ if ( !isset($_SESSION['LoggedIn']) ){
                         <li>User confirms to input the plate</li>
                     </ol>
 
-                    <h4>Alternate unSuccesfull Flows</h4>
+                    <h4>Alternate Unsuccesfull Flows</h4>
                     <strong>Barcode undefined</strong>
                     <ol>
                         <li>The use case begins when Opens the App.</li>
