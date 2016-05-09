@@ -118,8 +118,8 @@ if ( !isset($_SESSION['LoggedIn']) ){
                                 </table>
                             </div>
 
-                            <h3>Question 2</h3>
-                                <table class="table table-bordered table-striped">
+                            <h5>Question 2</h5>
+                                <table class="table table-bordered table-striped small">
                                     <tr>
                                         <th>REF</th>
                                         <th>Answer</th>
@@ -145,14 +145,14 @@ if ( !isset($_SESSION['LoggedIn']) ){
                                         <td>Many people are "unaware" they are being unhealthy (or are too stubborn about it). Having something for them to look at and reflect on might be what people need to start eating better and to keep motivated.</td>
                                     </tr>
                                 </table>
-                            <h3>Question 3</h3>
-                            <h3>Question 4</h3>
-                            <h3>Question 5</h3>
-                            <h3>Question 6</h3>
-                            <h3>Question 7</h3>
-                            <h3>Question 8</h3>
-                            <h3>Question 9</h3>
-                            <h3>Question 10</h3>
+                            <h5>Question 3</h5>
+                            <h5>Question 4</h5>
+                            <h5>Question 5</h5>
+                            <h5>Question 6</h5>
+                            <h5>Question 7</h5>
+                            <h5>Question 8</h5>
+                            <h5>Question 9</h5>
+                            <h5>Question 10</h5>
                         </div>
                 </section>
 
