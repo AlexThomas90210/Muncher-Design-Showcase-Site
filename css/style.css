@@ -352,3 +352,13 @@ input:-webkit-autofill:disabled{
 
     margin-top: 80px;
 }
+
+.accordion h5,
+.accordion h5:focus {
+    background-color: lightgray;
+    border:1px solid #555555;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    cursor: hand;
+}
