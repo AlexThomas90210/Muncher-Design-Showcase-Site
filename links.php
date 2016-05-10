@@ -1888,6 +1888,24 @@ if ( !isset($_SESSION['LoggedIn']) ){
                             <h5>Q.1 : If the user is is continuously inputting unhealthy habits, what should happen to the avatar ?</h5>
                             <div>
                                 <img  class="img-responsive" src="images/survey3-q1.png" alt="Survey Question Results" />
+                                <table class="table table-bordered table-striped small">
+                                    <tr>
+                                        <th>No</th>
+                                        <th>Comments</th>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Don't have it die, you'd get so many complaints. I'm all for tough love, but you'd just cause a shitstorm if you did that</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>A limit to the detriment is better. If someone falls off the wagon and their avatar is dead/needs lots of work to improve it won't help motivation</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>I think there should be a chance to start over. But maybe not because of such a drastic "your character died" kinda thing. Maybe it gets to a point where it says. "You're character has gotten to a point where it can't get any fatter, would you like to start over?" Thought that could be phrased better.</td>
+                                    </tr>
+                                </table>
                             </div>
                         </div>
                         <div class="accordion">
@@ -1905,19 +1923,135 @@ if ( !isset($_SESSION['LoggedIn']) ){
                         <div class="accordion">
                             <h5>Q.4 : What are some major pitfalls you think the app must avoid in order to be successful?</h5>
                             <div>
-
+                                <table class="table table-bordered table-striped small">
+                                    <tr>
+                                        <th>No</th>
+                                        <th>Answers</th>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Easy interface</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Don't make the user feel too bad about their avatar- have it remain cute but perhaps rotund and snoring</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Make sure it's easy to input foods.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>Make sure the user can choose how often they get notifications (like one per day, one per hour, and a large variety of other options) One very, very easy way to get your app uninstalled is to have excessive notifications. Also, if you're going to have ads, make them the banner ad at the bottom of the screen, NOT those unskippable full page ads.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>It needs to respond fast enough to a dietary tend that the user can feel the repercussions sooner than they happen in real life, but does enough that treating yourself to a cake once a month isn't going to make the avatar die immediately.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>not taking into account that there are a very large variety of diets and foods that may be healthy. focusing too much on the teaching aspect and not enough on the fun tamagatchi aspect</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>Not too many push notifications, not too much negative comments when people are doing badly</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>making it simple and easy to use</td>
+                                    </tr>
+                                    <tr>
+                                        <td>9</td>
+                                        <td>Make sure it is user friendly and doesn't take too long to load.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10</td>
+                                        <td>Health cannot simply be defined, and there are many dieting methodologies that can be utilized. Therefore, the app must be able to recognize that not all diets are created equally, and that individual health is based on many variables.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>11</td>
+                                        <td>The avatar being ugly. That this part of the app is gimmicky and simply cosmetic, while remaining the same as a standard fitness app. That this is repetitive. That input is difficult, and noticeably takes time out of my day.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>12</td>
+                                        <td>Putting too much emphasis on weight, or only having one idea of what a healthy diet is</td>
+                                    </tr>
+                                </table>
                             </div>
                         </div>
                         <div class="accordion">
                             <h5>Q.5 : What do you think is the single most important aspect this app needs to implement correctly in order to be successful?</h5>
                             <div>
-
+                                <table class="table table-bordered table-striped small">
+                                <tr>
+                                    <th>No</th>
+                                    <th>Answers</th>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Easy to use</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Recognizing unhealthy fats vs healthy fats (omega 3 fatty acids, etc) and types of sugars- honey and agave nectar vs. high fructose corn syrup, for example</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>The correct radio of time. If they eat bad for a weekend it shouldn't add all this weight instantly. Make it realistic.</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Using the avatar to show how you'll look in a month if you continue your current diet/exercise. Don't show how you currently look, show how you'll look in the future since that'll motivate people much more</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>It needs to provide fairly immediate feedback to the user.</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>silliness, elsewise it's just a repeat calorie counter</td>
+                                </tr>
+                                <tr>
+                                    <td>7</td>
+                                    <td>Conditioning to be addicting</td>
+                                </tr>
+                                <tr>
+                                    <td>8</td>
+                                    <td>unsure</td>
+                                </tr>
+                                <tr>
+                                    <td>9</td>
+                                    <td>Esy to input info</td>
+                                </tr>
+                                <tr>
+                                    <td>10</td>
+                                    <td>Allow the user to define their health goals and work towards them rather than have set definitions that may not properly apply to all users.</td>
+                                </tr>
+                                <tr>
+                                    <td>11</td>
+                                    <td>An interesting and fun, preferably game-like way of improving the avatar, that actually makes me keep with the app. When I've tracked my food in the past, I've gotten bored or distracted, and I imagine it's the same for a lot of people - it's generally not that rewarding and doesn't always fit routines. Positive feedback could really help.</td>
+                                </tr>
+                            </table>
                             </div>
                         </div>
                         <div class="accordion">
                             <h5>Q.6 : Which of the following do you think should best describe the themes of the Avatar's? (Multi choice)</h5>
                             <div>
                                 <img class="img-responsive"  src="images/survey3-q6.png" alt="Survey Question Results" />
+                                <table class="table table-bordered table-striped small">
+                                <tr>
+                                    <th>No</th>
+                                    <th>Other</th>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Cool</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>User customization, that way the user gets attached.</td>
+                                </tr>
+                            </table>
                             </div>
                         </div>
                         <div class="accordion">
@@ -1929,13 +2063,80 @@ if ( !isset($_SESSION['LoggedIn']) ){
                         <div class="accordion">
                             <h5>Q.8 : Unfortunately monetisation has to be considered for the app to be successful , assuming the app is well implemented, what do you think is a fair price to pay for the User &amp; for what. (e.g. ads , unlockable special avatars , pay for customisation , pro feature that gives you more detailed stats and feedback, feel free to think outside the box here )</h5>
                             <div>
+                                <table class="table table-bordered table-striped small">
+                                <tr>
+                                    <th>No</th>
+                                    <th>Answers</th>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>4.99</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>One time ~$1.99 charge for pro feature, $.99 for ad removal, and I don't think there should be a charge for avatar customization</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>I think charging a one time $5 is enough.</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Like I said, banner ads, or any ads that aren't pop-up and force you to press X to close then, those ones are annoying. Also have a premium, ad-free one. Try to limit the in-app purchases to stuff that'd be pretty useful, don't have it be another "buy this super cool hat for only $0.99!" Like, let people pay for 3 months of extra detailed stats, or 6 months of no ads, both for $0.99 and a pro version for 2.99 or so. But make the premium stuff only last for a few months unless you buy the pro version, that'd get you more money and keep people motivated (I just spent money for a 3 month pro version, so I can't waste my money by not using it...)</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>I think cosmetics would be okay to charge for, but some options should be free or unlockable. Maybe even make some achievements for cosmetics that can only be achieved through hard work (or lying), but also have some exclusive to paying? Maybe have the user earn in game currency but at a slower rate than can be bought? I don't know.</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>free but with banner ads that can be removed with upgrade and pay for customization including themes, avatars, toys for the avatar, more food graphics etc</td>
+                                </tr>
+                                <tr>
+                                    <td>7</td>
+                                    <td>A free taster version with limited features. Then maybe $5 or so for the full version - no more paying after that. Or ads.</td>
+                                </tr>
+                                <tr>
+                                    <td>8</td>
+                                    <td>$1 to $3 ?</td>
+                                </tr>
+                                <tr>
+                                    <td>9</td>
+                                    <td>Ad's, unlockable characters, maybe themes, and the ability to pay to get rid of ads and get those characters for no more than like 5 bucks.</td>
+                                </tr>
+                                <tr>
+                                    <td>10</td>
+                                    <td>App with ads - Free Paid app without ads - $4.99 Special avatars - $.50 or level up health</td>
+                                </tr>
+                                <tr>
+                                    <td>11</td>
+                                    <td>I'd like indefinite (preferably) use with ads, with a single-payment "pro" version which gives you no ads, and hopefully some extra features. Ads shouldn't be pop-up and interfering, or it'll quickly ware on people, considering it's a lifestyle app, probably not something they're using for fun. They could be fairly prominent banner ads, though. I've liked this in the past, and it's when I've most often paid for anything in an app. It doesn't feel like I'm infinitely trapped in a heavily-advertised app, or that I have to pay before trying. I will also pretty much never use IAPs, and I've had pretty much no experiences where even if they start of reasonable (e.g: only cosmetic), the developer doesn't get greedy and make not using IAPs get in the way of fun/usability. It's just an annoying, immersion-breaking thing to have pop up. The pro version could be adding more features to an avatar game, and maybe better suggestions. I don't think it should remove things like good visualisations of users' nutritional info. It's important the "lite" version feels complete, but that more would be helpful or fun.</td>
+                                </tr>
+                                <tr>
+                                    <td>12</td>
+                                    <td>Pro feature</td>
+                                </tr>
 
+                            </table>
                             </div>
                         </div>
                         <div class="accordion">
                             <h5>Q.9 : If you would like to leave any final thoughts you have here do so, else Thank you very much for your feedback!!</h5>
                             <div>
-
+                                <table class="table table-bordered table-striped small">
+                                <tr>
+                                    <th>No</th>
+                                    <th>Answers</th>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>I said in another survey I wouldn't want to compete against friends, and you said few people wanted this on reddit. This doesn't surprise me, because for myself and many others, diet &amp; fitness are very private things. However, a single-player game element would draw me in more than anything else.</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>If implemented well, this could be very useful.</td>
+                                </tr>
+                            </table>
                             </div>
                         </div>
 
