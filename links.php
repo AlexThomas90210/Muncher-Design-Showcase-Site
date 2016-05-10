@@ -2225,7 +2225,8 @@ if ( !isset($_SESSION['LoggedIn']) ){
     $(document).ready(function() {
         $( ".accordion" ).accordion({
             collapsible: true,
-            active : 'none'
+            active : 'none',
+            heightStyle: "content" 
         });
     });
   </script>
