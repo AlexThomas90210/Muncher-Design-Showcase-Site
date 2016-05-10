@@ -2181,7 +2181,22 @@ if ( !isset($_SESSION['LoggedIn']) ){
                     <p>
                         Below are some References to websites and articles we read when
                     </p>
-                    <a href="#">How digital avatars will inspire – or frighten – us to better health</a>
+                    <a href="http://www.cio.com/article/3007838/ehr/how-digital-avatars-will-inspireor-frighten-us-to-better-health.html">How digital avatars will inspire – or frighten – us to better health</a>
+                    <br>
+                    <a href="http://mobihealthnews.com/news/why-so-few-avatars-health-apps">Why so few avatars in health apps?</a>
+
+                    <p>
+                        Below are some links to Nutritional guideline and principles we will be sticking to, on top of getting a dedicated nutritionist on board with the team
+                    </p>
+                    <a href="http://mynutrition.wsu.edu/nutrition­basics/ ">Importance of carbs, protein and fat</a>
+                    <br>
+                    <a href="http://www.fda.gov/AboutFDA/Transparency/Basics/ucm194310.htm">Information about different types of fat</a>
+                    <br>
+                    <a href="http://study.com/academy/lesson/what­are­micronutrients­definition­types­foods­importance.html">Information about Micro Nutients</a>
+
+
+
+                    </a>
                 </section>
 
                 <!-- Appendix -->
