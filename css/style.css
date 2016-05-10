@@ -361,4 +361,5 @@ input:-webkit-autofill:disabled{
     outline: none;
     cursor: pointer;
     cursor: hand;
+    padding: .7em;
 }
