@@ -183,9 +183,7 @@ if ( !isset($_SESSION['LoggedIn']) ){
                         <li>User confirms to input the plate</li>
                     </ol>
                     <h4>Input with Search wireframes</4>
-                    <a href="images/Design-Assets/use-case-input-food-search.png" title="Use Case Search" data-gallery>
-                        <img class="img-responsive" src="images/Design-Assets/use-case-input-food-search.png" alt="Use Case Search">
-                    </a>
+                    <img class="img-responsive" src="images/Design-Assets/use-case-input-food-search.png" alt="Use Case Search">
 
                     <h4>Alternate Succesfull Flows</h4>
                     <strong> Input Food With Barcode Scanner</strong>
@@ -200,9 +198,7 @@ if ( !isset($_SESSION['LoggedIn']) ){
                         <li>User confirms to input the plate</li>
                     </ol>
                     <h4>Input with Barcode wireframes </h4>
-                    <a href="images/Design-Assets/use-case-input-barcode.png" title="Use Case Exercise" data-gallery>
-                        <img class="img-responsive" src="images/Design-Assets/use-case-input-barcode.png" alt="Use Case barcode">
-                    </a>
+                    <img class="img-responsive" src="images/Design-Assets/use-case-input-barcode.png" alt="Use Case barcode">
 
                     <strong> Input Food With Voice</strong>
                     <ol>
@@ -308,9 +304,8 @@ if ( !isset($_SESSION['LoggedIn']) ){
                         <li>User confirms</li>
                     </ol>
                     <h4>Use Case Wireframe </4>
-                    <a href="images/Design-Assets/use-case-exercise.png" title="Use Case Exercise" data-gallery>
-                        <img class="img-responsive" src="images/Design-Assets/use-case-exercise.png" alt="Use Case Exercise">
-                    </a>
+                    <img class="img-responsive" src="images/Design-Assets/wireframe-exercise.png" alt="Use Case Exercise">
+
                     <h4>Alternate Flows</h4>
                     <strong>None</strong>
                     <p>
@@ -550,10 +545,20 @@ if ( !isset($_SESSION['LoggedIn']) ){
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 text-center">
-                    <p class="footer__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae iaculis ipsum, at elementum leo. In congue elementum ante quis rhoncus. Proin malesuada nec arcu sit amet ullamcorper. Donec consectetur tellus diam, quis cursus augue
-                        vestibulum sit amet.
+                    <p class="footer__p">
+                        <em>Digital Skills Acadamy , Web Elevate 4.0 , Team 28 , Minor Project Design Showcase Website</em>
                         <br>
-                        <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae iaculis ipsum, at elementum leo.
+                        <strong>Team Members</strong>
+                        <br>
+                        Andrew Firman
+                        <br>
+                        Liam Molloy
+                        <br>
+                        James Monaghan
+                        <br>
+                        Tim Nunan
+                        <br>
+                        Alex Thomas
                     </p>
                 </div>
             </div>

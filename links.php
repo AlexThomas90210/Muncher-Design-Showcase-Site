@@ -2377,10 +2377,20 @@ if ( !isset($_SESSION['LoggedIn']) ){
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 text-center">
-                    <p class="footer__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae iaculis ipsum, at elementum leo. In congue elementum ante quis rhoncus. Proin malesuada nec arcu sit amet ullamcorper. Donec consectetur tellus diam, quis cursus augue
-                        vestibulum sit amet.
+                    <p class="footer__p">
+                        <em>Digital Skills Acadamy , Web Elevate 4.0 , Team 28 , Minor Project Design Showcase Website</em>
                         <br>
-                        <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae iaculis ipsum, at elementum leo.
+                        <strong>Team Members</strong>
+                        <br>
+                        Andrew Firman
+                        <br>
+                        Liam Molloy
+                        <br>
+                        James Monaghan
+                        <br>
+                        Tim Nunan
+                        <br>
+                        Alex Thomas
                     </p>
                 </div>
             </div>
