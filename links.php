@@ -2351,17 +2351,17 @@ if ( !isset($_SESSION['LoggedIn']) ){
                     <li><a href="#appendix">Appendix</a>
                         <ul class="nav nav-stacked">
                             <li><a href="#product-release">Product Release</a></li>
-                            <li><a href="#budget-breakdown">Breakdown of Budget</a></li>
+                        <!--    <li><a href="#budget-breakdown">Breakdown of Budget</a></li> -->
                             <li><a href="#timeline">Timeline</a></li>
-                            <li><a href="#concept-art"></a></li>
+                            <li><a href="#concept-art">Concept Art</a></li>
                             <li><a href="#unused-wireframes">Unused Designs</a>
                                 <ul class="nav nav-stacked">
-                                    <li><a href="#unused-create-muncher">Create Muncher</a></li>
-                                    <li><a href="#unused-home">Home</a></li>
-                                    <li><a href="#unused-customize">Customize</a></li>
-                                    <li><a href="#unused-feed">Feed</a></li>
-                                    <li><a href="#unused-input-food">Inut Food</a></li>
-                                    <li><a href="#unused-home-high-res">High Res Home</a></li>
+                                    <li><a href="#unused-create-muncher"><small>Create Muncher</small></a></li>
+                                    <li><a href="#unused-home"><small>Home</small></a></li>
+                                    <li><a href="#unused-customize"><small>Customize</small></a></li>
+                                    <li><a href="#unused-feed"><small>Feed</small></a></li>
+                                    <li><a href="#unused-input-food"><small>Inut Food</small></a></li>
+                                    <li><a href="#unused-home-high-res"><small>High Res Home</small></a></li>
                                 </ul>
                             </li>
                         </ul>
