@@ -2334,8 +2334,8 @@ if ( !isset($_SESSION['LoggedIn']) ){
                     <img class="img-responsive" src="./images/Design-Assets/apendices-storyboard-home.png" alt="" />
 
                     <h3 id="extra-persona">Extra Personas</h3>
-                    <img id="Sinead" class="img-responsive" src="./images/Design-Assets/persona-sinead.png" alt="Sinead">
-                    <img id="Barry" class="img-responsive" src="./images/Design-Assets/persona-barry.png" alt="Barry">
+                    <img id="Sinead" class="img-responsive" src="./images/Design-Assets/extra-persona-sinead.png" alt="Sinead">
+                    <img id="Barry" class="img-responsive" src="./images/Design-Assets/extra-persona-barry.png" alt="Barry">
 
                 </section>
             </div>
