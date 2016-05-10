@@ -2178,6 +2178,10 @@ if ( !isset($_SESSION['LoggedIn']) ){
                 <!-- References -->
                 <section id="references">
                     <h1 class="muncher-text">References</h1>
+                    <p>
+                        Below are some References to websites and articles we read when
+                    </p>
+                    <a href="#">How digital avatars will inspire – or frighten – us to better health</a>
                 </section>
 
                 <!-- Appendix -->
