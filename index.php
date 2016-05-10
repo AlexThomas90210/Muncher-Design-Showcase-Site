@@ -79,7 +79,7 @@ if ( !isset($_SESSION['LoggedIn']) ){
 
         <!-- Product Name -->
         <h1 class="muncher-text">Product Name</h1>
-        <h4>Muncher a Fun, Simple,  Easy to use app for healthy living</h4>
+        <h5><strong>Muncher</strong> - A fun, easy to use healthy app.</h5>
 
         <!-- Intro & Overview -->
         <h1 class="muncher-text">Website Overview</h1>
