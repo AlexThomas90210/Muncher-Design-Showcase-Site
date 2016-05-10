@@ -2198,11 +2198,11 @@ if ( !isset($_SESSION['LoggedIn']) ){
                     <p>
                         This final sprint deals with how the app provides feedback to the user. It is concerned with improving the user experience and allowing them to really enjoy using the app as well as further developing the UI. This sprint will also be used to revisit and finalise any outstanding issues from previous sprints.
                     </p>
-                    <img class="img-responsive" src="./images/Design-Assest/apendices-sprints.jpg" alt="Sprints" style="margin:10px 40px 40px 10px;"/>
+                    <img class="img-responsive" src="./images/Design-Assest/apendices-sprints.png" alt="Sprints" style="margin:10px 40px 40px 10px;"/>
 
                     <h3 class="muncher-text">1. Product Release</h3>
                     <h4>Timeline:</h4>
-                    <em>Iteration 1: Back to school</em>
+                    <strong><em>Iteration 1: Back to school</em></strong>
                     <br>
                     <br>
                     <span><strong>Dates: </strong>1/8/16 - 30/9/16</span>
@@ -2217,8 +2217,9 @@ if ( !isset($_SESSION['LoggedIn']) ){
                     <br>
                     <span><strong>Targets: </strong>Downloads(500) No. of FB shares(300) and likes(1000), PPC R.O.I 7%, Competition shares (500), churn rate< 12%</span>
                     <br>
-
-                    <em>Iteration 2: Halloween</em>
+                    <br>
+                    <br>
+                    <strong><em>Iteration 2: Halloween</em></strong>
                     <br>
                     <br>
                     <span><strong>Dates:</strong>1/10/16 - 31/11/16</span>
@@ -2233,8 +2234,9 @@ if ( !isset($_SESSION['LoggedIn']) ){
                     <br>
                     <span><strong>KPIs: </strong>Additional Downloads(500) No. of FB shares(300) and likes(1000), PPC R.O.I - 7%, Competition shares (500), churn rate< 12%</span>
                     <br>
-
-                    <em>Iteration 3 (Sprint 1):Christmas </em>
+                    <br>
+                    <br>
+                    <strong><em>Iteration 3 (Sprint 1):Christmas </em></strong>
                     <br>
                     <br>
                     <span><strong>Target - Sprint 1:</strong>1/12/16 - 28/12/16</span>
@@ -2247,8 +2249,9 @@ if ( !isset($_SESSION['LoggedIn']) ){
                     <br>
                     <span><strong>KPIs: </strong>Additional Downloads(500) No. of FB shares(300) and likes(1000), PPC R.O.I - 7%, Competition shares (500), churn rate< 12%</span>
                     <br>
-
-                    <em>Iteration 3 (Sprint 2): 28/12/16 - 31/1/2017 </em>
+                    <br>
+                    <br>
+                    <strong><em>Iteration 3 (Sprint 2): 28/12/16 - 31/1/2017 </em></strong>
                     <br>
                     <br>
                     <span><strong>Target group: </strong>People who overindulged, want to get in shape after xmas.</span>
@@ -2261,8 +2264,9 @@ if ( !isset($_SESSION['LoggedIn']) ){
                     <br>
                     <span><strong>KPIs: </strong>Additional Downloads(500)No. of FB shares(300) and likes(1000), PPC R.O.I - 7%, Competition shares (500), churn rate< 12%</span>
                     <br>
-
-                    <em>Iteration 4: St.Patrick’s day</em>
+                    <br>
+                    <br>
+                    <strong><em>Iteration 4: St.Patrick’s day</em></strong>
                     <br>
                     <br>
                     <span><strong>Target: </strong>Target: Health conscious individuals</span>
@@ -2280,7 +2284,7 @@ if ( !isset($_SESSION['LoggedIn']) ){
                     <img class="img-responsive" src="./images/Design-Assets/apendices-dragon.png" alt="" />
                     <div class="row">
                         <div class="col-sm-6">
-                            <img class="img-responsive" src="./images/Design-Assets/apendices-muncher1.png" alt="Muncher 1" />
+                            <img class="img-responsive" src="./images/Design-Assets/apendices-muncher.png" alt="Muncher 1" />
                         </div>
                         <div class="col-sm-6">
                             <img class="img-responsive" src="./images/Design-Assets/apendices-muncher2.png" alt="Muncher 2" />
@@ -2322,7 +2326,7 @@ if ( !isset($_SESSION['LoggedIn']) ){
                     <p>
                         This version of the home page was not used as we wanted to give a bigger emphasis on the Muncher as it is the core feature of the App
                     </p>
-                    <img class="img-responsive" src="./images/Design-Assets/storyboard-home.png" alt="" />
+                    <img class="img-responsive" src="./images/Design-Assets/apendices-storyboard-home.png" alt="" />
 
                 </section>
             </div>
