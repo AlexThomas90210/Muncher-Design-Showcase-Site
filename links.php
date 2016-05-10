@@ -1837,43 +1837,43 @@ if ( !isset($_SESSION['LoggedIn']) ){
                         <div class="accordion">
                             <h5>Q.3 : Would you like the app to specifically tell you what you should take out of your diet?</h5>
                             <div>
-                                <img  class="img-responsive" src="images/survey2.png-q3" alt="Survey Question Results" />
+                                <img  class="img-responsive" src="images/survey2-q3.png" alt="Survey Question Results" />
                             </div>
                         </div>
                         <div class="accordion">
                             <h5>Q.4 : Do you like the idea of your character evolving to indicate that you are doing well?</h5>
                             <div>
-                                <img class="img-responsive"  src="images/survey2.png-q4" alt="Survey Question Results" />
+                                <img class="img-responsive"  src="images/survey2-q4.png" alt="Survey Question Results" />
                             </div>
                         </div>
                         <div class="accordion">
                             <h5>Q.5 :Should the character be the main aspect of the app?</h5>
                             <div>
-                                <img  class="img-responsive" src="images/survey2.png-q5" alt="Survey Question Results" />
+                                <img  class="img-responsive" src="images/survey2-q5.png" alt="Survey Question Results" />
                             </div>
                         </div>
                         <div class="accordion">
                             <h5>Q.6 : Would you like to input your goals and have the app take that into consideration when evaluating what you’re eating?</h5>
                             <div>
-                                <img class="img-responsive"  src="images/survey2.png-q6" alt="Survey Question Results" />
+                                <img class="img-responsive"  src="images/survey2-q6.png" alt="Survey Question Results" />
                             </div>
                         </div>
                         <div class="accordion">
                             <h5>Q.7 : Would you like to give a specific diet that you want to follow?(Vegan, Vegetarian , atkins, paleo, low fat, low carbs)?</h5>
                             <div>
-                                <img class="img-responsive"  src="images/survey2.png-q7" alt="Survey Question Results" />
+                                <img class="img-responsive"  src="images/survey2-q7.png" alt="Survey Question Results" />
                             </div>
                         </div>
                         <div class="accordion">
                             <h5>Q.8 : Do you think the app should take into consideration exercise or only focus on diet?</h5>
                             <div>
-                                <img class="img-responsive"  src="images/survey2.png-q8" alt="Survey Question Results" />
+                                <img class="img-responsive"  src="images/survey2-q8.png" alt="Survey Question Results" />
                             </div>
                         </div>
                         <div class="accordion">
                             <h5>Q.9 : Do you think the app should be like a game where you can fight with other users , or more of an informative app which just gives you stats in a fun way?</h5>
                             <div>
-                                <img  class="img-responsive" src="images/survey2.png-q9" alt="Survey Question Results" />
+                                <img  class="img-responsive" src="images/survey2-q9.png" alt="Survey Question Results" />
                             </div>
                         </div>
                         <div class="accordion">
