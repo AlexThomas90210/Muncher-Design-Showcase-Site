@@ -152,51 +152,27 @@ if ( !isset($_SESSION['LoggedIn']) ){
         </div>
     </footer>
 
-    <!--MARK: Modal Contact form-->
+    <!--MARK: Modal Prototype-->
     <div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
-                <!-- Contact Form -->
-                <form id="contactForm" class="form-horizontal" method="post" action="./ajax/contactSimple.php" onsubmit="return false;">
 
                     <!-- Modal Head -->
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                        <h4 class="modal-title text-center">Contact</h4>
+                        <h4 class="modal-title text-center">Prototype</h4>
                     </div>
 
                     <!-- Modal Body -->
                     <div class="modal-body">
-                        <div class="form-group">
-                            <label for="contactName" class="col-sm-2 control-label">Name</label>
-                            <div class="col-sm-10">
-                                <input type="text" class="form-control" name="contactName" required placeholder="Name">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="contactEmail" class="col-sm-2 control-label">Email</label>
-                            <div class="col-sm-10">
-                                <input type="email" class="form-control" name="contactEmail" placeholder="you@example.com" required>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="contactMessage" class="col-sm-2 control-label">Message</label>
-                            <div class="col-sm-10">
-                                <textarea class="form-control" name="contactMessage" rows="8" placeholder="Message" required></textarea>
-                            </div>
-                        </div>
+                        <iframe src="https://xd.adobe.com/embed/bbda9e22-d610-42bc-7b15-958fb5f9926d/" width="100%" height="100%" style="border: 0px none; margin-left: -185px; height: 859px; margin-top: 0px; width: 926px;"></iframe>
                     </div>
 
                     <!-- Modal Footer -->
                     <div class="modal-footer">
-                        <!-- where the ajax response will be put -->
-                        <p id="contactResponse"></p>
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        <button class="btn btn--muncher" type="submit">Send</button>
                     </div>
 
-                </form>
-                <!-- End of Contact form -->
             </div>
         </div>
     </div>

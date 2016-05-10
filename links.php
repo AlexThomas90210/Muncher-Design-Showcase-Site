@@ -2126,8 +2126,8 @@ if ( !isset($_SESSION['LoggedIn']) ){
                         </div>
 
                         <h3 id="focus-group" class="muncher-text">Focus Group</h3>
-                        <h6>Conducted by : Liam Molloy, Group 28</h6>
-                        <h6>Members</h6>
+                        <h5>Conducted by : Liam Molloy, Group 28</h5>
+                        <h5>Members</h5>
                         <ol>
                             <li>Charlie McGee, Kilnageer, Belcarra, Castlebar, Co.Mayo</li>
                             <li>Liam Heffernan, Kilnageer, Belcarra, Castlebar,Co. Mayo</li>
@@ -2136,15 +2136,15 @@ if ( !isset($_SESSION['LoggedIn']) ){
                             <li>Loraine Morley, Knock village, Co.Mayo, Ireland.</li>
                             <li>Eoin O Sullivan, Belcarra, Co. Mayo Ireland.</li>
                         </ol>
-                        <h6>Purpose</h6>
+                        <h5>Purpose</h5>
                         <p>
                             The purpose of this mini focus group was to try and gain some feedback about our ideas from a group of people that had never heard of the product before. We felt it would be beneficial to undertake this in order to complement the information we had already gathered through our surveys. We also felt it would be a good opportunity to get a different perspective on the project from outside of our own group of five people.
                         </p>
-                        <h6>Structure</h6>
+                        <h5>Structure</h5>
                         <p>
                             The meeting took place in an informal setting where we discussed all the functional models we were considering and how they felt they would work as part of the app. Each person was given a chance to make their own suggestions as well as the group as a whole.
                         </p>
-                        <h6>Findings</h6>
+                        <h5>Findings</h5>
                         <ol>
                             <li>The group was extremely impressed by our product idea and felt that it would be something that they would use. They particularly liked the idea of a cuddly monster that changes based on what you fed him. </li>
                             <li>As regards the monster, they said that they would like him to change based on what he is fed but they also suggested a number of different poses they would also like to see him doing.
@@ -2178,6 +2178,152 @@ if ( !isset($_SESSION['LoggedIn']) ){
                 <!-- Appendix -->
                 <section id="appendix">
                     <h1 class="muncher-text">Appendix</h1>
+                    <h3 class="muncher-text">1. Product Release</h3>
+                    <em>A basic overview of our product development timeline. Each sprint comprises 2 weeks.</em>
+                    <br>
+                    <h4>Sprint 1:</h4>
+                    <em>Goal: To produce a Basic working model of our app.</em>
+                    <br>
+                    <p>
+                        At the end of sprint 1, we should have produced something that appears very like our final product. We will have laid the foundations for our app. This will lack advanced features such as push notifications and statistical feedback which will be added in future sprints.
+                    </p>
+                    <h4>Sprint 2:</h4>
+                    <em>Goal: To provide additional functionality to the basic model.</em>
+                    <br>
+                    <p>
+                        The goal of the second sprint was to produce an operational version of our product. To that end the work done here is to allow users to interact with the app. After developing the foundations in sprint one, sprint two is concerned with developing more advanced functions to add to the app.
+                    </p>
+                    <h4>Sprint 3:</h4>
+                    <em>Goal: To integrate reporting/feedback functions for the UX.</em>
+                    <p>
+                        This final sprint deals with how the app provides feedback to the user. It is concerned with improving the user experience and allowing them to really enjoy using the app as well as further developing the UI. This sprint will also be used to revisit and finalise any outstanding issues from previous sprints.
+                    </p>
+                    <img class="img-responsive" src="./images/Design-Assest/apendices-sprints.jpg" alt="Sprints" style="margin:10px 40px 40px 10px;"/>
+
+                    <h3 class="muncher-text">1. Product Release</h3>
+                    <h4>Timeline:</h4>
+                    <em>Iteration 1: Back to school</em>
+                    <br>
+                    <br>
+                    <span><strong>Dates: </strong>1/8/16 - 30/9/16</span>
+                    <br>
+                    <span><strong>Target: </strong>Kids and their parents from 12+</span>
+                    <br>
+                    <span><strong>Content: </strong>Helps you concentrate when you learning, be active, be healthy, parents can see what they have been eating, muncher in school uniform etc.</span>
+                    <br>
+                    <span><strong>Key Partners: </strong>Schools, parents, healthy eating initiatives for kid</span>
+                    <br>
+                    <span><strong>Channels: </strong>Social Media, Google Adwords and Bing Ads</span>
+                    <br>
+                    <span><strong>Targets: </strong>Downloads(500) No. of FB shares(300) and likes(1000), PPC R.O.I 7%, Competition shares (500), churn rate< 12%</span>
+                    <br>
+
+                    <em>Iteration 2: Halloween</em>
+                    <br>
+                    <br>
+                    <span><strong>Dates:</strong>1/10/16 - 31/11/16</span>
+                    <br>
+                    <span><strong>Target: </strong>Kids and their parents from 12+</span>
+                    <br>
+                    <span><strong>Content: </strong>Change muncher, healthy sweets ideas, Brush their teeth (good if parents see us as encouraging their kids)</span>
+                    <br>
+                    <span><strong>Competitions: </strong>Win a muncher costume and €200 euros, Download app, like and share on FB/Twitter/Instagram .Promote across all channels</span>
+                    <br>
+                    <span><strong>Channels: </strong>Social Media, Google Adwords and Bing Ads.</span>
+                    <br>
+                    <span><strong>KPIs: </strong>Additional Downloads(500) No. of FB shares(300) and likes(1000), PPC R.O.I - 7%, Competition shares (500), churn rate< 12%</span>
+                    <br>
+
+                    <em>Iteration 3 (Sprint 1):Christmas </em>
+                    <br>
+                    <br>
+                    <span><strong>Target - Sprint 1:</strong>1/12/16 - 28/12/16</span>
+                    <br>
+                    <span><strong>Content: </strong>Basic, Getting ready for xmas, Santa muncher , Advent calendar of healthy foods, easy game as part of competition</span>
+                    <br>
+                    <span><strong>Competitions: </strong>€200 euros supervalu voucher for winner of game. Keep it local. </span>
+                    <br>
+                    <span><strong>Channels: </strong>Social Media, Google Adwords and Bing Ads.</span>
+                    <br>
+                    <span><strong>KPIs: </strong>Additional Downloads(500) No. of FB shares(300) and likes(1000), PPC R.O.I - 7%, Competition shares (500), churn rate< 12%</span>
+                    <br>
+
+                    <em>Iteration 3 (Sprint 2): 28/12/16 - 31/1/2017 </em>
+                    <br>
+                    <br>
+                    <span><strong>Target group: </strong>People who overindulged, want to get in shape after xmas.</span>
+                    <br>
+                    <span><strong>Content: </strong>Muncher is fatter/unhealthy, but motivated. “Lets move that turkey”</span>
+                    <br>
+                    <span><strong>Competitions: </strong> 6 months gym membership (approx €200 euros),Download app, like and share on FB/Twitter/Instagram, Promote across all channels.</span>
+                    <br>
+                    <span><strong>Channels: </strong>Social Media, Google Adwords and Bing Ads.</span>
+                    <br>
+                    <span><strong>KPIs: </strong>Additional Downloads(500)No. of FB shares(300) and likes(1000), PPC R.O.I - 7%, Competition shares (500), churn rate< 12%</span>
+                    <br>
+
+                    <em>Iteration 4: St.Patrick’s day</em>
+                    <br>
+                    <br>
+                    <span><strong>Target: </strong>Target: Health conscious individuals</span>
+                    <br>
+                    <span><strong>Content: </strong>Muncher goes green, “eat your greens” theme.</span>
+                    <br>
+                    <span><strong>Competitions: </strong>Win a €200 euro voucher, Best St.Patrick’s day themed costume - likes on the FB page.</span>
+                    <br>
+                    <span><strong>Channels: </strong>Social Media, Google Adwords and Bing Ads.</span>
+                    <br>
+                    <span><strong>KPIs: </strong>Downloads(500)No. of FB shares(300) and likes(1000), PPC R.O.I - 7%, Competition shares (500), churn rate < 12%</span>
+                    <br>
+
+                    <h3 class="muncher-text">Extra concept Art</h3>
+                    <img class="img-responsive" src="./images/Design-Assets/apendices-dragon.png" alt="" />
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <img class="img-responsive" src="./images/Design-Assets/apendices-muncher1.png" alt="Muncher 1" />
+                        </div>
+                        <div class="col-sm-6">
+                            <img class="img-responsive" src="./images/Design-Assets/apendices-muncher2.png" alt="Muncher 2" />
+                        </div>
+                    </div>
+
+                    <h3 class="muncher-text"> Unused Wireframe Design</h3>
+                    <h4>Create Muncher</h4>
+                    <p>
+                        This version of the create muncher screen was not used as we want to keep the application simple and streamlined so we did not what 2 seperate screens for the Create Muncher task
+                    </p>
+                    <img class="img-responsive" src="./images/Design-Assets/apendices-wireframe-create-muncher.png" alt="" />
+                    <h4>Home</h4>
+                    <p>
+                        This version of the home screen was not used as we wanted to seperate settings from the rest of the main buttons as it serves an unrelated task compared to the other functions
+                    </p>
+                    <img class="img-responsive" src="./images/Design-Assets/apendices-wireframe-home-1.png" alt="" />
+                    <p>
+                        This version of the home screen was not used similarly to the create muncher wireframe we wanted to simplify the users flow threw the app so did not want extra button clicks
+                    </p>
+                    <img class="img-responsive" src="./images/Design-Assets/apendices-wireframe-home-2.png" alt="" />
+                    <h4>customize</h4>
+                    <p>
+                        Again this early version of the app was not used in an attempt to keep the number of screens the user traverses to a minimum
+                    </p>
+                    <img class="img-responsive" src="./images/Design-Assets/apendices-wireframe-customize.png" alt="" />
+                    <h4>feed</h4>
+                    <p>
+                        This version of feed's original Idea was when the user inputs the food , Muncher would automatically add 1 portion of the food to the plate , then the user could select the food and change the quantity,however we decided we should force the user to input the food before its added to the plate so we can control the flow of the user to keep it simple.
+                    </p>
+                    <img class="img-responsive" src="./images/Design-Assets/apendices-wireframe-feed.png" alt="" />
+                    <h4>input food</h4>
+                    <p>
+                        This version of inputing food was also not used in an attempt to keep the number of screen to a minimum for the user
+                    </p>
+                    <img class="img-responsive" src="./images/Design-Assets/apendices-wireframe-input-food.png" alt="" />
+
+                    <h3 class "muncher-text">Unused High Fedelity Home</h3>
+                    <p>
+                        This version of the home page was not used as we wanted to give a bigger emphasis on the Muncher as it is the core feature of the App
+                    </p>
+                    <img class="img-responsive" src="./images/Design-Assets/storyboard-home.png" alt="" />
+
                 </section>
             </div>
 
@@ -2215,51 +2361,27 @@ if ( !isset($_SESSION['LoggedIn']) ){
         </div>
     </footer>
 
-    <!--MARK: Modal Contact form-->
+    <!--MARK: Modal Prototype-->
     <div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
-                <!-- Contact Form -->
-                <form id="contactForm" class="form-horizontal" method="post" action="./ajax/contactSimple.php" onsubmit="return false;">
 
                     <!-- Modal Head -->
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                        <h4 class="modal-title text-center">Contact</h4>
+                        <h4 class="modal-title text-center">Prototype</h4>
                     </div>
 
                     <!-- Modal Body -->
                     <div class="modal-body">
-                        <div class="form-group">
-                            <label for="contactName" class="col-sm-2 control-label">Name</label>
-                            <div class="col-sm-10">
-                                <input type="text" class="form-control" name="contactName" required placeholder="Name">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="contactEmail" class="col-sm-2 control-label">Email</label>
-                            <div class="col-sm-10">
-                                <input type="email" class="form-control" name="contactEmail" placeholder="you@example.com" required>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="contactMessage" class="col-sm-2 control-label">Message</label>
-                            <div class="col-sm-10">
-                                <textarea class="form-control" name="contactMessage" rows="8" placeholder="Message" required></textarea>
-                            </div>
-                        </div>
+                        <iframe src="https://xd.adobe.com/embed/bbda9e22-d610-42bc-7b15-958fb5f9926d/" width="100%" height="100%" style="border: 0px none; margin-left: -185px; height: 859px; margin-top: 0px; width: 926px;"></iframe>
                     </div>
 
                     <!-- Modal Footer -->
                     <div class="modal-footer">
-                        <!-- where the ajax response will be put -->
-                        <p id="contactResponse"></p>
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        <button class="btn btn--muncher" type="submit">Send</button>
                     </div>
 
-                </form>
-                <!-- End of Contact form -->
             </div>
         </div>
     </div>

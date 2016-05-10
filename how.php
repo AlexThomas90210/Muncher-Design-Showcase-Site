@@ -560,17 +560,15 @@ if ( !isset($_SESSION['LoggedIn']) ){
         </div>
     </footer>
 
-    <!--MARK: Modal Contact form-->
+    <!--MARK: Modal Prototype-->
     <div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
-                <!-- Contact Form -->
-                <form id="contactForm" class="form-horizontal" method="post" action="./ajax/contactSimple.php" onsubmit="return false;">
 
                     <!-- Modal Head -->
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                        <h4 class="modal-title text-center">Contact</h4>
+                        <h4 class="modal-title text-center">Prototype</h4>
                     </div>
 
                     <!-- Modal Body -->
@@ -580,14 +578,9 @@ if ( !isset($_SESSION['LoggedIn']) ){
 
                     <!-- Modal Footer -->
                     <div class="modal-footer">
-                        <!-- where the ajax response will be put -->
-                        <p id="contactResponse"></p>
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        <button class="btn btn--muncher" type="submit">Send</button>
                     </div>
 
-                </form>
-                <!-- End of Contact form -->
             </div>
         </div>
     </div>
