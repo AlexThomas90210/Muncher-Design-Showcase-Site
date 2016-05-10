@@ -78,15 +78,16 @@ if ( !isset($_SESSION['LoggedIn']) ){
                 <section id="research">
                     <h1 class="muncher-text">Research</h1>
                         <p>
-                            For the data gathering process , we had an idea to use www.reddit.com . Reddit is a very popular website where users can post information about anything with each other in ‘subreddits’ that are separated by topic. If users like the post they upvote it, if they don’t they downvote it, then posts are ordered by how many upvotes they have , popular content stays at the top of a subreddit for a period of < 24 hours.
+                            For the data gathering process , we had an idea to use <a href="www.reddit.com">www.reddit.com</a>. Reddit is a very popular website where users can post information about anything with each other in ‘subreddits’ that are separated by topic. If users like the post they upvote it, if they don’t they downvote it, then posts are ordered by how many upvotes they have , popular content stays at the top of a subreddit for a period of < 24 hours.
                         </p>
                         <p>
-                            The subreddit that we choose was www.reddit.com/r/SampleSize ,it has 32,000 subscribers and is a dedicated subreddit for people to get feedback on surveys or studies , where if Users are interested in the topic , they will take the survey. We saw this as an excellent opportunity to survey a large number of people within our target audience.
+                            The subreddit that we choose was <a href="www.reddit.com/r/SampleSize">www.reddit.com/r/SampleSize</a> ,it has 32,000 subscribers and is a dedicated subreddit for people to get feedback on surveys or studies , where if Users are interested in the topic , they will take the survey. We saw this as an excellent opportunity to survey a large number of people within our target audience.
                         </p>
                         <p>
-                            We made a new post which you can see Here giving a brief description of the app in its title and a link to 2 surveys. Quickly our post on reddit got a massive amount of upvotes in its subreddit with hundreds of people taking our surveys and giving us detailed feedback with a huge amount of positivity.Within 12 hours our post had 200 upvotes and was at the top of the subreddit, the second place post was at 19 upvotes at the time showing what a staggering effect our post had.
+                            We made a new post which you can see <a href="https://www.reddit.com/r/SampleSize/comments/48oqf6/academicim_creating_an_app_called_muncher_for/">Here</a> giving a brief description of the app in its title and a link to 2 surveys. Quickly our post on reddit got a massive amount of upvotes in its subreddit with hundreds of people taking our surveys and giving us detailed feedback with a huge amount of positivity.Within 12 hours our post had 200 upvotes and was at the top of the subreddit, the second place post was at 19 upvotes at the time showing what a staggering effect our post had.
                         </p>
 
+                        <h6>click question to view answers</h6>
                         <h3 id="survey-1" class="muncher-text">Survey 1 (Qualititive)</h3>
                         <div class="accordion">
                             <h5>Q.1 : Do you like or dislike any aspect of the idea? if so what is it?</h5>
@@ -2124,6 +2125,49 @@ if ( !isset($_SESSION['LoggedIn']) ){
                             </div>
                         </div>
 
+                        <h3 id="focus-group" class="muncher-text">Focus Group</h3>
+                        <h6>Conducted by : Liam Molloy, Group 28</h6>
+                        <h6>Members</h6>
+                        <ol>
+                            <li>Charlie McGee, Kilnageer, Belcarra, Castlebar, Co.Mayo</li>
+                            <li>Liam Heffernan, Kilnageer, Belcarra, Castlebar,Co. Mayo</li>
+                            <li>Brendan Redmond, Garryduff, Castlebar, Co. Mayo</li>
+                            <li>Stephen Kilroy, 48 springfield court, Castlebar, Co. Mayo</li>
+                            <li>Loraine Morley, Knock village, Co.Mayo, Ireland.</li>
+                            <li>Eoin O Sullivan, Belcarra, Co. Mayo Ireland.</li>
+                        </ol>
+                        <h6>Purpose</h6>
+                        <p>
+                            The purpose of this mini focus group was to try and gain some feedback about our ideas from a group of people that had never heard of the product before. We felt it would be beneficial to undertake this in order to complement the information we had already gathered through our surveys. We also felt it would be a good opportunity to get a different perspective on the project from outside of our own group of five people.
+                        </p>
+                        <h6>Structure</h6>
+                        <p>
+                            The meeting took place in an informal setting where we discussed all the functional models we were considering and how they felt they would work as part of the app. Each person was given a chance to make their own suggestions as well as the group as a whole.
+                        </p>
+                        <h6>Findings</h6>
+                        <ol>
+                            <li>The group was extremely impressed by our product idea and felt that it would be something that they would use. They particularly liked the idea of a cuddly monster that changes based on what you fed him. </li>
+                            <li>As regards the monster, they said that they would like him to change based on what he is fed but they also suggested a number of different poses they would also like to see him doing.
+                                <ul>
+                                    <li>Lying down with loads of junk food</li>
+                                    <li>Ready for a jog</li>
+                                    <li>Feeling Tired</li>
+                                    <li>Cooking hat on - to compliment food suggestions</li>
+                                    <li>Bored - After inactivity</li>
+                                    <li>Zen master pose</li>
+                                    <li>Happy after a run/good meal etc. </li>
+                                    <li>Wagging its finger at you in a playful manner.</li>
+                                    <li>Hungry</li>
+                                </ul>
+                            </li>
+                            <li>As regards the UI they suggested a drop down menu not unlike those used at self service counters to find a vegetable or something without a barcode. They felt this would make it easy to input the food you have eaten. As regards speaking into the app the group was unsure. They said it would be a good function to have but they would not use it in public and they worried about its functionality if the meal was complicated.</li>
+                            <li>They agreed that they would like to set goals such as walking 10,000 steps, losing x amount of weight etc.</li>
+                            <li>They also said that they would like to have a visual representation of what they had eaten as well as what they should be eating. Maybe in  a pie chart format. </li>
+                            <li>We also talked about a reinforcement system in order to help you achieve your goals. They suggested that maybe blocking your facebook for a day or so if you have been inactive may be an effective way of doing this. I am not sure if this is plausible in reality. </li>
+                            <li>As regards creating their own avatar, they all actually agreed that they would rather personalise their own avatar rather than creating their own. The liked the idea of having the muncher character as a constant but with some minor tweaks available. They also suggested maybe people could pay to unlock other features such as more creative ways to personalise.</li>
+                            <li>They also suggested using a “slap and a kiss” method where you point out something somebody is doing badly but also reinforce what they are doing well, i.e. Hey it’s muncher- you’ve been doing a badly but you’ve been eating lots of vegetable so keep up the good work.</li>
+                            <li>The group felt that they would like to be reminded to do stuff during the day, from drinking water to doing some exercise. This would have to be optional i feel as some people would find push notifications quite annoying. </li>
+                        </ol>
                 </section>
 
                 <!-- References -->
@@ -2145,6 +2189,7 @@ if ( !isset($_SESSION['LoggedIn']) ){
                             <li><a href="#survey-1">Survey 1</a></li>
                             <li><a href="#survey-2">Survey 2</a></li>
                             <li><a href="#survey-3">Survey 3</a></li>
+                            <li><a href="#focus-group">Focus Group</a></li>
                         </ul>
                     </li>
                     <li><a href="#references">References</a></li>

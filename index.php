@@ -102,6 +102,7 @@ if ( !isset($_SESSION['LoggedIn']) ){
             <p>
                 It is intended to offer this app on ios, Android and Microsoft mobile devices.
             </p>
+            <h3 class="muncher-text">Concept Art</h3>
             <p>
                 Our unique Selling point which differenciates us from the market is the Avatar or "Muncher" that the user creates and it adapts based on the users diet &amp; Exercise levels , the concept art below gives a representation of how the Avatar will adapt to the input of the User.
             </p>
