@@ -2299,11 +2299,11 @@ if ( !isset($_SESSION['LoggedIn']) ){
                     <img class="img-responsive" src="./images/Design-Assets/apendices-wireframe-create-muncher.png" alt="" />
                     <h4>Home</h4>
                     <p>
-                        This version of the home screen was not used as we wanted to seperate settings from the rest of the main buttons as it serves an unrelated task compared to the other functions
+                        This version of the home screen was not used as we wanted to seperate settings from the rest of the main buttons as it serves an unrelated task compared to the other functions.
                     </p>
                     <img class="img-responsive" src="./images/Design-Assets/apendices-wireframe-home-1.png" alt="" />
                     <p>
-                        This version of the home screen was not used similarly to the create muncher wireframe we wanted to simplify the users flow threw the app so did not want extra button clicks
+                        This version of the home screen was not used similarly to the create muncher wireframe we wanted to simplify the users flow through the app so we did not want extra button clicks.
                     </p>
                     <img class="img-responsive" src="./images/Design-Assets/apendices-wireframe-home-2.png" alt="" />
                     <h4>customize</h4>
@@ -2322,7 +2322,7 @@ if ( !isset($_SESSION['LoggedIn']) ){
                     </p>
                     <img class="img-responsive" src="./images/Design-Assets/apendices-wireframe-input-food.png" alt="" />
 
-                    <h3 class "muncher-text">Unused High Fedelity Home</h3>
+                    <h3 class "muncher-text">Unused High Resolution Home</h3>
                     <p>
                         This version of the home page was not used as we wanted to give a bigger emphasis on the Muncher as it is the core feature of the App
                     </p>
