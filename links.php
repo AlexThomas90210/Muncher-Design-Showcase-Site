@@ -623,10 +623,9 @@ if ( !isset($_SESSION['LoggedIn']) ){
                                     <td>43</td>
                                     <td>The ability of the app to analyze dietary information that is later reflected in the shape of the creature</td>
                                 </tr>
-
+                            </table>
                             </div>
                             <div class="accordion">
-                            </table>
                             <h5>Q.4 : What aspect about healthy eating do you think you need help with?</h5>
                             <table class="table table-bordered table-striped small">
                                 <tr>
