@@ -91,7 +91,7 @@ if ( !isset($_SESSION['LoggedIn']) ){
         <!-- Product Definition -->
         <h1 class="muncher-text">Product Definition</h1>
             <p>
-                The concept behind Muncher is to develop an app into which the user can input everything they eat in order to gain visual feedback on how healthy (or not) their diet is. This app is being proposed in order to fulfil a market need for a simple, portable method to monitor and gain feedback on daily dietary requirements. The app will provide this feedback on how the food consumed impacts the user’s health by producing an Avatar to represent them and their food choices.
+                The concept of muncher is an app that allows the user to input all the food they consume in order to track their diet including their calorie and nutrient intake. It also allows people to create a fun avatar which they feed that changes based on what they are fed.. This app is being proposed in order to fulfil a market need for a simple, portable method to monitor and gain feedback on daily dietary requirements. The app will provide this feedback on how the food consumed impacts the user’s health by producing an Avatar to represent them and their food choices.
             </p>
             <p>
                 The user is intended to enter their daily food intake and, depending on the nutrients given to the Avatar, it evolves appropriately. Providing the Avatar suitable nourishment will create an amiable and attractive monster, while feeding it an unbalanced diet will cause the avatar to reflect that. In addition the app will also give user feedback on how to improve their Avatar, providing an entertaining way for users to learn about proper nutrition and to track their diet.
