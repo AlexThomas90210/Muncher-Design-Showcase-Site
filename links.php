@@ -2311,17 +2311,17 @@ if ( !isset($_SESSION['LoggedIn']) ){
                         This version of the home screen was not used similarly to the create muncher wireframe we wanted to simplify the users flow through the app so we did not want extra button clicks.
                     </p>
                     <img class="img-responsive" src="./images/Design-Assets/apendices-wireframe-home-2.png" alt="" />
-                    <h4 id="unused-customize">customize</h4>
+                    <h4 id="unused-customize">Customize</h4>
                     <p>
                         Again this early version of the app was not used in an attempt to keep the number of screens the user traverses to a minimum
                     </p>
                     <img class="img-responsive" src="./images/Design-Assets/apendices-wireframe-customize.png" alt="" />
-                    <h4 id="unused-feed">feed</h4>
+                    <h4 id="unused-feed">Feed</h4>
                     <p>
                         This version of feed's original Idea was when the user inputs the food , Muncher would automatically add 1 portion of the food to the plate , then the user could select the food and change the quantity,however we decided we should force the user to input the food before its added to the plate so we can control the flow of the user to keep it simple.
                     </p>
                     <img class="img-responsive" src="./images/Design-Assets/apendices-wireframe-feed.png" alt="" />
-                    <h4 id="unused-input-food">input food</h4>
+                    <h4 id="unused-input-food">Input food</h4>
                     <p>
                         This version of inputing food was also not used in an attempt to keep the number of screen to a minimum for the user
                     </p>
