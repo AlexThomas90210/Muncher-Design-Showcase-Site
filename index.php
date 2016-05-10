@@ -107,7 +107,7 @@ if ( !isset($_SESSION['LoggedIn']) ){
                 Our unique Selling point which differenciates us from the market is the Avatar or "Muncher" that the user creates and it adapts based on the users diet &amp; Exercise levels , the concept art below gives a representation of how the Avatar will adapt to the input of the User.
             </p>
             <p>
-                <strong>Concept Art A</strong> shows the starting Avatar when the user creates a new Avatar, It has moderate features and definitions<br>
+                <strong>Concept Art A</strong> shows the starting Avatar when the user creates a new Avatar, It has moderate features and definitions<br><br>
                 <strong>Concept Art B</strong> shows how the Avatar will adapt when the user is not exercising enough , eating too much and eating junk food.
                     <ul>
                         <li>The avatar features become less pronounced as shown with this Muncher's horn , spikes on back due to lack of nutrients</li>
