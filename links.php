@@ -78,7 +78,10 @@ if ( !isset($_SESSION['LoggedIn']) ){
                 <section id="research">
                     <h1 class="muncher-text">Research</h1>
                         <p>
-                            For the data gathering process , we had an idea to use <a href="www.reddit.com">www.reddit.com</a>. Reddit is a very popular website where users can post information about anything with each other in ‘subreddits’ that are separated by topic. If users like the post they upvote it, if they don’t they downvote it, then posts are ordered by how many upvotes they have , popular content stays at the top of a subreddit for a period of < 24 hours.
+                            Throughout the design experience we have relied primarily on the notes provided by the college as well as supplementary materials we have sourced online. We have found that the combination of theses resources gave us the best possible understanding of the material, and the opportunity to approach the problems we faced from a different direction. We conducted online surveys as well as a focus group which allowed us to gain a better understanding of what exactly our potential customers were actually looking for in a product such as muncher.
+                        </p>
+                        <p>
+                            In order to achieve a greater sample size for our surveys , we decided to use <a href="www.reddit.com">www.reddit.com</a>. Reddit is a very popular website where users can post information about anything with each other in ‘subreddits’ that are separated by topic. If users like the post they upvote it, if they don’t they downvote it, then posts are ordered by how many upvotes they have , popular content stays at the top of a subreddit for a period of < 24 hours.
                         </p>
                         <p>
                             The subreddit that we choose was <a href="www.reddit.com/r/SampleSize">www.reddit.com/r/SampleSize</a> ,it has 32,000 subscribers and is a dedicated subreddit for people to get feedback on surveys or studies , where if Users are interested in the topic , they will take the survey. We saw this as an excellent opportunity to survey a large number of people within our target audience.
@@ -86,7 +89,9 @@ if ( !isset($_SESSION['LoggedIn']) ){
                         <p>
                             We made a new post which you can see <a href="https://www.reddit.com/r/SampleSize/comments/48oqf6/academicim_creating_an_app_called_muncher_for/">Here</a> giving a brief description of the app in its title and a link to 2 surveys. Quickly our post on reddit got a massive amount of upvotes in its subreddit with hundreds of people taking our surveys and giving us detailed feedback with a huge amount of positivity.Within 12 hours our post had 200 upvotes and was at the top of the subreddit, the second place post was at 19 upvotes at the time showing what a staggering effect our post had.
                         </p>
-
+                        <p>
+                            We also conducted a focus group in order to better understand our target audience and to gain some first hand insights from potential users. This consisted of setting up a group of people to come together and discuss the product face to face with one of our team members The face to face interaction allowed us to better understand and measure peoples feelings towards the product and we gained some valuable feedback which is outlined below.
+                        </p>
                         <h6>click question to view answers</h6>
                         <h3 id="survey-1" class="muncher-text">Survey 1 (Qualititive)</h3>
                         <div class="accordion">
@@ -2178,7 +2183,7 @@ if ( !isset($_SESSION['LoggedIn']) ){
                 <!-- Appendix -->
                 <section id="appendix">
                     <h1 class="muncher-text">Appendix</h1>
-                    <h3 class="muncher-text">1. Product Release</h3>
+                    <h3 id="product-release" class="muncher-text">1. Product Release</h3>
                     <em>A basic overview of our product development timeline. Each sprint comprises 2 weeks.</em>
                     <br>
                     <h4>Sprint 1:</h4>
@@ -2200,8 +2205,8 @@ if ( !isset($_SESSION['LoggedIn']) ){
                     </p>
                     <img class="img-responsive" src="./images/Design-Assets/apendices-sprints.png" alt="Sprints" style="margin:10px 40px 40px 10px;"/>
 
-                    <h3 class="muncher-text">1. Product Release</h3>
-                    <h4>Timeline:</h4>
+                    <h3 id="timeline" class="muncher-text">Timeline:</h3>
+
                     <strong><em>Iteration 1: Back to school</em></strong>
                     <br>
                     <br>
@@ -2280,7 +2285,7 @@ if ( !isset($_SESSION['LoggedIn']) ){
                     <span><strong>KPIs: </strong>Downloads(500)No. of FB shares(300) and likes(1000), PPC R.O.I - 7%, Competition shares (500), churn rate < 12%</span>
                     <br>
 
-                    <h3 class="muncher-text">Extra concept Art</h3>
+                    <h3 id="concept-art" class="muncher-text">Extra concept Art</h3>
                     <img class="img-responsive" src="./images/Design-Assets/apendices-dragon.png" alt="" />
                     <div class="row">
                         <div class="col-sm-6">
@@ -2291,13 +2296,13 @@ if ( !isset($_SESSION['LoggedIn']) ){
                         </div>
                     </div>
 
-                    <h3 class="muncher-text"> Unused Wireframe Design</h3>
-                    <h4>Create Muncher</h4>
+                    <h3 id="unused-wireframes" class="muncher-text"> Unused / Early Wireframe Design</h3>
+                    <h4 id="unused-create-muncher">Create Muncher</h4>
                     <p>
                         This version of the create muncher screen was not used as we want to keep the application simple and streamlined so we did not what 2 seperate screens for the Create Muncher task
                     </p>
                     <img class="img-responsive" src="./images/Design-Assets/apendices-wireframe-create-muncher.png" alt="" />
-                    <h4>Home</h4>
+                    <h4 id="unused-home">Home</h4>
                     <p>
                         This version of the home screen was not used as we wanted to seperate settings from the rest of the main buttons as it serves an unrelated task compared to the other functions.
                     </p>
@@ -2306,23 +2311,23 @@ if ( !isset($_SESSION['LoggedIn']) ){
                         This version of the home screen was not used similarly to the create muncher wireframe we wanted to simplify the users flow through the app so we did not want extra button clicks.
                     </p>
                     <img class="img-responsive" src="./images/Design-Assets/apendices-wireframe-home-2.png" alt="" />
-                    <h4>customize</h4>
+                    <h4 id="unused-customize">customize</h4>
                     <p>
                         Again this early version of the app was not used in an attempt to keep the number of screens the user traverses to a minimum
                     </p>
                     <img class="img-responsive" src="./images/Design-Assets/apendices-wireframe-customize.png" alt="" />
-                    <h4>feed</h4>
+                    <h4 id="unused-feed">feed</h4>
                     <p>
                         This version of feed's original Idea was when the user inputs the food , Muncher would automatically add 1 portion of the food to the plate , then the user could select the food and change the quantity,however we decided we should force the user to input the food before its added to the plate so we can control the flow of the user to keep it simple.
                     </p>
                     <img class="img-responsive" src="./images/Design-Assets/apendices-wireframe-feed.png" alt="" />
-                    <h4>input food</h4>
+                    <h4 id="unused-input-food">input food</h4>
                     <p>
                         This version of inputing food was also not used in an attempt to keep the number of screen to a minimum for the user
                     </p>
                     <img class="img-responsive" src="./images/Design-Assets/apendices-wireframe-input-food.png" alt="" />
 
-                    <h3 class "muncher-text">Unused High Resolution Home</h3>
+                    <h3 id="unused-home-high-res" class "muncher-text">Unused High Resolution Home</h3>
                     <p>
                         This version of the home page was not used as we wanted to give a bigger emphasis on the Muncher as it is the core feature of the App
                     </p>
@@ -2343,7 +2348,22 @@ if ( !isset($_SESSION['LoggedIn']) ){
                         </ul>
                     </li>
                     <li><a href="#references">References</a></li>
-                    <li><a href="#appendix">Appendix</a></li>
+                    <li><a href="#appendix">Appendix</a>
+                        <ul>
+                            <li><a href="#product-release">Product Release</a></li>
+                            <li><a href="#budget-breakdown">Breakdown of Budget</a></li>
+                            <li><a href="#timeline">Timeline</a></li>
+                            <li><a href="#concept-art"></a></li>
+                            <li><a href="#unused-wireframes">Unused Designs</a>
+                                <li><a href="#unused-create-muncher">Create Muncher</a></li>
+                                <li><a href="#unused-home">Home</a></li>
+                                <li><a href="#unused-customize">Customize</a></li>
+                                <li><a href="#unused-feed">Feed</a></li>
+                                <li><a href="#unused-input-food">Inut Food</a></li>
+                                <li><a href="#unused-home-high-res">High Res Home</a></li>
+                            </li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
 

@@ -93,7 +93,7 @@ if ( !isset($_SESSION['LoggedIn']) ){
                     <h3 id="scenario1" class="muncher-text">Scenario 1</h3>
                     <p>Mary has been using myfitnesspal for several weeks but she finds it hard to keep up with the difficult UI and checks online to see if there are any other apps that could keep her engaged. She sees that muncher offers you the ability to create your own muncher as well as personalising them. She downloads the app and follows the guided walkthrough in order to create a muncher for herself.</p>
                     <h3 id="scenario2" class="muncher-text">Scenario 2</h3>
-                    <p>Mary has been using the app for several weeks and she is very happy with it. She is getting as little bored of the avatar she has created and she wants to mix things up a bit. She Sees that you are able to personalise your avatar in the settings menu. She selects this option and changes the avatar to the look that she desired.</p>
+                    <p>David has been using the app for several weeks and she is very happy with it. She is getting as little bored of the avatar she has created and she wants to mix things up a bit. She Sees that you are able to personalise your avatar in the settings menu. She selects this option and changes the avatar to the look that she desired.</p>
                     <h3 id="scenario3" class="muncher-text">Scenario 3</h3>
                     <p>Liam is on a healthy eating mission so he downloads the app and decides to go shopping for some healthy food to eat. He buys his food and brings it home. He scans the packet of rice cakes he bought and enters that he ate one of them. Muncher also presents him with data about them including the calories in it.  He decides to eat a banana so goes to scan it but there is no barcode so he uses the drop down menu instead. He feeds muncher and muncher gives him some top tips to keep him motivated and informed.</p>
                     <h3 id="scenario4" class="muncher-text">Scenario 4</h3>
@@ -107,7 +107,7 @@ if ( !isset($_SESSION['LoggedIn']) ){
             <div class="col-sm-2 hidden-xs bs-docs-sidebar" role="complimentary">
                 <ul id="sidebar" class="nav nav-stacked">
                     <li>
-                        <a href="#Personnas">Personnas</a>
+                        <a href="#Personnas">Personas</a>
                         <ul class="nav nav-stacked">
                             <li><a href="#Mary">Mary</a></li>
                             <li><a href="#Sinead">Sinead</a></li>
