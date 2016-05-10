@@ -1,7 +1,8 @@
 <?php
 //name of site
 //http://ec2-52-16-124-54.eu-west-1.compute.amazonaws.com/Muncher-Design-Showcase-Site/
-define('URL', 'localhost/Muncher-Design-Showcase-Site/');
+//localhost/Muncher-Design-Showcase-Site/
+define('URL', 'http://ec2-52-16-124-54.eu-west-1.compute.amazonaws.com/Muncher-Design-Showcase-Site/');
 //Login Page
 define('LOGIN_PAGE', 'login.php');
 //First Page after login
