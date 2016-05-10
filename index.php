@@ -107,28 +107,28 @@ if ( !isset($_SESSION['LoggedIn']) ){
                 Our unique Selling point which differenciates us from the market is the Avatar or "Muncher" that the user creates and it adapts based on the users diet &amp; Exercise levels , the concept art below gives a representation of how the Avatar will adapt to the input of the User.
             </p>
             <p>
-                <strong>Concept Art A</strong> shows the starting Avatar when the user creates a new Avatar, It has moderate features and definitions
+                <strong>Concept Art A</strong> shows the starting Avatar when the user creates a new Avatar, It has moderate features and definitions.
                 <br>
                 <br>
                 <strong>Concept Art B</strong> shows how the Avatar will adapt when the user is not exercising enough , eating too much and eating junk food.
                     <ul>
-                        <li>The avatar features become less pronounced as shown with this Muncher's horn , spikes on back due to lack of nutrients</li>
-                        <li>The avatar gains weight based on the calirie intake of the user being above what is expected for the users age, sex and BMI</li>
-                        <li>The avatar looks tired due to high intake of sugar and lack of healthy nutrients</li>
-                        <li>The avatar skin looks dull and begins to get spots due to the unhealthy food the user is eating</li>
+                        <li>The avatar features become less pronounced as shown with this Muncher's horn , spikes on back due to lack of nutrients.</li>
+                        <li>The avatar gains weight based on the calirie intake of the user being above what is expected for the users age, sex and BMI.</li>
+                        <li>The avatar looks tired due to high intake of sugar and lack of healthy nutrients.</li>
+                        <li>The avatar skin looks dull and begins to get spots due to the unhealthy food the user is eating.</li>
                     </ul>
                 <strong>Concept Art C</strong> shows how the Avatar will adapt if the user is eating an apropriate callorie intake , healthy foods and exercising.
                     <ul>
-                        <li>The Avatar gets brighter in color to indicate healthy nutrients</li>
-                        <li>The avatar gets musclier from the inputed exercise</li>
-                        <li>The Avatar features , in this case horns, scales, wings and nails become more pronouced due to the healthy &amp; nutrient rich diet of the user</li>
+                        <li>The Avatar gets brighter in color to indicate healthy nutrients.</li>
+                        <li>The avatar gets musclier from the inputed exercise.</li>
+                        <li>The Avatar features , in this case horns, scales, wings and nails become more pronouced due to the healthy &amp; nutrient rich diet of the user.</li>
                     </ul>
-                <strong>Concept Art D</strong> shows how the Avatar will adapt if the user is not exercising and not eating enough food
+                <strong>Concept Art D</strong> shows how the Avatar will adapt if the user is not exercising and not eating enough food.
                     <ul>
-                        <li>The avatar looks tired due to lack of energy from calorie intake</li>
-                        <li>The avatar has low muscle mass due to the lack of exercise the user is inputing</li>
-                        <li>The avatar loses its features such as scales, nail length , horns due to the low nutrient and calorie intake of the user</li>
-                        <li>The avatar becomes thin due to the user low input of food</li>
+                        <li>The avatar looks tired due to lack of energy from calorie intake.</li>
+                        <li>The avatar has low muscle mass due to the lack of exercise the user is inputing.</li>
+                        <li>The avatar loses its features such as scales, nail length , horns due to the low nutrient and calorie intake of the user.</li>
+                        <li>The avatar becomes thin due to the user low input of food.</li>
                     </ul>
             </p>
             <img class="img-responsive" src="images/Design-Assets/concept-art.jpg" alt="Concept Art" />
