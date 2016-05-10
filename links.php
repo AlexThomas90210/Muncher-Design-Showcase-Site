@@ -2239,7 +2239,7 @@ if ( !isset($_SESSION['LoggedIn']) ){
     <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 
     <script>
-    $(function() {
+    $(document).ready(function() {
         $( ".accordion" ).accordion({
             collapsible: true,
             active : 'none'
