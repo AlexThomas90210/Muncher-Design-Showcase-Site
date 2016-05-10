@@ -2143,8 +2143,8 @@ if ( !isset($_SESSION['LoggedIn']) ){
                     <li><a href="#research">Research</a>
                         <ul class="nav nav-stacked">
                             <li><a href="#survey-1">Survey 1</a></li>
-                            <li><a href="#survey-1">Survey 2</a></li>
-                            <li><a href="#survey-1">Survey 3</a></li>
+                            <li><a href="#survey-2">Survey 2</a></li>
+                            <li><a href="#survey-3">Survey 3</a></li>
                         </ul>
                     </li>
                     <li><a href="#references">References</a></li>
