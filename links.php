@@ -87,6 +87,7 @@ if ( !isset($_SESSION['LoggedIn']) ){
                             We made a new post which you can see Here giving a brief description of the app in its title and a link to 2 surveys. Quickly our post on reddit got a massive amount of upvotes in its subreddit with hundreds of people taking our surveys and giving us detailed feedback with a huge amount of positivity.Within 12 hours our post had 200 upvotes and was at the top of the subreddit, the second place post was at 19 upvotes at the time showing what a staggering effect our post had.
                         </p>
 
+                        <h3 id="survey-1" class="muncher-text">Survey 1 (Qualititive)</h3>
                         <div class="accordion">
                             <h5>Q.1 : Do you like or dislike any aspect of the idea? if so what is it?</h5>
                             <div>
@@ -1821,7 +1822,7 @@ if ( !isset($_SESSION['LoggedIn']) ){
                             </table>
 
                         </div>
-                        <h3 class="muncher-text">Survey 2 (Quantative)</h3>
+                        <h3 id="survey-2" class="muncher-text">Survey 2 (Quantative)</h3>
                         <div class="accordion">
                             <h5>Q.1 : Would you like the app to give you advice on what you could add to your diet?</h5>
                             <div>
@@ -1874,7 +1875,7 @@ if ( !isset($_SESSION['LoggedIn']) ){
                             </div>
                         </div>
 
-                        <h3 class="muncher-text">Survey 3 (Mixed)</h3>
+                        <h3 id="survey-3" class="muncher-text">Survey 3 (Mixed)</h3>
                         <div class="accordion">
                             <h5>Q.1 : If the user is is continuously inputting unhealthy habits, what should happen to the avatar ?</h5>
                             <div>
@@ -2139,7 +2140,13 @@ if ( !isset($_SESSION['LoggedIn']) ){
             <!-- Side nav -->
             <div class="col-sm-2 hidden-xs bs-docs-sidebar" role="complimentary">
                 <ul id="sidebar" class="nav nav-stacked">
-                    <li><a href="#research">Research</a></li>
+                    <li><a href="#research">Research</a>
+                        <ul class="nav nav-stacked">
+                            <li><a href="#survey-1">Survey 1</a></li>
+                            <li><a href="#survey-1">Survey 2</a></li>
+                            <li><a href="#survey-1">Survey 3</a></li>
+                        </ul>
+                    </li>
                     <li><a href="#references">References</a></li>
                     <li><a href="#appendix">Appendix</a></li>
                 </ul>
@@ -2226,7 +2233,7 @@ if ( !isset($_SESSION['LoggedIn']) ){
         $( ".accordion" ).accordion({
             collapsible: true,
             active : 'none',
-            heightStyle: "content" 
+            heightStyle: "content"
         });
     });
   </script>
