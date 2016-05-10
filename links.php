@@ -257,7 +257,8 @@ if ( !isset($_SESSION['LoggedIn']) ){
                                     </tr>
                                 </table>
                             </div>
-
+                        </div>
+                        <div class="accordion">
                             <h5>Q.2 : How do you imagine the avatar would look like and how realistic do you want the Avatar to be? <small>(e.g. Animal form , Human form , Monster form etc.)</small></h5>
                                 <table class="table table-bordered table-striped small">
                                     <tr>
@@ -441,7 +442,9 @@ if ( !isset($_SESSION['LoggedIn']) ){
                                         <td>I would like a cute monster form</td>
                                     </tr>
                                 </table>
+                            </div>
 
+                            <div class="accordion">
                             <h5>Q.3 : What feature would motivate you to input everything you eat into the app?</h5>
                             <table class="table table-bordered table-striped small">
                                 <tr>
@@ -621,7 +624,8 @@ if ( !isset($_SESSION['LoggedIn']) ){
                                     <td>The ability of the app to analyze dietary information that is later reflected in the shape of the creature</td>
                                 </tr>
 
-
+                            </div>
+                            <div class="accordion">
                             </table>
                             <h5>Q.4 : What aspect about healthy eating do you think you need help with?</h5>
                             <table class="table table-bordered table-striped small">
@@ -795,6 +799,8 @@ if ( !isset($_SESSION['LoggedIn']) ){
                                 </tr>
 
                             </table>
+                            </div>
+                            <div class="accordion">
                             <h5>Q.5 : Have you used a health app before? if so what did you like about it?</h5>
                             <table class="table table-bordered table-striped small">
                                 <tr>
@@ -963,7 +969,8 @@ if ( !isset($_SESSION['LoggedIn']) ){
                                 </tr>
                             </table>
 
-
+                            </div>
+                            <div class="accordion">
                             <h5>Q.6 : How would you like to input what you are eating? <small>(take image of food, scan barcore , search bar or any other ideas)</small></h5>
                             <table class="table table-bordered table-striped small">
                                 <tr>
@@ -1143,6 +1150,8 @@ if ( !isset($_SESSION['LoggedIn']) ){
                                     <td>Normally I use manual input but I would like a search bar for online recipes if possible</td>
                                 </tr>
                             </table>
+                            </div>
+                            <div class="accordion">
                             <h5>Q.7 : How many minutes per day do you think is a reasonable amount to spend on the app in total?</h5>
                             <table class="table table-bordered table-striped small">
                                 <tr>
@@ -1322,6 +1331,8 @@ if ( !isset($_SESSION['LoggedIn']) ){
                                     <td>I think 30 is reasonable but I might use it more often</td>
                                 </tr>
                             </table>
+                            </div>
+                            <div class="accordion">
                             <h5>Q.8 : How do you feel about or think is wrong with your current diet?</h5>
                             <table class="table table-bordered table-striped small">
                                 <tr>
@@ -1494,6 +1505,8 @@ if ( !isset($_SESSION['LoggedIn']) ){
                                 </tr>
                             </table>
 
+                            </div>
+                            <div class="accordion">
                             <h5>Q.9 : what aspects In your life are stopping you from having a perfectly healthy diet?</h5>
                             <table class="table table-bordered table-striped small">
                                 <tr>
@@ -1673,6 +1686,9 @@ if ( !isset($_SESSION['LoggedIn']) ){
                                     <td>Currently I'm limited by the time available to me as I have a busy schedule and so cannot cook healthy meals consistently</td>
                                 </tr>
                             </table>
+
+                            </div>
+                            <div class="accordion">
                             <h5>Q.10 : Are there any features you think would benefit the app?</h5>
                             <table class="table table-bordered table-striped small">
                                 <tr>
