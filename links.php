@@ -2333,6 +2333,10 @@ if ( !isset($_SESSION['LoggedIn']) ){
                     </p>
                     <img class="img-responsive" src="./images/Design-Assets/apendices-storyboard-home.png" alt="" />
 
+                    <h3 id="extra-personas">Extra Personas</h3>
+                    <img id="Sinead" class="img-responsive" src="./images/Design-Assets/persona-sinead.png" alt="Sinead">
+                    <img id="Barry" class="img-responsive" src="./images/Design-Assets/persona-barry.png" alt="Barry">
+
                 </section>
             </div>
 
@@ -2364,6 +2368,7 @@ if ( !isset($_SESSION['LoggedIn']) ){
                                     <li><a href="#unused-home-high-res"><small>High Res Home</small></a></li>
                                 </ul>
                             </li>
+                            <li><a href="#extra-persona">Extra Personas</a></li>
                         </ul>
                     </li>
                 </ul>

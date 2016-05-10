@@ -78,13 +78,11 @@ if ( !isset($_SESSION['LoggedIn']) ){
                 <!-- Personas -->
                 <section id="Personnas">
                     <h1 class="muncher-text">Personas</h1>
-                    <img id="Mary" class="img-responsive" src="./images/Design-Assets/persona-mary.png" alt="">
-                    <img id="Sinead" class="img-responsive" src="./images/Design-Assets/persona-sinead.png" alt="">
-                    <img id="Barry" class="img-responsive" src="./images/Design-Assets/persona-barry.png" alt="">
-                    <img id="David" class="img-responsive" src="./images/Design-Assets/persona-david.png" alt="">
-                    <img id="Jason" class="img-responsive" src="./images/Design-Assets/persona-jason.png" alt="">
-                    <img id="Liam" class="img-responsive" src="./images/Design-Assets/persona-liam.png" alt="">
-                    <img id="Marie" class="img-responsive" src="./images/Design-Assets/persona-marie.png" alt="">
+                    <img id="Mary" class="img-responsive" src="./images/Design-Assets/persona-mary.png" alt="Mary">
+                    <img id="David" class="img-responsive" src="./images/Design-Assets/persona-david.png" alt="David">
+                    <img id="Jason" class="img-responsive" src="./images/Design-Assets/persona-jason.png" alt="Jason">
+                    <img id="Liam" class="img-responsive" src="./images/Design-Assets/persona-liam.png" alt="Liam">
+                    <img id="Marie" class="img-responsive" src="./images/Design-Assets/persona-marie.png" alt="Marie">
                 </section>
 
                 <!-- Scenarios -->
@@ -110,8 +108,6 @@ if ( !isset($_SESSION['LoggedIn']) ){
                         <a href="#Personnas">Personas</a>
                         <ul class="nav nav-stacked">
                             <li><a href="#Mary">Mary</a></li>
-                            <li><a href="#Sinead">Sinead</a></li>
-                            <li><a href="#Barry">Barry</a></li>
                             <li><a href="#David">David</a></li>
                             <li><a href="#Jason">Jason</a></li>
                             <li><a href="#Liam">Liam</a></li>
