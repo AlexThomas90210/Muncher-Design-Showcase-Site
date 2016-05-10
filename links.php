@@ -88,7 +88,7 @@ if ( !isset($_SESSION['LoggedIn']) ){
                         </p>
 
                         <div id="accordion">
-                            <h5>Question 1 : Do you like or dislike any aspect of the idea? if so what is it?</h5>
+                            <h5>Q.1 : Do you like or dislike any aspect of the idea? if so what is it?</h5>
                             <div>
                                 <table class="table table-bordered table-striped small">
                                     <tr>
@@ -258,7 +258,7 @@ if ( !isset($_SESSION['LoggedIn']) ){
                                 </table>
                             </div>
 
-                            <h5>Question 2 : How do you imagine the avatar would look like and how realistic do you want the Avatar to be? (e.g. Animal form , Human form , Monster form etc.)</h5>
+                            <h5>Q.2 : How do you imagine the avatar would look like and how realistic do you want the Avatar to be? <small>(e.g. Animal form , Human form , Monster form etc.)</small></h5>
                                 <table class="table table-bordered table-striped small">
                                     <tr>
                                         <th>No</th>
@@ -442,188 +442,188 @@ if ( !isset($_SESSION['LoggedIn']) ){
                                     </tr>
                                 </table>
 
-                            <h5>Question 3 : What feature would motivate you to input everything you eat into the app?</h5>
+                            <h5>Q.3 : What feature would motivate you to input everything you eat into the app?</h5>
                             <table class="table table-bordered table-striped small">
                                 <tr>
                                     <th>No</th>
                                     <th>Answers</th>
                                 </tr>
                                 <tr>
-                                    <td></td>
+                                    <td>1</td>
                                     <td>Unhappiness with my body and ease of using app</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
+                                    <td>2</td>
                                     <td>Reward points for inputting data, interactivity with the avatar, goals/achievements, etc.</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
+                                    <td>3</td>
                                     <td>making it as easy and accurate as possible.</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
+                                    <td>4</td>
                                     <td>If the thing was adorable.</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
+                                    <td>5</td>
                                     <td>Unlockable items as you progress. The more days you log (and the more days you are on target) the more fun things your avatar can wear or do.</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
+                                    <td>6</td>
                                     <td>Progress. Quick evaluation of food quality. (So like the character would give feedback on what was eaten very quick, not slowly)</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
+                                    <td>7</td>
                                     <td>Immediate feedback of positive or negative stimulus.</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
+                                    <td>8</td>
                                     <td>Nothing</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
+                                    <td>9</td>
                                     <td>Easy to use interface would be great. If it's a pain to find anything, I (and I'm sure most others) will stop using it. Achievements may also help. Something like "eat 5 Italian inspired dishes" or something.</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
+                                    <td>10</td>
                                     <td>Time-boxing, i.e. creating short sessions (a week, a month) to try to meet a specific goal. Automatic guesstimates of nutritional content that are close to 100% accurate. Ability to compare and compete with a friend to see who is living a healthier life.</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
+                                    <td>11</td>
                                     <td>A log showing your average and/or your progress.</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
+                                    <td>12</td>
                                     <td>Being able to set alarms or reminders at certain times of day to remind me to enter to the app.</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
+                                    <td>13</td>
                                     <td>Game like progression, why not even put simple games that you can do with your Avatar and have your choices affect the performance of your Avatar? That would be cool.</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
+                                    <td>14</td>
                                     <td>A point system, with levels and other "unlockables" per those points. Maybe to customize an avatar or something about the interface. From a proactive standpoint, push-notifications at configurable times. Duolingo has an option for this and it's a pretty big help.</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
+                                    <td>15</td>
                                     <td>If it showed you what type of toxic waste is in your particular product. Aspartame, TBHQ, BHT, L-cystene and so-on. Also GMO shit.</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
+                                    <td>16</td>
                                     <td>Stupid cute stuff like neko atsume, or sync it up with mfp or loseit.</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
+                                    <td>17</td>
                                     <td>Barcode scanning foods</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
+                                    <td>18</td>
                                     <td>A graph. I love graphs. I've been losing weight for the past year and change, and the only reason I've stuck with it this time is that I made a neat graph so I can see how I'm doing!</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
+                                    <td>19</td>
                                     <td>Comedic effects of the creature eating.</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
+                                    <td>20</td>
                                     <td>Seeing the avatar change. Nice to see what's happening in that way</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
+                                    <td>21</td>
                                     <td>Calorie counter; suggested daily values of sodium, fats, etc; vitamins that I need more of</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
+                                    <td>22</td>
                                     <td>Ability to customize my avatar with clothes and items, as well as change its base appearance through eating. You could lose access to the items if you start eating bad and have to earn them again.</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
+                                    <td>23</td>
                                     <td>Some type of game rewards system. Features that are unlocked as goals are achieved</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
+                                    <td>24</td>
                                     <td>Cute, 'living' avatar</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
+                                    <td>25</td>
                                     <td>Idk, but please no notifications.</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
+                                    <td>26</td>
                                     <td>I am on a keto diet. I would want it to hold me accountable for my nutrition goals. If I meet the goals without exceeding my calorie allowance, maybe the character changes in some way, or I get points to buy things to give to the character.</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
+                                    <td>27</td>
                                     <td>Possibly a scanner and a quick look up.</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
+                                    <td>28</td>
                                     <td>leaderboards</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
+                                    <td>29</td>
                                     <td>Reminders that the munchster is 'ungry</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
+                                    <td>30</td>
                                     <td>You could give people points for every consecutive day they enter their meals. They then use those points to buy new clothes, hats, etc. for their avatar.</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
+                                    <td>31</td>
                                     <td>It needs to be easy and fast to input foods or whole meals, especially repeated meals.</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
+                                    <td>32</td>
                                     <td>personally, not having to input my food. have the option to sync to my fitness pal. for kids, maybe cute cartoons of the food next to each one, so like a slice of pie next to pie etc</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
+                                    <td>33</td>
                                     <td>Well like I said, having it linked with something like MyFitnessPal would be best as otherwise I would get too lazy</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
+                                    <td>34</td>
                                     <td>Reminders after mealtimes. Data visualizations</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
+                                    <td>35</td>
                                     <td>Having my additions change/improve my pet/avatar would motivate me to use it.</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
+                                    <td>36</td>
                                     <td>Making it easy to enter in food. Some apps you have to search for each item, and it takes a while to enter every little thing in. It would also be fun to see the little avatar 'eat' the food you entered.</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
+                                    <td>37</td>
                                     <td>Easy to input food and save it for next time. Also, if there was an option to just put calorie counts some days would greatly motivate me to use it.</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
+                                    <td>38</td>
                                     <td>Immediate feedback. He doesn't have to change size dramatically, but a notification of what happened would be nice</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
+                                    <td>39</td>
                                     <td>"It's been 5 hours since I last ate! Feed me?"</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
+                                    <td>40</td>
                                     <td>Working hard to evolve that character. Maybe a goal that doubles XP or earns some other thing if I do it in a certain amount of days.</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
+                                    <td>41</td>
                                     <td>Most of all a very easy to use input system, which I discuss below. Creative ideas with the avatar would really help as well, since I've not stuck with previous apps which had decent input systems. As a videogame lover, an RPG-like level up system/game which was executed well would really get me addicted, but it may not be for everyone. And I'm not sure how it'd be pulled off well.</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
+                                    <td>42</td>
                                     <td>Diet recommendations</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
+                                    <td>43</td>
                                     <td>The ability of the app to analyze dietary information that is later reflected in the shape of the creature</td>
                                 </tr>
 
 
                             </table>
-                            <h5>Question 4 : What aspect about healthy eating do you think you need help with?</h5>
+                            <h5>Q.4 : What aspect about healthy eating do you think you need help with?</h5>
                             <table class="table table-bordered table-striped small">
                                 <tr>
                                     <th>No</th>
@@ -795,7 +795,7 @@ if ( !isset($_SESSION['LoggedIn']) ){
                                 </tr>
 
                             </table>
-                            <h5>Question 5 : Have you used a health app before? if so what did you like about it?</h5>
+                            <h5>Q.5 : Have you used a health app before? if so what did you like about it?</h5>
                             <table class="table table-bordered table-striped small">
                                 <tr>
                                     <th>No</th>
@@ -964,7 +964,7 @@ if ( !isset($_SESSION['LoggedIn']) ){
                             </table>
 
 
-                            <h5>Question 6 : How would you like to input what you are eating? (take image of food, scan barcore , search bar or any other ideas)</h5>
+                            <h5>Q.6 : How would you like to input what you are eating? <small>(take image of food, scan barcore , search bar or any other ideas)</small></h5>
                             <table class="table table-bordered table-striped small">
                                 <tr>
                                     <th>No</th>
@@ -1143,7 +1143,7 @@ if ( !isset($_SESSION['LoggedIn']) ){
                                     <td>Normally I use manual input but I would like a search bar for online recipes if possible</td>
                                 </tr>
                             </table>
-                            <h5>Question 7</h5>
+                            <h5>Q.7 : How many minutes per day do you think is a reasonable amount to spend on the app in total?</h5>
                             <table class="table table-bordered table-striped small">
                                 <tr>
                                     <th>No</th>
@@ -1322,7 +1322,7 @@ if ( !isset($_SESSION['LoggedIn']) ){
                                     <td>I think 30 is reasonable but I might use it more often</td>
                                 </tr>
                             </table>
-                            <h5>Question 8 : How do you feel about or think is wrong with your current diet?</h5>
+                            <h5>Q.8 : How do you feel about or think is wrong with your current diet?</h5>
                             <table class="table table-bordered table-striped small">
                                 <tr>
                                     <th>No</th>
@@ -1494,7 +1494,7 @@ if ( !isset($_SESSION['LoggedIn']) ){
                                 </tr>
                             </table>
 
-                            <h5>Question 9 : what aspects In your life are stopping you from having a perfectly healthy diet?</h5>
+                            <h5>Q.9 : what aspects In your life are stopping you from having a perfectly healthy diet?</h5>
                             <table class="table table-bordered table-striped small">
                                 <tr>
                                     <th>No</th>
@@ -1673,7 +1673,7 @@ if ( !isset($_SESSION['LoggedIn']) ){
                                     <td>Currently I'm limited by the time available to me as I have a busy schedule and so cannot cook healthy meals consistently</td>
                                 </tr>
                             </table>
-                            <h5>Question 10</h5>
+                            <h5>Q.10 : Are there any features you think would benefit the app?</h5>
                             <table class="table table-bordered table-striped small">
                                 <tr>
                                     <th>No</th>
