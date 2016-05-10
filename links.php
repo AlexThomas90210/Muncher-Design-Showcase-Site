@@ -2198,7 +2198,7 @@ if ( !isset($_SESSION['LoggedIn']) ){
                     <p>
                         This final sprint deals with how the app provides feedback to the user. It is concerned with improving the user experience and allowing them to really enjoy using the app as well as further developing the UI. This sprint will also be used to revisit and finalise any outstanding issues from previous sprints.
                     </p>
-                    <img class="img-responsive" src="./images/Design-Assest/apendices-sprints.png" alt="Sprints" style="margin:10px 40px 40px 10px;"/>
+                    <img class="img-responsive" src="./images/Design-Assets/apendices-sprints.png" alt="Sprints" style="margin:10px 40px 40px 10px;"/>
 
                     <h3 class="muncher-text">1. Product Release</h3>
                     <h4>Timeline:</h4>
