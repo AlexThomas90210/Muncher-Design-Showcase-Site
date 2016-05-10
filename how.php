@@ -230,7 +230,7 @@ if ( !isset($_SESSION['LoggedIn']) ){
                         <li>The use case begins when Opens the App.</li>
                         <li>User selects "Feed Muncher".</li>
                         <li>User taps on microphone Icon and begins speaking</li>
-                        <li>System missfills in the search box from the speach recognition error<li>
+                        <li>System missfills in the search box from the speach recognition error</li>
                         <li>User sees the search is wrong</li>
                         <li>User fixes the error by clicking on the search box and manually inputing the correct text</li>
                         <li>User  selects a food from the dropdown list of search results</li>

@@ -83,9 +83,9 @@ if ( !isset($_SESSION['LoggedIn']) ){
 
         <!-- Intro & Overview -->
         <h1 class="muncher-text">Intro Overview</h1>
-            <p>We have produced this website in order to showcase our industry project, Muncher, a fun diet tracker and weight loss app which provides a Calorie Counter and nutritional information. Included within this site are our Product Video alongside our research outcomes in the forms of Personas and Scenarios.</p>
+            <p>We have produced this website in order to showcase our app, Muncher, a fun diet tracker and weight loss app which provides a Calorie Counter and nutritional information. Included within this site are our Product Video alongside our research outcomes in the forms of Personas and Scenarios.</p>
             <p>From these sources a full set of Use Cases, Task Cases and additional UX design documentation including Use Case Diagrams, Structure maps, Storyboards, Wireframes, State Transition diagrams and Behaviour diagrams have been constructed</p>
-            <p>In addition we also present an online archive containing research materials, references and our appendix documentation.</p>
+            <p>In addition we also present an online archive containing research materials, references and appendices documentation.</p>
 
 
         <!-- Product Definition -->
