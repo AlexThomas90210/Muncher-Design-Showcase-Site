@@ -79,28 +79,26 @@ if ( !isset($_SESSION['LoggedIn']) ){
 
         <!-- Product Name -->
         <h1 class="muncher-text">Product Name</h1>
-        <h5><strong>Muncher</strong> - A fun, easy to use healthy app.</h5>
+        <h5><strong>Muncher</strong> - <em> A fun, easy to use healthy lifestyle app.</em> </h5>
 
         <!-- Intro & Overview -->
         <h1 class="muncher-text">Website Overview</h1>
-            <p>We have produced this website in order to showcase our app, Muncher, a fun and interactive food tracker and dietary guidance app which provides a Calorie Counter and nutritional information. Included within this site are our Product Video alongside our research outcomes in the forms of Personas and Scenarios.</p>
-            <p>From these sources a full set of Use Cases, Task Cases and additional UX design documentation and Behaviour diagrams including Use Case Diagrams, Structure maps, Storyboards, Wireframes, State Transition diagrams  have been constructed.</p>
+            <p>We have produced this website in order to showcase our app, Muncher, a simple, fun and interactive food tracker and dietary guidance app. Included within this site are a full set of Use Cases, Task Cases, UX design documentation and Behaviour diagrams. These include  Use Case Diagrams, Structure maps, Storyboards, Wireframes and State Transition diagrams.</p>
             <p>In addition we also present an online archive containing research materials, references and appendices documentation.</p>
-
 
         <!-- Product Definition -->
         <h1 class="muncher-text">Product Definition</h1>
             <p>
-                The concept of muncher is an app that allows the user to input all the food they consume in order to observe their diet. It allows users to create and customize a fun Avatar that shows the effects of their dietary choices. This Avatar "muncher" provides encouragement and information to help the user achieve their health goals.
+                The concept of muncher is an app that allows the user to input all the food they consume in order to observe their diet. The app will provide feedback on how the food consumed impacts the user’s health by producing an Avatar to represent them and their food choices. This Avatar "Muncher" provides encouragement and information to help the user achieve their health goals.
             </p>
             <p>
-                The user is intended to enter their daily food intake and, depending on the nutrients given to the Avatar, it evolves appropriately. Providing the Avatar suitable nourishment will create an amiable and attractive monster, while feeding it an unbalanced diet will cause the avatar to reflect that. In addition the app will also give user feedback on how to improve their Avatar, providing an entertaining way for users to learn about proper nutrition and to track their diet.
+                The user inputs the foods they consume and the avatar reflects this by changing, i.e. becoming fatter or thinner in accordance with diet it is being fed by the user. Providing the Avatar with suitable nourishment will create an amiable and attractive monster, while feeding it an unbalanced diet will cause the avatar to become unhealthy and cranky. In addition the app will also give user feedback on how to improve their Avatar, providing an entertaining way for users to learn about proper nutrition and to track their diet.
             </p>
             <p>
-                Our research has shown that users will be more likely to stay engaged with our app if they have a (perceived) personal stake in the project. Hopefully the use of an Avatar will act as a proxy as we have discovered from our research that people tend to lose interest in using such apps within a short time. We would hope that our retention rate would be higher if our users feel personally invested in the product.
+                We have discovered from our research that people tend to lose interest in using such apps within a short period of time and that users are more likely to stay engaged with an app if they have a personal stake in the project. We feel that the use of an Avatar that reflects the the user’s dietary choices can help with this problem by encouraging people to monitor their wellbeing as well as visualising the effects that the choices they have made are having on their body.
             </p>
             <p>
-                It is intended to offer this app on ios, Android and Microsoft mobile devices.
+                It is intended to offer this app on IOS, Android and Microsoft mobile devices.
             </p>
             <h3 class="muncher-text">Concept Art</h3>
             <p>

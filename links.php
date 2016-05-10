@@ -2184,7 +2184,8 @@ if ( !isset($_SESSION['LoggedIn']) ){
                     <a href="http://www.cio.com/article/3007838/ehr/how-digital-avatars-will-inspireor-frighten-us-to-better-health.html">How digital avatars will inspire – or frighten – us to better health</a>
                     <br>
                     <a href="http://mobihealthnews.com/news/why-so-few-avatars-health-apps">Why so few avatars in health apps?</a>
-
+                    <br>
+                    <br>
                     <p>
                         Below are some links to Nutritional guideline and principles we will be sticking to, on top of getting a dedicated nutritionist on board with the team
                     </p>
