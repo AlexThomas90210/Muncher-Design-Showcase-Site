@@ -1,6 +1,13 @@
 <?php
 session_start();
 require_once('./constants.php');
+//check if user is already logged in
+if ( !isset($_SESSION['LoggedIn']) ){
+    header('Location: '.URL.FIRST_PAGE, TRUE, 302);
+    exit();
+}
+
+//check if user submited login form
 $loginError = "";
 if (isset($_POST[NAME_ATTR]) && isset($_POST[PASSWORD_ATTR]) ) {
     if ($_POST[NAME_ATTR] === LOGIN_NAME && $_POST[PASSWORD_ATTR] === LOGIN_PASSWORD) {
