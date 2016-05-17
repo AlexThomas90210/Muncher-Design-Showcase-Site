@@ -124,12 +124,12 @@ if ( !isset($_SESSION['LoggedIn']) ){
                     </a>
 
                     <h3 id="storyboard-feedback" class="muncher-text">Feedback</h3>
-                    <a href="images/Design-Assets/Storyboard-feedback.png" title="Storyboard Feedback" data-gallery>
+                    <a href="images/Design-Assets/storyboard-feedback.png" title="Storyboard Feedback" data-gallery>
                         <img class="img-responsive" src="images/Design-Assets/storyboard-feedback.png" alt="Storyboard Feedback">
                     </a>
 
                     <h3 id="storyboard-exercise" class="muncher-text">Exercise input</h3>
-                    <a href="images/Design-Assets/Storyboard-exercise.png" title="Storyboard Exercise" data-gallery>
+                    <a href="images/Design-Assets/storyboard-exercise.png" title="Storyboard Exercise" data-gallery>
                         <img class="img-responsive" src="images/Design-Assets/storyboard-exercise.png" alt="Storyboard exercise">
                     </a>
                 </section>
