@@ -2,7 +2,7 @@
 session_start();
 require_once('./constants.php');
 //check if user is already logged in
-if ( !isset($_SESSION['LoggedIn']) ){
+if ( isset($_SESSION['LoggedIn']) ){
     header('Location: '.URL.FIRST_PAGE, TRUE, 302);
     exit();
 }
