@@ -3,7 +3,8 @@
 //http://ec2-52-16-124-54.eu-west-1.compute.amazonaws.com/Muncher-Design-Showcase-Site/
 //localhost/Muncher-Design-Showcase-Site/
 //http://site513.webelevate.net/muncher/
-define('URL', 'http://ec2-52-16-124-54.eu-west-1.compute.amazonaws.com/Muncher-Design-Showcase-Site/');
+//http://localhost/Muncher-Hybrid/Muncher-Design-Showcase-Site/
+define('URL', 'http://localhost/Muncher-Hybrid/Muncher-Design-Showcase-Site/');
 //Login Page
 define('LOGIN_PAGE', 'login.php');
 //First Page after login

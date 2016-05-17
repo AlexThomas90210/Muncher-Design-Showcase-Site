@@ -64,7 +64,8 @@ if ( !isset($_SESSION['LoggedIn']) ){
             <!-- Nav -->
             <div class="collapse navbar-collapse muncher-text" id="navbar">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.php">Home</a></li>
+                    <li ><a href="index.html">Home</a></li>
+                    <li><a href="index.php">Product</a></li>
                     <li ><a href="who.php">Who</a></li>
                     <li class="active"><a href="how.php">How</a></li>
                     <li><a href="design.php">Design</a></li>
