@@ -37,7 +37,7 @@ if (isset($_POST[NAME_ATTR]) && isset($_POST[PASSWORD_ATTR]) ) {
     <div class="banner">
         <!-- putting logo inside container so its left aligned with the content on any width -->
         <div class="container">
-           <a href="index.html"><img class="banner__logo img-responsive" src="./images/banner-logo.png" alt="Muncher Logo" /></a>
+           <a href="index.php"><img class="banner__logo img-responsive" src="./images/banner-logo.png" alt="Muncher Logo" /></a>
         </div>
         <img class="banner__background img-responsive" src="./images/banner-background.png" alt="Muncher banner Background" />
     </div>

@@ -32,7 +32,7 @@ if ( !isset($_SESSION['LoggedIn']) ){
     <div class="banner">
         <!-- putting logo inside container so its left aligned with the content on any width -->
         <div class="container">
-           <a href="index.html"><img class="banner__logo img-responsive" src="./images/banner-logo.png" alt="Muncher Logo" /></a>
+           <a href="index.php"><img class="banner__logo img-responsive" src="./images/banner-logo.png" alt="Muncher Logo" /></a>
         </div>
 
         <!-- logout button -->
@@ -2306,7 +2306,7 @@ if ( !isset($_SESSION['LoggedIn']) ){
                     <br>
 
                     <h3 id="concept-art" class="muncher-text">Extra concept Art</h3>
-                    <img class="img-responsive" src="./images/Design-Assets/apendices-dragon.png" alt="" />
+                    <img class="img-responsive" src="./images/Design-Assets/apendices-dragon.png" alt="Alertate Muncher" />
                     <div class="row">
                         <div class="col-sm-6">
                             <img class="img-responsive" src="./images/Design-Assets/apendices-muncher.png" alt="Muncher 1" />
@@ -2321,37 +2321,37 @@ if ( !isset($_SESSION['LoggedIn']) ){
                     <p>
                         This version of the create muncher screen was not used as we want to keep the application simple and streamlined so we did not what 2 seperate screens for the Create Muncher task
                     </p>
-                    <img class="img-responsive" src="./images/Design-Assets/apendices-wireframe-create-muncher.png" alt="" />
+                    <img class="img-responsive" src="./images/Design-Assets/apendices-wireframe-create-muncher.png" alt="Create Muncher Wireframe" />
                     <h4 id="unused-home">Home</h4>
                     <p>
                         This version of the home screen was not used as we wanted to seperate settings from the rest of the main buttons as it serves an unrelated task compared to the other functions.
                     </p>
-                    <img class="img-responsive" src="./images/Design-Assets/apendices-wireframe-home-1.png" alt="" />
+                    <img class="img-responsive" src="./images/Design-Assets/apendices-wireframe-home-1.png" alt="Wireframe Home Option 1" />
                     <p>
                         This version of the home screen was not used similarly to the create muncher wireframe we wanted to simplify the users flow through the app so we did not want extra button clicks.
                     </p>
-                    <img class="img-responsive" src="./images/Design-Assets/apendices-wireframe-home-2.png" alt="" />
+                    <img class="img-responsive" src="./images/Design-Assets/apendices-wireframe-home-2.png" alt="Wireframe Home Option 2" />
                     <h4 id="unused-customize">Customize</h4>
                     <p>
                         Again this early version of the app was not used in an attempt to keep the number of screens the user traverses to a minimum
                     </p>
-                    <img class="img-responsive" src="./images/Design-Assets/apendices-wireframe-customize.png" alt="" />
+                    <img class="img-responsive" src="./images/Design-Assets/apendices-wireframe-customize.png" alt="Wireframe Customize" />
                     <h4 id="unused-feed">Feed</h4>
                     <p>
                         This version of feed's original Idea was when the user inputs the food , Muncher would automatically add 1 portion of the food to the plate , then the user could select the food and change the quantity,however we decided we should force the user to input the food before its added to the plate so we can control the flow of the user to keep it simple.
                     </p>
-                    <img class="img-responsive" src="./images/Design-Assets/apendices-wireframe-feed.png" alt="" />
+                    <img class="img-responsive" src="./images/Design-Assets/apendices-wireframe-feed.png" alt="Wireframe Feed" />
                     <h4 id="unused-input-food">Input food</h4>
                     <p>
                         This version of inputing food was also not used in an attempt to keep the number of screen to a minimum for the user
                     </p>
-                    <img class="img-responsive" src="./images/Design-Assets/apendices-wireframe-input-food.png" alt="" />
+                    <img class="img-responsive" src="./images/Design-Assets/apendices-wireframe-input-food.png" alt="Wireframe Input food" />
 
                     <h3 id="unused-home-high-res" class "muncher-text">Unused High Resolution Home</h3>
                     <p>
                         This version of the home page was not used as we wanted to give a bigger emphasis on the Muncher as it is the core feature of the App
                     </p>
-                    <img class="img-responsive" src="./images/Design-Assets/apendices-storyboard-home.png" alt="" />
+                    <img class="img-responsive" src="./images/Design-Assets/apendices-storyboard-home.png" alt="Unused Storyboard Home" />
 
                     <h3 id="extra-persona" class="muncher-text">Extra Personas</h3>
                     <img id="Sinead" class="img-responsive" src="./images/Design-Assets/extra-persona-sinead.png" alt="Sinead">

@@ -32,7 +32,7 @@ if ( !isset($_SESSION['LoggedIn']) ){
     <div class="banner">
         <!-- putting logo inside container so its left aligned with the content on any width -->
         <div class="container">
-           <a href="index.html"><img class="banner__logo img-responsive" src="./images/banner-logo.png" alt="Muncher Logo" /></a>
+           <a href="index.php"><img class="banner__logo img-responsive" src="./images/banner-logo.png" alt="Muncher Logo" /></a>
         </div>
 
         <!-- logout button -->
@@ -75,7 +75,7 @@ if ( !isset($_SESSION['LoggedIn']) ){
     <div class="container">
         <!-- Product Video -->
         <h1 class="muncher-text">Product Video</h1>
-        <img class="img-responsive" src="./images/video-image.png" alt="Video">
+        <iframe src="https://player.vimeo.com/video/166951622" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
         <!-- Product Name -->
         <h1 class="muncher-text">Product Name</h1>
