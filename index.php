@@ -75,10 +75,7 @@ if ( !isset($_SESSION['LoggedIn']) ){
     <div class="container">
         <!-- Product Video -->
         <h1 class="muncher-text">Product Video</h1>
-        <div class='embed-container'>
-            <img class="vimeoplayer" data-vimeoid="166951622" src="images/video-thumbnail.png" alt="Play Video">
-        </div>
-        <!--<iframe src="https://player.vimeo.com/video/166951622" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>-->
+        <iframe src="https://player.vimeo.com/video/166951622?portrait=0&title=0&color=f95006&badge=0&byline=0&autoplay=1" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
         <!-- Product Name -->
         <h1 class="muncher-text">Product Name</h1>
@@ -193,12 +190,5 @@ if ( !isset($_SESSION['LoggedIn']) ){
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <!-- Main -->
     <script src="./js/main.js"></script>
-    <script type="text/javascript">
-        $('.vimeoplayer').click(function(){
-            width = $(this).width();
-            height = $(this).height();
-            $(this).parent().html('<iframe src="https://player.vimeo.com/video/'+$(this).data('vimeoid')+'?portrait=0&title=0&color=bf1f48&badge=0&byline=0&autoplay=1" frameborder="0"  width="'+ width +'" height="'+ height +'" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>');
-        });
-    </script>
 </body>
 </html>
