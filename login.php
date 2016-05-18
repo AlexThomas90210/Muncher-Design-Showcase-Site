@@ -90,20 +90,20 @@ if (isset($_POST[NAME_ATTR]) && isset($_POST[PASSWORD_ATTR]) ) {
 
                     <div class="form-group">
                         <label for="Name" class="col-sm-3 control-label">Name</label>
-                        <div class="col-sm-8">
+                        <div class="col-sm-9">
                             <input type="text" class="form-control" name="UserName" required placeholder="User Name">
                         </div>
                     </div>
 
                     <div class="form-group">
-                        <label for="Password" class="col-sm-4 control-label">Password</label>
-                        <div class="col-sm-8">
+                        <label for="Password" class="col-sm-3 control-label">Password</label>
+                        <div class="col-sm-9">
                             <input type="password" class="form-control" name="Password"  required placeholder="Password">
                         </div>
                     </div>
                     <!-- where the ajax response will be put -->
                     <div class="form-group">
-                        <div class="col-sm-offset-4 col-sm-8">
+                        <div class="col-sm-offset-3 col-sm-9">
                             <p style="color:red;"><strong><?php echo $loginError ?></strong></p>
                             <button class="btn btn--muncher" type="submit">Login !</button>
                         </div>
