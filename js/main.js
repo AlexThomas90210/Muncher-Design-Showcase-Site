@@ -8,7 +8,6 @@ $(document).ready( function(){
     sidebarOffset = $('#sidebar').offset();
     //remove 30 as thats the distance from top we set in the css
     offsetTop = sidebarOffset.top - 30;
-    console.log(sidebarOffset);
     $("#sidebar").affix({
         offset: {
             top: offsetTop

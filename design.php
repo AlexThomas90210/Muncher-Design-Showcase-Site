@@ -32,7 +32,7 @@ if ( !isset($_SESSION['LoggedIn']) ){
     <div class="banner">
         <!-- putting logo inside container so its left aligned with the content on any width -->
         <div class="container">
-           <a href="index.php"><img class="banner__logo img-responsive" src="./images/banner-logo.png" alt="Muncher Logo" /></a>
+           <a href="index.html"><img class="banner__logo img-responsive" src="./images/banner-logo.png" alt="Muncher Logo" /></a>
         </div>
 
         <!-- logout button -->
@@ -60,7 +60,7 @@ if ( !isset($_SESSION['LoggedIn']) ){
             <!-- Nav -->
             <div class="collapse navbar-collapse muncher-text" id="navbar">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.php">Home</a></li>
+                    <li><a href="index.php">Product</a></li>
                     <li><a href="who.php">Who</a></li>
                     <li><a href="how.php">How</a></li>
                     <li class="active"><a href="design.php">Design</a></li>

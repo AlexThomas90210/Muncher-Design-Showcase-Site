@@ -1,0 +1,324 @@
+/*
+* Author: Alex Thomas
+* Assignment: WE4.0 PHP Web App Assignment, Digital Skills Academy
+* Student ID: D15126833
+* Date : 2016/04/26
+* Ref: http://stackoverflow.com/questions/2920306/google-chrome-form-autofill-and-its-yellow-background
+         http://stackoverflow.com/questions/2610497/change-an-inputs-html5-placeholder-color-with-css
+*/
+/*
+Im using the BEM naming convention for my classes.
+
+include font provided by designer, Could not find it on google fonts
+ I got GosmickSansBold.ttf from designer then generated the apropriate fonts with https://www.fontsquirrel.com/tools/webfont-generator
+this makes the font cross browser functional
+ */
+ @font-face {
+     font-family: 'gosmicksansbold';
+     src: url('../fonts/gosmicksansbold-webfont.eot');
+     src: url('../fonts/gosmicksansbold-webfont.eot?#iefix') format('embedded-opentype'),
+          url('../fonts/gosmicksansbold-webfont.woff2') format('woff2'),
+          url('../fonts/gosmicksansbold-webfont.woff') format('woff'),
+          url('../fonts/gosmicksansbold-webfont.ttf') format('truetype'),
+          url('../fonts/gosmicksansbold-webfont.svg#gosmicksansbold') format('svg');
+     font-weight: normal;
+     font-style: normal;
+ }
+
+/* as specified by the designer all the page text is using this color & font except some specific submit buttons*/
+.body {
+   color: rgb(249, 80, 6);
+   font-family: "gosmicksansbold";
+}
+
+/* in the design there is alot of space between the content and the edge of the window,
+ im going restrict the container if its > 1200px && < 1500px ,
+  if its smaller than 1200px I will let the default container do its job to use all the screen space available
+  if its bigger than 1500px the default container has enough space anyway*/
+@media screen and (min-width: 1200px) and (max-width: 1500px) {
+    .container,
+    .container-fluid {
+        max-width: 1000px;
+    }
+}
+
+/* MARK: banner */
+.banner {
+    position:relative;
+}
+
+.banner__background {
+    width:100%;
+}
+
+.banner__logo {
+    /* logo absolute so that it stacks ontop of the background , container div is relative*/
+    position:absolute;
+    height:60%;
+    top:20%;
+}
+
+/* MARK: Nav Bar */
+.navbar {
+    /* making nav look like what was specified */
+    padding-top: 10px;
+    background-color: white;
+    border: none;
+    font-size:1.2em;
+}
+
+.navbar-default .navbar-nav>li> a {
+    color: rgb(249, 80, 6);
+    padding: 4px;
+    margin-right: 25px;
+}
+
+/*  looking at the design , the nav is not inline with the rightside of the content , adding a little margin to the last <li> to incoporate this in the build */
+.navbar-default .navbar-nav>li:last-child> a {
+    margin-right: 35px;
+}
+
+/* as per the designer direction , the following selectors make the nav have that orange background with green text
+I have a bunch of selectors to fix a few issues i came across when they were active or not or in focus etc*/
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover ,
+.navbar-default .navbar-nav>li> a:hover ,
+.navbar-default .navbar-nav>li> a:focus:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: rgb(92, 249, 48);
+    background-color: rgb(249, 80, 6);
+}
+
+.navbar-default .navbar-nav>li> a:focus {
+    color: inherit;
+    background-color: inherit;
+    /* need to remove that blue outline after somebody presses the modal contact form */
+    outline:none;
+}
+
+/* MARK: intro
+intro and main are here just for future use I thought i would keep them in
+.intro {
+}
+*/
+
+/* MARK: main
+.main {
+}
+*/
+
+/* MARK: appStore */
+.appStore {
+    /* kept this in even tho its empty to keep with the BEM naming convention as those .appStore__heading headings are purely for that block*/
+    padding-left:0;
+    padding-right: 10px;
+}
+
+.appStore__img{
+    max-width: 100%;
+}
+
+.appStore__heading {
+    margin-top:0;
+}
+
+.appStore__heading--lower {
+    margin-top:40px;
+}
+
+/* MARK: social-media */
+.social-media {
+    margin-top:30px;
+}
+
+.social-container {
+    position: relative;
+}
+
+.social-container__social-image {
+    /* FB icon is not alligned to the left of the div and the gap between the 2 images is larger again thats why weird margin declaration */
+    margin:0 15px 0 10px;
+    display:inline-block;
+}
+
+/* to make that paragraph thats uses .social-container__text fit exactly like the design stated i needed something like a col-md-7.5 & col-md-4.5
+because the bootstrap grid line was exactly in the way,I tried a bunch of stuff like no padding , no margin ,different number of cols etc.
+not a huge fan of "right:-25px" because it means I need to remove it with a media query else it will go offscreen
+but in the end this gave me the best results because;
+closest result to what designer specified,
+keeps aligned to bottom of .SocialIcons,
+allows form to keep that text-center class which is nice when viewport goes to small,
+can allow the <p> to be pretty close to the <input>
+allows me to have col-md-5 on that form , it was breaking when trying col-md-4 sometimes on resize
+sorry long explaination it was just fustrating to get it right and thought maybe you were wondering why i did it weirdly
+*/
+.social-container__text {
+    position: absolute;
+    bottom: 0;
+    right:-25px;
+    display:inline-block;
+    margin: 0;
+}
+/* remove that stuff now */
+@media (max-width: 768px) {
+   .social-container__text {
+      position: static;
+      vertical-align: bottom;
+   }
+}
+
+/* MARK: subscribe-form-container */
+.subscribe-form-container {
+    margin-top:21px;
+    padding-left: 5px;
+}
+@media (min-width: 992px){
+    .subscribe-form-container {
+        padding-left: 60px;
+    }
+}
+
+.form-inline--subscribe {
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+}
+
+.form-inline--subscribe__input {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+
+.form-inline--subscribe__input > .input--muncher {
+    width:100%;
+}
+/* MARK: .btn--muncher */
+.btn--muncher {
+    color:rgb(249, 80, 6);
+    margin-left: 10px;
+    margin-right: 3px;
+    border: 3px solid rgb(249, 80, 6);
+    box-shadow: -3px 3px 0 0 rgb(249, 80, 6);
+    background-color: rgb(92, 249, 48);
+    vertical-align: middle;
+    -webkit-transition: opacity ease-in-out .45s;
+    transition: opacity ease-in-out .45s;
+}
+
+.btn--muncher:hover {
+    color: rgb(239, 50, 6);
+    background-color: rgb(62, 219, 28);
+    outline: none;
+}
+
+.btn--muncher:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.btn--lg {
+    padding: 5px 7px 3px;
+    font-size:1.35em;
+    line-height: 1.6em;
+}
+
+/* MARK: input--muncher */
+.input--muncher {
+    background-color: rgb(171, 179, 216);
+    color: white ;
+    border: 3px solid rgb(249, 80, 6);
+    -webkit-transition: opacity ease-in-out .45s , border-color ease-in-out .60s , box-shadow ease-in-out .60s;
+    transition: opacity ease-in-out .45s , border-color ease-in-out .60s , box-shadow ease-in-out .60s;
+    padding-left:6px;
+}
+/*
+For changing the placeholder color i searched google and found this
+REF: http://stackoverflow.com/questions/2610497/change-an-inputs-html5-placeholder-color-with-css
+that stackoverflow answer stated that you need seperate selector for each browser type else some browsers ignore them all
+*/
+.input--muncher::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: white;
+    opacity:  0.7;
+}
+.input--muncher:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: white;
+    opacity:  0.7;
+}
+.input--muncher::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: white;
+    opacity:  0.7;
+}
+.input--muncher:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+    opacity:  0.7;
+}
+.input--muncher:disabled{
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.input--lg {
+    padding: 5px 7px 3px;
+    font-size:1.35em;
+    line-height: 1.6em;
+}
+
+/* using !important to override some of the bootstrap stuff also in the case of valid & invalid its necesary for it to always display like this no matter what style are applied to that element*/
+.input--valid {
+    border-color: rgb(62, 209, 28) !important;
+    box-shadow: 0 1px 1px rgba(62, 209, 28, 0.075) inset, 0 0 8px rgba(62, 209, 28, 0.3) !important;
+    outline: 0 none !important;
+}
+
+.input--invalid {
+    border-color: rgb(255, 0, 0);
+    border-color: rgba(255, 0, 0, 0.8) !important;
+    box-shadow: 0 1px 1px rgba(255, 0, 0, 0.075) inset, 0 0 8px rgba(255, 0, 0, 0.3) !important;
+    outline: 0 none !important;
+}
+
+/* little hack I found to stop chrome from changing things when the user uses auto fill, it was being a real pain
+http://stackoverflow.com/questions/2920306/google-chrome-form-autofill-and-its-yellow-background
+*/
+.form-control:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px white inset !important;
+}
+
+.form-control:disabled:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px #eee inset !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active,
+input:-webkit-autofill:disabled{
+    -webkit-transition-delay: 9999s ;
+    -webkit-transition: color 9999s ease-out, background-color 9999s ease-out;
+}
+
+/*MARK:  error message & success-message  */
+.error-message {
+   color: red;
+}
+
+.success-message {
+   color: rgb(62, 209, 28);
+}
+
+/*MARK: footer */
+.footer {
+    margin-top:10px;
+    padding-top: 15px;
+    padding-bottom: 2px;
+    color:white;
+    background-color: rgb(129, 152, 234);
+}
+
+.footer__p {
+    font-size: 0.8em;
+    margin: 0;
+}
