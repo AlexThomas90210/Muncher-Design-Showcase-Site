@@ -84,7 +84,7 @@ if (isset($_POST[NAME_ATTR]) && isset($_POST[PASSWORD_ATTR]) ) {
           </div>
         </div>
         <div class="row">
-            <div class="col-sm-6 col-sm-offset-3">
+            <div class="col-sm-8 col-sm-offset-2">
                 <!-- Login Form -->
                 <form class="form-horizontal loginForm " method="post" action="#" >
 
