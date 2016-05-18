@@ -84,12 +84,12 @@ if (isset($_POST[NAME_ATTR]) && isset($_POST[PASSWORD_ATTR]) ) {
           </div>
         </div>
         <div class="row">
-            <div class="col-sm-8 col-sm-offset-2">
+            <div class="col-sm-6 col-sm-offset-3">
                 <!-- Login Form -->
                 <form class="form-horizontal loginForm " method="post" action="#" >
 
                     <div class="form-group">
-                        <label for="Name" class="col-sm-4 control-label">Name</label>
+                        <label for="Name" class="col-sm-3 control-label">Name</label>
                         <div class="col-sm-8">
                             <input type="text" class="form-control" name="UserName" required placeholder="User Name">
                         </div>
