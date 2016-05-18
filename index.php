@@ -195,7 +195,9 @@ if ( !isset($_SESSION['LoggedIn']) ){
     <script src="./js/main.js"></script>
     <script type="text/javascript">
         $('.vimeoplayer').click(function(){
-            $(this).parent().html('<iframe src="https://player.vimeo.com/video/'+$(this).data('vimeoid')+'?portrait=0&title=0&color=bf1f48&badge=0&byline=0&autoplay=1" frameborder="0"  width="640" height="360" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>');
+            width = $(this).width();
+            height = $(this).height();
+            $(this).parent().html('<iframe src="https://player.vimeo.com/video/'+$(this).data('vimeoid')+'?portrait=0&title=0&color=bf1f48&badge=0&byline=0&autoplay=1" frameborder="0"  width="'+ width +'" height="'+ height +'" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>');
         });
     </script>
 </body>
