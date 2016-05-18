@@ -77,6 +77,13 @@ if (isset($_POST[NAME_ATTR]) && isset($_POST[PASSWORD_ATTR]) ) {
 
     <div class="container">
         <div class="row">
+          <div class="col-sm-6 col-sm-offset-3">
+              <p>
+                  You are requesting to access the product development area, This is a private area, Please login
+              </p>
+          </div>
+        </div>
+        <div class="row">
             <div class="col-sm-6 col-sm-offset-3">
                 <!-- Login Form -->
                 <form class="form-horizontal loginForm " method="post" action="#" >
@@ -108,6 +115,7 @@ if (isset($_POST[NAME_ATTR]) && isset($_POST[PASSWORD_ATTR]) ) {
     </div>
 
     <!--MARK: Footer -->
+    <!--
     <footer class="footer">
         <div class="container">
             <div class="row">
@@ -121,6 +129,7 @@ if (isset($_POST[NAME_ATTR]) && isset($_POST[PASSWORD_ATTR]) ) {
             </div>
         </div>
     </footer>
+-->
 
     <!--MARK: Modal Contact form-->
     <div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
