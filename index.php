@@ -75,7 +75,7 @@ if ( !isset($_SESSION['LoggedIn']) ){
     <div class="container">
         <!-- Product Video -->
         <h1 class="muncher-text">Product Video</h1>
-        <iframe src="https://player.vimeo.com/video/166951622?portrait=0&title=0&color=f95006&badge=0&byline=0&autoplay=1" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <iframe src="https://player.vimeo.com/video/166951622?color=f95006&autoplay=1" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
         <!-- Product Name -->
         <h1 class="muncher-text">Product Name</h1>
