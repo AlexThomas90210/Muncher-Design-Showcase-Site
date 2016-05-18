@@ -77,7 +77,7 @@
                 <!--Video -->
                 <div id="VideoDiv" class="col-md-9">
                     <!-- video player to go here but we our team doesnt have a video yet, so just using the image the designers provided -->
-                    <img class="img-responsive" src="./public/images/video-image.png" alt="Video">
+                    <img class="vimeoplayer img-responsive" data-vimeoid="166951622" src="images/video-thumbnail.png" alt="Play Video">
                 </div>
 
                 <!-- App Store -->
@@ -194,5 +194,10 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <!-- Main -->
     <script src="./public/js/main.js"></script>
+    <script type="text/javascript">
+        $('.vimeoplayer').click(function(){
+            $(this).parent().html('<iframe src="https://player.vimeo.com/video/'+$(this).data('vimeoid')+'?portrait=0&title=0&color=bf1f48&badge=0&byline=0&autoplay=1" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>');
+        });
+    </script>
 </body>
 </html>
