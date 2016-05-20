@@ -1,0 +1,12 @@
+User-Agent: *
+Disallow: /tmp/
+Disallow: /cgi-bin/
+Disallow: /mail/
+Allow: /muncher/
+Disallow: /muncher/index.php
+Disallow: /muncher/who.php
+Disallow: /muncher/how.php
+Disallow: /muncher/design.php
+Disallow: /muncher/links.php
+Disallow: /muncher/images/Design-Assets
+Disallow: /muncher/logout.php

@@ -13,6 +13,9 @@ if ( !isset($_SESSION['LoggedIn']) ){
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="robots" content="none" />
+
     <title>Muncher</title>
     <!-- just google monster and got this image for the title image -->
     <link rel="shortcut icon" href="./images/title-image.ico" />
