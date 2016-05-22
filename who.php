@@ -16,9 +16,18 @@ if ( !isset($_SESSION['LoggedIn']) ){
 
     <meta name="robots" content="none" />
 
-    <title>Muncher</title>
-    <!-- just google monster and got this image for the title image -->
+    <title>Persona | Scenario. Healthy Eating</title>
     <link rel="shortcut icon" href="./images/title-image.ico" />
+
+    <!-- google analytics -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-78132520-1', 'auto');
+        ga('send', 'pageview');
+    </script>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
